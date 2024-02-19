@@ -33,7 +33,7 @@ def create_linear_topology():
     # Running iperf multiple times between the hosts
     # Opening a file in append mode
     with open('iperf_results.txt', 'a') as results_file:
-        for i in range(5):  # running the test 5 times
+        for i in range(20):  # running the test 5 times
             # Starting the iperf server on host 2
             server = net.get('h2').popen('iperf -s')
             # Allowing time for the server to start

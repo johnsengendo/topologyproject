@@ -42,7 +42,7 @@ def create_linear_topology():
             h2_ip = net.get('h2').IP()
             # Run iperf test from host 1 to host 2 using the IP address and print the results
             # running the test for 1 secon
-            result = net.get('h1').cmd(f'iperf -c {h2_ip} -i 0.5 -b 7.5m -d')
+            result = net.get('h1').cmd(f'iperf -c {h2_ip} -i 0.5 -b 2.5m -d')
             # running the test for 20 seconds and collect data at intervals of 2 seconds
             #result = net.get('h1').cmd(f'iperf -c {h2_ip} -i 2 -t 20 -b 10m')
             # running the test for 30 seconds and collect data at intervals of 2 seconds

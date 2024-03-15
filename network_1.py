@@ -43,35 +43,31 @@ class NetworkSlicingTopo(Topo):
 
 def run_parallel_iperf(net):
     # Open the file to write the iperf results
+    # Start iperf servers on h3 and h4
+    h3 = net.get('h3')
+    h4 = net.get('h4')
+    server_h3 = h3.popen('iperf -s')
+    server_h4 = h4.popen('iperf -s')
+
+    # Wait for the servers to start
+    time.sleep(1)
+
+    # Start iperf clients on h1 and h2 to connect to h3 and h4 respectively
+    h1 = net.get('h1')
+    h2 = net.get('h2')
+    h3_ip = h3.IP()
+    h4_ip = h4.IP()
     with open('iperf_parallel_results.txt', 'a') as results_file:
-        # Start iperf servers on h3 and h4
-        h3 = net.get('h3')
-        h4 = net.get('h4')
-        server_h3 = h3.popen('iperf -s')
-        server_h4 = h4.popen('iperf -s')
-
-        # Wait for the servers to start
-        time.sleep(1)
-
-        # Start iperf clients on h1 and h2 to connect to h3 and h4 respectively
-        h1 = net.get('h1')
-        h2 = net.get('h2')
-        h3_ip = h3.IP()
-        h4_ip = h4.IP()
 
         # Use Popen to run the clients so that we can run them simultaneously
-        client_h1 = h1.popen(['iperf', '-c', h3_ip, '-t', '10'], stdout=PIPE)
-        client_h2 = h2.popen(['iperf', '-c', h4_ip, '-t', '10'], stdout=PIPE)
+        #client_h1 = h1.popen(['iperf', '-c', h3_ip, '-t', '10'], stdout=PIPE)
+        #client_h2 = h2.popen(['iperf', '-c', h4_ip, '-t', '10'], stdout=PIPE)
 
-        # Wait for the clients to finish and capture the output
-        h1_output, _ = client_h1.communicate()
-        h2_output, _ = client_h2.communicate()
+        result_h1 = h1.cmd(f'iperf -c {h3_ip} -t 10 -i 1 -d')
+        result_h2 = h2.cmd(f'iperf -c {h4_ip} -t 10 -i 1 -d')
 
-        # Write the output of each client to the file
-        results_file.write(f"Client h1 to h3:\n{h1_output.decode()}\n")
-        results_file.write("-----\n")
-        results_file.write(f"Client h2 to h4:\n{h2_output.decode()}\n")
-        results_file.write("-----\n")
+        results_file.write(f"Client h1 to h3:\n{result_h1}\n-----\n")
+        results_file.write(f"Client h2 to h4:\n{result_h2}\n-----\n")
 
         # Terminate the server processes
         server_h3.terminate()

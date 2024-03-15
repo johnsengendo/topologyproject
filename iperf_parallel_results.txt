@@ -1,0 +1,20 @@
+Client h1 to h3:
+------------------------------------------------------------
+Client connecting to 10.0.0.3, TCP port 5001
+TCP window size: 85.3 KByte (default)
+------------------------------------------------------------
+[  5] local 10.0.0.1 port 51534 connected with 10.0.0.3 port 5001
+[ ID] Interval       Transfer     Bandwidth
+[  5]  0.0-10.1 sec  10.5 MBytes  8.71 Mbits/sec
+
+-----
+Client h2 to h4:
+------------------------------------------------------------
+Client connecting to 10.0.0.4, TCP port 5001
+TCP window size: 85.3 KByte (default)
+------------------------------------------------------------
+[  5] local 10.0.0.2 port 51700 connected with 10.0.0.4 port 5001
+[ ID] Interval       Transfer     Bandwidth
+[  5]  0.0-10.5 sec  1.38 MBytes  1.10 Mbits/sec
+
+-----

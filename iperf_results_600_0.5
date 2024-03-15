@@ -97,3 +97,167 @@ TCP window size: 85.3 KByte (default)
 connect failed: Connection refused
 
 -----
+Test 1:
+------------------------------------------------------------
+Server listening on TCP port 5001
+TCP window size: 85.3 KByte (default)
+------------------------------------------------------------
+------------------------------------------------------------
+Client connecting to 10.0.0.3, TCP port 5001
+TCP window size:  170 KByte (default)
+------------------------------------------------------------
+[  4] local 10.0.0.1 port 35528 connected with 10.0.0.3 port 5001 (peer 2.0.10-alpha)
+[  5] local 10.0.0.1 port 5001 connected with 10.0.0.3 port 47412
+[ ID] Interval       Transfer     Bandwidth
+[  5]  0.0- 1.0 sec   658 KBytes  5.39 Mbits/sec
+[  4]  0.0- 1.0 sec  1.25 MBytes  10.5 Mbits/sec
+[  5]  1.0- 2.0 sec  1.05 MBytes  8.77 Mbits/sec
+[  4]  1.0- 2.0 sec  1.00 MBytes  8.39 Mbits/sec
+[  5]  2.0- 3.0 sec  1.08 MBytes  9.02 Mbits/sec
+[  4]  2.0- 3.0 sec  1.12 MBytes  9.44 Mbits/sec
+[  5]  3.0- 4.0 sec  1.11 MBytes  9.31 Mbits/sec
+[  4]  3.0- 4.0 sec  1.12 MBytes  9.44 Mbits/sec
+[  4]  4.0- 5.0 sec   896 KBytes  7.34 Mbits/sec
+[  5]  4.0- 5.0 sec  1.04 MBytes  8.71 Mbits/sec
+[  4]  5.0- 6.0 sec  1.12 MBytes  9.44 Mbits/sec
+[  5]  5.0- 6.0 sec  1.12 MBytes  9.43 Mbits/sec
+[  4]  6.0- 7.0 sec  1.12 MBytes  9.44 Mbits/sec
+[  5]  6.0- 7.0 sec  1.12 MBytes  9.42 Mbits/sec
+[  4]  7.0- 8.0 sec  1.12 MBytes  9.44 Mbits/sec
+[  5]  7.0- 8.0 sec  1.13 MBytes  9.45 Mbits/sec
+[  4]  8.0- 9.0 sec  1.12 MBytes  9.44 Mbits/sec
+[  5]  8.0- 9.0 sec  1.11 MBytes  9.35 Mbits/sec
+[  5]  9.0-10.0 sec  1.13 MBytes  9.45 Mbits/sec
+[  5]  0.0-10.0 sec  10.5 MBytes  8.83 Mbits/sec
+[SUM]  0.0-10.0 sec  11.2 MBytes  9.37 Mbits/sec
+[  4]  9.0-10.0 sec  1.12 MBytes  9.44 Mbits/sec
+[  4]  0.0-10.1 sec  11.0 MBytes  9.16 Mbits/sec
+
+-----
+Test 2:
+------------------------------------------------------------
+Server listening on TCP port 5001
+TCP window size: 85.3 KByte (default)
+------------------------------------------------------------
+connect failed: Connection refused
+
+-----
+Test 1:
+------------------------------------------------------------
+Server listening on TCP port 5001
+TCP window size: 85.3 KByte (default)
+------------------------------------------------------------
+------------------------------------------------------------
+Client connecting to 10.0.0.3, TCP port 5001
+TCP window size:  170 KByte (default)
+------------------------------------------------------------
+[  4] local 10.0.0.1 port 51480 connected with 10.0.0.3 port 5001 (peer 2.0.10-alpha)
+[  5] local 10.0.0.1 port 5001 connected with 10.0.0.3 port 43810
+[ ID] Interval       Transfer     Bandwidth
+[  4]  0.0- 1.0 sec  1.00 MBytes  8.39 Mbits/sec
+[  5]  0.0- 1.0 sec   836 KBytes  6.85 Mbits/sec
+[  5]  1.0- 2.0 sec  1.00 MBytes  8.41 Mbits/sec
+[  4]  1.0- 2.0 sec  1.12 MBytes  9.44 Mbits/sec
+[  4]  2.0- 3.0 sec   555 KBytes  4.55 Mbits/sec
+[  5]  2.0- 3.0 sec   609 KBytes  4.99 Mbits/sec
+[  4]  3.0- 4.0 sec  1.12 MBytes  9.44 Mbits/sec
+[  5]  3.0- 4.0 sec  1.11 MBytes  9.29 Mbits/sec
+[  4]  4.0- 5.0 sec  1.12 MBytes  9.44 Mbits/sec
+[  5]  4.0- 5.0 sec  1.11 MBytes  9.30 Mbits/sec
+[  4]  5.0- 6.0 sec  1.12 MBytes  9.44 Mbits/sec
+[  5]  5.0- 6.0 sec  1.12 MBytes  9.36 Mbits/sec
+[  4]  6.0- 7.0 sec  1.12 MBytes  9.44 Mbits/sec
+[  5]  6.0- 7.0 sec  1.11 MBytes  9.35 Mbits/sec
+[  4]  7.0- 8.0 sec   896 KBytes  7.34 Mbits/sec
+[  5]  7.0- 8.0 sec  1.10 MBytes  9.24 Mbits/sec
+[  4]  8.0- 9.0 sec  1.12 MBytes  9.44 Mbits/sec
+[  5]  8.0- 9.0 sec  1.11 MBytes  9.31 Mbits/sec
+[  4]  9.0-10.0 sec  1.12 MBytes  9.44 Mbits/sec
+[  4]  0.0-10.0 sec  10.3 MBytes  8.62 Mbits/sec
+[  5]  9.0-10.0 sec  1.11 MBytes  9.31 Mbits/sec
+[  5]  0.0-10.0 sec  10.2 MBytes  8.54 Mbits/sec
+[SUM]  0.0-10.0 sec  11.0 MBytes  9.23 Mbits/sec
+
+-----
+Test 2:
+------------------------------------------------------------
+Server listening on TCP port 5001
+TCP window size: 85.3 KByte (default)
+------------------------------------------------------------
+connect failed: Connection refused
+
+-----
+Test 1:
+------------------------------------------------------------
+Server listening on TCP port 5001
+TCP window size: 85.3 KByte (default)
+------------------------------------------------------------
+------------------------------------------------------------
+Client connecting to 10.0.0.3, TCP port 5001
+TCP window size: 85.3 KByte (default)
+------------------------------------------------------------
+[  4] local 10.0.0.1 port 51498 connected with 10.0.0.3 port 5001 (peer 2.0.10-alpha)
+[  5] local 10.0.0.1 port 5001 connected with 10.0.0.3 port 43828
+[ ID] Interval       Transfer     Bandwidth
+[  5]  0.0- 1.0 sec   587 KBytes  4.81 Mbits/sec
+[  4]  0.0- 1.0 sec  1.24 MBytes  10.4 Mbits/sec
+[  5]  1.0- 2.0 sec  1.10 MBytes  9.23 Mbits/sec
+[  4]  1.0- 2.0 sec  1.00 MBytes  8.39 Mbits/sec
+[  5]  2.0- 3.0 sec  1.12 MBytes  9.38 Mbits/sec
+[  4]  2.0- 3.0 sec  1.25 MBytes  10.5 Mbits/sec
+[  5]  3.0- 4.0 sec   898 KBytes  7.36 Mbits/sec
+[  4]  3.0- 4.0 sec   768 KBytes  6.29 Mbits/sec
+[  5]  4.0- 5.0 sec  1015 KBytes  8.32 Mbits/sec
+[  4]  4.0- 5.0 sec  1.00 MBytes  8.39 Mbits/sec
+[  5]  5.0- 6.0 sec   812 KBytes  6.65 Mbits/sec
+[  4]  5.0- 6.0 sec  1.00 MBytes  8.39 Mbits/sec
+[  5]  6.0- 7.0 sec   708 KBytes  5.80 Mbits/sec
+[  4]  6.0- 7.0 sec   768 KBytes  6.29 Mbits/sec
+[  5]  7.0- 8.0 sec   854 KBytes  7.00 Mbits/sec
+[  4]  7.0- 8.0 sec   768 KBytes  6.29 Mbits/sec
+[  5]  8.0- 9.0 sec  1.03 MBytes  8.63 Mbits/sec
+[  4]  8.0- 9.0 sec  1.00 MBytes  8.39 Mbits/sec
+[  4]  9.0-10.0 sec   653 KBytes  5.35 Mbits/sec
+[  4]  0.0-10.0 sec  9.38 MBytes  7.84 Mbits/sec
+[  5]  9.0-10.0 sec   773 KBytes  6.34 Mbits/sec
+[  5]  0.0-10.0 sec  8.76 MBytes  7.34 Mbits/sec
+[SUM]  0.0-10.0 sec  9.34 MBytes  7.82 Mbits/sec
+
+-----
+Test 2:
+------------------------------------------------------------
+Server listening on TCP port 5001
+TCP window size: 85.3 KByte (default)
+------------------------------------------------------------
+------------------------------------------------------------
+Client connecting to 10.0.0.3, TCP port 5001
+TCP window size:  170 KByte (default)
+------------------------------------------------------------
+[  4] local 10.0.0.1 port 51502 connected with 10.0.0.3 port 5001 (peer 2.0.10-alpha)
+[  5] local 10.0.0.1 port 5001 connected with 10.0.0.3 port 43832
+[ ID] Interval       Transfer     Bandwidth
+[  5]  0.0- 1.0 sec   450 KBytes  3.68 Mbits/sec
+[  4]  0.0- 1.0 sec   983 KBytes  8.05 Mbits/sec
+[  4]  1.0- 2.0 sec   211 KBytes  1.73 Mbits/sec
+[  5]  1.0- 2.0 sec   368 KBytes  3.01 Mbits/sec
+[  5]  2.0- 3.0 sec   850 KBytes  6.96 Mbits/sec
+[  4]  2.0- 3.0 sec  1.00 MBytes  8.39 Mbits/sec
+[  5]  3.0- 4.0 sec   963 KBytes  7.89 Mbits/sec
+[  4]  3.0- 4.0 sec   896 KBytes  7.34 Mbits/sec
+[  5]  4.0- 5.0 sec   570 KBytes  4.67 Mbits/sec
+[  4]  4.0- 5.0 sec   561 KBytes  4.60 Mbits/sec
+[  5]  5.0- 6.0 sec   368 KBytes  3.01 Mbits/sec
+[  4]  5.0- 6.0 sec   447 KBytes  3.66 Mbits/sec
+[  5]  6.0- 7.0 sec   882 KBytes  7.23 Mbits/sec
+[  4]  6.0- 7.0 sec   896 KBytes  7.34 Mbits/sec
+[  5]  7.0- 8.0 sec   946 KBytes  7.75 Mbits/sec
+[  4]  7.0- 8.0 sec  1.00 MBytes  8.39 Mbits/sec
+[  5]  8.0- 9.0 sec  1.10 MBytes  9.19 Mbits/sec
+[  4]  8.0- 9.0 sec  1.12 MBytes  9.44 Mbits/sec
+[  5]  9.0-10.0 sec  1.11 MBytes  9.29 Mbits/sec
+[  5]  0.0-10.0 sec  7.47 MBytes  6.27 Mbits/sec
+[SUM]  0.0-10.0 sec  7.91 MBytes  6.64 Mbits/sec
+[  4]  9.0-10.0 sec  1.12 MBytes  9.44 Mbits/sec
+[  4]  0.0-10.1 sec  8.15 MBytes  6.76 Mbits/sec
+
+-----

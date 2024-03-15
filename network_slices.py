@@ -13,10 +13,13 @@ class TrafficSlicing(app_manager.RyuApp):
 
         # out_port = slice_to_port[dpid][in_port]
         self.slice_to_port = {
-            1: {1: 3, 3: 1, 2: 4, 4: 2, 1: 2, 2: 1},
-            4: {2: 3, 3: 2, 2: 4, 4: 2, 1: 2, 2: 1},
+            1: {1: 2, 2: 1, 3: 2, 4: 2},  # s1: h1 and h2's traffic goes to s3
+            3: {1: 2, 2: 1},  # s3: Traffic from s1 goes to s4 and vice versa
+            4: {1: 2, 2: 1, 3: 2, 4: 2},
+            #1: {1: 3, 3: 1, 2: 4, 4: 2, 1: 2, 2: 1},
+            #4: {2: 3, 3: 2, 2: 4, 4: 2, 1: 2, 2: 1},
             #2: {1: 2, 2: 1},
-            3: {1: 2, 2: 1},
+            #3: {1: 2, 2: 1},
             5: {1: 3, 3: 1},
             6: {1: 4, 4: 1},
         }

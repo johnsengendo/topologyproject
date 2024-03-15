@@ -92,3 +92,64 @@ TCP window size: 85.3 KByte (default)
 [SUM]  0.0-10.0 sec  1.04 MBytes   868 Kbits/sec
 
 -----
+Client h1 to h3:
+------------------------------------------------------------
+Server listening on TCP port 5001
+TCP window size: 85.3 KByte (default)
+------------------------------------------------------------
+connect failed: Connection timed out
+
+-----
+Client h2 to h4:
+------------------------------------------------------------
+Server listening on TCP port 5001
+TCP window size: 85.3 KByte (default)
+------------------------------------------------------------
+connect failed: Connection timed out
+
+-----
+Client h1 to h3:
+------------------------------------------------------------
+Server listening on TCP port 5001
+TCP window size: 85.3 KByte (default)
+------------------------------------------------------------
+------------------------------------------------------------
+Client connecting to 10.0.0.3, TCP port 5001
+TCP window size: 85.3 KByte (default)
+------------------------------------------------------------
+[  4] local 10.0.0.1 port 51590 connected with 10.0.0.3 port 5001
+[  5] local 10.0.0.1 port 5001 connected with 10.0.0.3 port 43920
+[ ID] Interval       Transfer     Bandwidth
+[  4]  0.0- 1.0 sec   332 KBytes  2.72 Mbits/sec
+[  5]  0.0- 1.0 sec   117 KBytes   961 Kbits/sec
+[  4]  1.0- 2.0 sec   106 KBytes   869 Kbits/sec
+[  5]  1.0- 2.0 sec   116 KBytes   950 Kbits/sec
+[  5]  2.0- 3.0 sec   115 KBytes   938 Kbits/sec
+[  4]  2.0- 3.0 sec   130 KBytes  1.07 Mbits/sec
+[  5]  3.0- 4.0 sec   113 KBytes   927 Kbits/sec
+[  4]  3.0- 4.0 sec   130 KBytes  1.07 Mbits/sec
+[  5]  4.0- 5.0 sec   113 KBytes   927 Kbits/sec
+[  4]  4.0- 5.0 sec  97.6 KBytes   799 Kbits/sec
+[  5]  5.0- 6.0 sec   116 KBytes   950 Kbits/sec
+[  4]  5.0- 6.0 sec   130 KBytes  1.07 Mbits/sec
+[  5]  6.0- 7.0 sec   113 KBytes   927 Kbits/sec
+[  4]  6.0- 7.0 sec  97.6 KBytes   799 Kbits/sec
+[  5]  7.0- 8.0 sec   115 KBytes   938 Kbits/sec
+[  4]  7.0- 8.0 sec   130 KBytes  1.07 Mbits/sec
+[  5]  8.0- 9.0 sec   116 KBytes   950 Kbits/sec
+[  4]  8.0- 9.0 sec   130 KBytes  1.07 Mbits/sec
+[  5]  9.0-10.0 sec   113 KBytes   927 Kbits/sec
+[  5]  0.0-10.0 sec  1.12 MBytes   940 Kbits/sec
+[SUM]  0.0-10.0 sec  1.24 MBytes  1.04 Mbits/sec
+[  4]  9.0-10.0 sec  97.6 KBytes   799 Kbits/sec
+[  4]  0.0-10.4 sec  1.35 MBytes  1.08 Mbits/sec
+
+-----
+Client h2 to h4:
+------------------------------------------------------------
+Server listening on TCP port 5001
+TCP window size: 85.3 KByte (default)
+------------------------------------------------------------
+connect failed: Connection timed out
+
+-----

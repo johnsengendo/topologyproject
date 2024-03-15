@@ -42,12 +42,12 @@ class NetworkSlicingTopo(Topo):
 
 def run_iperf_tests(net):
     # Running iperf multiple times between the hosts
-    with open('iperf_results_60_0.5', 'a') as results_file:
+    with open('iperf_results_600_0.5', 'a') as results_file:
         for i in range(2):  # Adjust the range for desired number of tests
             server = net.get('h4').popen('iperf -s')
             time.sleep(1)
             h4_ip = net.get('h4').IP()
-            result = net.get('h2').cmd(f'iperf -c {h4_ip} -i 3 -t 60 -b 10m -d')
+            result = net.get('h2').cmd(f'iperf -c {h4_ip} -i 1 -t 10 -b 10m -d')
             
             results_file.write(f"Test {i+1}:\n{result}\n")
             results_file.write("-----\n")

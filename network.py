@@ -62,6 +62,8 @@ def run_iperf_tests(net):
             
             print(result)
             server.terminate()
+            server.wait()
+            time.sleep(5)
 
 topos = {"networkslicingtopo": (lambda: NetworkSlicingTopo())}
 

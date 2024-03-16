@@ -30,8 +30,8 @@ class NetworkSlicingTopo(Topo):
             self.addHost("h%d" % (i + 1), **host_config)
 
         # Add switch links
-        #self.addLink("s1", "s2", **video_link_config)
-        #self.addLink("s2", "s4", **video_link_config)
+        self.addLink("s1", "s2", **video_link_config)
+        self.addLink("s2", "s4", **video_link_config)
         self.addLink("s1", "s3", **http_link_config)
         self.addLink("s3", "s4", **http_link_config)
 
@@ -57,7 +57,7 @@ def run_parallel_iperf(net):
     h2 = net.get('h2')
     h3_ip = h3.IP()
     h4_ip = h4.IP()
-    with open('iperf_parallel_results.txt', 'a') as results_file:
+    with open('iperf_parallel_results_1.txt', 'a') as results_file:
 
         # Use Popen to run the clients so that we can run them simultaneously
         #client_h1 = h1.popen(['iperf', '-c', h3_ip, '-t', '10'], stdout=PIPE)

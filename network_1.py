@@ -32,7 +32,7 @@ class NetworkSlicingTopo(Topo):
         # Add switch links
         self.addLink("s1", "s2", **video_link_config)
         self.addLink("s2", "s4", **video_link_config)
-        #self.addLink("s1", "s3", **http_link_config)
+        self.addLink("s1", "s3", **http_link_config)
         self.addLink("s3", "s4", **http_link_config)
 
         # Add host links
@@ -63,8 +63,8 @@ def run_parallel_iperf(net):
         #client_h1 = h1.popen(['iperf', '-c', h3_ip, '-t', '10'], stdout=PIPE)
         #client_h2 = h2.popen(['iperf', '-c', h4_ip, '-t', '10'], stdout=PIPE)
 
-        result_h1 = h1.cmd(f'iperf -c {h3_ip} -t 10 -i 1 -d')
-        result_h2 = h2.cmd(f'iperf -c {h4_ip} -t 10 -i 1 -d')
+        result_h1 = h1.cmd(f'iperf -c {h3_ip} -t 10 -i 1 -d -u')
+        result_h2 = h2.cmd(f'iperf -c {h4_ip} -t 10 -i 1 -d -u')
 
         results_file.write(f"Client h1 to h3:\n{result_h1}\n-----\n")
         results_file.write(f"Client h2 to h4:\n{result_h2}\n-----\n")

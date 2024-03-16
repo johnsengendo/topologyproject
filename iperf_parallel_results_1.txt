@@ -88,3 +88,77 @@ TCP window size: 85.3 KByte (default)
 connect failed: Connection timed out
 
 -----
+Client h1 to h3:
+------------------------------------------------------------
+Server listening on TCP port 5001
+TCP window size: 85.3 KByte (default)
+------------------------------------------------------------
+connect failed: Connection timed out
+
+-----
+Client h2 to h4:
+------------------------------------------------------------
+Server listening on TCP port 5001
+TCP window size: 85.3 KByte (default)
+------------------------------------------------------------
+connect failed: Connection timed out
+
+-----
+Client h1 to h3:
+------------------------------------------------------------
+Server listening on UDP port 5001
+Receiving 1470 byte datagrams
+UDP buffer size:  208 KByte (default)
+------------------------------------------------------------
+------------------------------------------------------------
+Client connecting to 10.0.0.3, UDP port 5001
+Sending 1470 byte datagrams, IPG target: 11215.21 us (kalman adjust)
+UDP buffer size:  208 KByte (default)
+------------------------------------------------------------
+[  3] local 10.0.0.1 port 49688 connected with 10.0.0.3 port 5001
+[ ID] Interval       Transfer     Bandwidth
+[  3]  0.0- 1.0 sec  2.87 KBytes  23.5 Kbits/sec
+[  3]  1.0- 2.0 sec  0.00 Bytes  0.00 bits/sec
+[  3]  2.0- 3.0 sec  0.00 Bytes  0.00 bits/sec
+[  3]  3.0- 4.0 sec  0.00 Bytes  0.00 bits/sec
+[  3]  4.0- 5.0 sec  0.00 Bytes  0.00 bits/sec
+[  3]  5.0- 6.0 sec  0.00 Bytes  0.00 bits/sec
+[  3]  6.0- 7.0 sec  0.00 Bytes  0.00 bits/sec
+[  3]  7.0- 8.0 sec  0.00 Bytes  0.00 bits/sec
+[  3]  8.0- 9.0 sec  0.00 Bytes  0.00 bits/sec
+[  3]  9.0-10.0 sec  0.00 Bytes  0.00 bits/sec
+[  3]  0.0-10.0 sec  2.87 KBytes  2.35 Kbits/sec
+[  3] Sent 2 datagrams
+read failed: Connection refused
+[  3] WARNING: did not receive ack of last datagram after 5 tries.
+
+-----
+Client h2 to h4:
+------------------------------------------------------------
+Server listening on UDP port 5001
+Receiving 1470 byte datagrams
+UDP buffer size:  208 KByte (default)
+------------------------------------------------------------
+------------------------------------------------------------
+Client connecting to 10.0.0.4, UDP port 5001
+Sending 1470 byte datagrams, IPG target: 11215.21 us (kalman adjust)
+UDP buffer size:  208 KByte (default)
+------------------------------------------------------------
+[  3] local 10.0.0.2 port 56815 connected with 10.0.0.4 port 5001
+[ ID] Interval       Transfer     Bandwidth
+[  3]  0.0- 1.0 sec  1.44 KBytes  11.8 Kbits/sec
+[  3]  1.0- 2.0 sec  0.00 Bytes  0.00 bits/sec
+[  3]  2.0- 3.0 sec  0.00 Bytes  0.00 bits/sec
+[  3]  3.0- 4.0 sec  0.00 Bytes  0.00 bits/sec
+[  3]  4.0- 5.0 sec  0.00 Bytes  0.00 bits/sec
+[  3]  5.0- 6.0 sec  0.00 Bytes  0.00 bits/sec
+[  3]  6.0- 7.0 sec  0.00 Bytes  0.00 bits/sec
+[  3]  7.0- 8.0 sec  0.00 Bytes  0.00 bits/sec
+[  3]  8.0- 9.0 sec  0.00 Bytes  0.00 bits/sec
+[  3]  9.0-10.0 sec  0.00 Bytes  0.00 bits/sec
+[  3]  0.0-10.0 sec  1.44 KBytes  1.17 Kbits/sec
+[  3] Sent 1 datagrams
+read failed: Connection refused
+[  3] WARNING: did not receive ack of last datagram after 5 tries.
+
+-----

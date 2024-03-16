@@ -30,7 +30,7 @@ class NetworkSlicingTopo(Topo):
             self.addHost("h%d" % (i + 1), **host_config)
 
         # Add switch links
-        self.addLink("s1", "s2", **video_link_config)
+        #self.addLink("s1", "s2", **video_link_config)
         self.addLink("s2", "s4", **video_link_config)
         self.addLink("s1", "s3", **http_link_config)
         self.addLink("s3", "s4", **http_link_config)

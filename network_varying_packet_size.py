@@ -94,7 +94,7 @@ if __name__ == "__main__":
     net.start()
 
     # Run the parallel Iperf tests with packet size 64
-    run_parallel_iperf(net, 64)
+    run_parallel_iperf(net, 128)
 
     CLI(net)
     net.stop()

@@ -15,7 +15,7 @@ class NetworkSlicingTopo(Topo):
         # Create template host, switch, and link
         host_config = dict(inNamespace=True)
         http_link_config = dict(bw=1)
-        video_link_config = dict(bw=10)
+        video_link_config = dict(bw=1)
         host_link_config = dict()
 
         # Create switch nodes
@@ -58,8 +58,8 @@ def run_parallel_iperf(net, packet_size):
         h4_ip = h4.IP()
 
         # Use Popen to run the clients so that we can run them simultaneously
-        client_h1 = h1.popen(['iperf', '-c', h3_ip, '-t', '10', '-l', str(packet_size)], stdout=PIPE)
-        client_h2 = h2.popen(['iperf', '-c', h4_ip, '-t', '10', '-l', str(packet_size)], stdout=PIPE)
+        client_h1 = h1.popen(['iperf', '-c', h3_ip, '-t', '10', '-l', str(packet_size),'-i', '0.5'], stdout=PIPE)
+        client_h2 = h2.popen(['iperf', '-c', h4_ip, '-t', '10', '-l', str(packet_size),'-i', '0.5'], stdout=PIPE)
 
         # Get the results
         result_h1 = client_h1.stdout.read().decode('utf-8')

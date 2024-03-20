@@ -17,6 +17,7 @@ class TrafficSlicing(app_manager.RyuApp):
             4: {1: 3, 3: 1, 2: 4, 4: 2},
             2: {1: 2, 2: 1},
             3: {1: 2, 2: 1},
+            5: {1: 2, 2: 1},
         }
 
     @set_ev_cls(ofp_event.EventOFPSwitchFeatures, CONFIG_DISPATCHER)

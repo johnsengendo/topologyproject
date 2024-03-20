@@ -42,7 +42,7 @@ class NetworkSlicingTopo(Topo):
 
 def run_parallel_iperf(net, packet_size, num_runs):
     # Open the file to write the iperf results
-    with open('iperf_parallel_results.txt', 'a') as results_file:
+    with open('iperf_parallel_results_1.txt', 'a') as results_file:
         for i in range(num_runs):
             # Start iperf servers on h3 and h4
             h3 = net.get('h3')

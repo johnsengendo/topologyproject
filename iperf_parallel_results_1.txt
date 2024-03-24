@@ -1,0 +1,58 @@
+Client h1 to h3:
+------------------------------------------------------------
+Server listening on UDP port 5001
+Receiving 1470 byte datagrams
+UDP buffer size:  208 KByte (default)
+------------------------------------------------------------
+------------------------------------------------------------
+Client connecting to 10.0.0.3, UDP port 5001
+Sending 1470 byte datagrams, IPG target: 11215.21 us (kalman adjust)
+UDP buffer size:  208 KByte (default)
+------------------------------------------------------------
+[  4] local 10.0.0.1 port 42322 connected with 10.0.0.3 port 5001
+[ ID] Interval       Transfer     Bandwidth
+[  4]  0.0- 1.0 sec  1.44 KBytes  11.8 Kbits/sec
+[  4]  1.0- 2.0 sec  0.00 Bytes  0.00 bits/sec
+[  4]  2.0- 3.0 sec  0.00 Bytes  0.00 bits/sec
+[  4]  3.0- 4.0 sec  0.00 Bytes  0.00 bits/sec
+[  4]  4.0- 5.0 sec  0.00 Bytes  0.00 bits/sec
+[  4]  5.0- 6.0 sec  0.00 Bytes  0.00 bits/sec
+[  4]  6.0- 7.0 sec  0.00 Bytes  0.00 bits/sec
+[  4]  7.0- 8.0 sec  0.00 Bytes  0.00 bits/sec
+[  4]  8.0- 9.0 sec  0.00 Bytes  0.00 bits/sec
+[  4]  9.0-10.0 sec  0.00 Bytes  0.00 bits/sec
+[  4]  0.0-10.2 sec  1.44 KBytes  1.16 Kbits/sec
+[  4] Sent 1 datagrams
+read failed: Connection refused
+[  4] WARNING: did not receive ack of last datagram after 4 tries.
+
+-----
+Client h2 to h4:
+------------------------------------------------------------
+Server listening on UDP port 5001
+Receiving 1470 byte datagrams
+UDP buffer size:  208 KByte (default)
+------------------------------------------------------------
+------------------------------------------------------------
+Client connecting to 10.0.0.4, UDP port 5001
+Sending 1470 byte datagrams, IPG target: 11215.21 us (kalman adjust)
+UDP buffer size:  208 KByte (default)
+------------------------------------------------------------
+[  4] local 10.0.0.2 port 43163 connected with 10.0.0.4 port 5001
+[ ID] Interval       Transfer     Bandwidth
+[  4]  0.0- 1.0 sec  1.44 KBytes  11.8 Kbits/sec
+[  4]  1.0- 2.0 sec  0.00 Bytes  0.00 bits/sec
+[  4]  2.0- 3.0 sec  0.00 Bytes  0.00 bits/sec
+[  4]  3.0- 4.0 sec  0.00 Bytes  0.00 bits/sec
+[  4]  4.0- 5.0 sec  0.00 Bytes  0.00 bits/sec
+[  4]  5.0- 6.0 sec  0.00 Bytes  0.00 bits/sec
+[  4]  6.0- 7.0 sec  0.00 Bytes  0.00 bits/sec
+[  4]  7.0- 8.0 sec  0.00 Bytes  0.00 bits/sec
+[  4]  8.0- 9.0 sec  0.00 Bytes  0.00 bits/sec
+[  4]  9.0-10.0 sec  0.00 Bytes  0.00 bits/sec
+[  4]  0.0-10.6 sec  1.44 KBytes  1.10 Kbits/sec
+[  4] Sent 1 datagrams
+read failed: Connection refused
+[  4] WARNING: did not receive ack of last datagram after 2 tries.
+
+-----

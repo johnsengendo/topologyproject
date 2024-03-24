@@ -57,7 +57,7 @@ def create_linear_topology():
     # Running iperf multiple times between the hosts
     # Opening a file in append mode to write the results
     with open('iperf_results_10_0.5', 'a') as results_file:
-        durations = 20 #[10, 20, 30, 40, 50, 60]
+        durations = [20] #[10, 20, 30, 40, 50, 60]
         
         num_runs = 1 # We can change this value to the desired number of runs
         for i, duration in enumerate(durations):

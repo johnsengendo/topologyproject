@@ -57,7 +57,7 @@ def create_linear_topology():
     # Running iperf multiple times between the hosts
     # Opening a file in append mode to write the results
     with open('iperf_results_10_0.5', 'a') as results_file:
-        durations = [10, 20, 30, 40, 50, 60]
+        durations = 20 #[10, 20, 30, 40, 50, 60]
         
         num_runs = 1 # We can change this value to the desired number of runs
         for i, duration in enumerate(durations):
@@ -69,7 +69,7 @@ def create_linear_topology():
                 # Geting the IP address of h2
                 h2_ip = net.get('h2').IP()
                 # Running iperf test from host 1 to host 2 using the IP address and print the results
-                result = net.get('h1').cmd(f'iperf -c {h2_ip} -i 0.5 -t {duration} -b 10m -d')
+                result = net.get('h1').cmd(f'iperf -c {h2_ip} -i 1 -t {duration} -b 10m -d')
 
                 # Writing the result to the file with a separator for readability
                 results_file.write(f"Test {i+1}:\n{result}\n")

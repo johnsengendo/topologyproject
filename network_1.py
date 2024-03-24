@@ -1,5 +1,8 @@
 #!/usr/bin/python3
-
+'''
+Network topology in Mininet
+Constructed with reference from https://git.comnets.net/public-repo/comnetsemu
+'''
 from mininet.topo import Topo
 from mininet.net import Mininet
 from mininet.node import OVSKernelSwitch, RemoteController
@@ -11,12 +14,12 @@ import re
 
 class NetworkSlicingTopo(Topo):
     """
-    A class defining a network topology for network slicing using Mininet.
+    Class defining the network topology.
     """
     def __init__(self):
         # Initializing the topology with the Topo class from Mininet
         Topo.__init__(self)
-
+        
         # Creating template configurations for hosts, switches, and links
         host_config = dict(inNamespace=True) # Host configuration: using network namespaces
         link_config = dict(bw=10) # Link configuration: setting bandwidth to 10 Mbps

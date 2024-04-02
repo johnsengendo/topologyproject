@@ -35,7 +35,7 @@ def create_linear_topology():
     net.start()
 
     # Introduce artificial delays using tc command
-    delays = [50]#, 50, 100, 200]  # Delays in milliseconds
+    delays = [100]#, 50, 100, 200]  # Delays in milliseconds
 
     for delay in delays:
         # Add delay to link between switch1 and switch2
@@ -44,7 +44,7 @@ def create_linear_topology():
 
         # Running iperf multiple times between the hosts
         # Opening a file in append mode to write the results
-        with open('iperf_results_60_0.5_delay50', 'a') as results_file:
+        with open('iperf_results_60_0.5_delay100', 'a') as results_file:
             duration = 60
             interval = 0.5
             num_runs = 2  # Number of times to run iperf

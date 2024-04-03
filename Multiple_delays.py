@@ -21,8 +21,8 @@ class LinearTopology(Topo):
         self.addLink(host1, switch1)
         self.addLink(switch1, switch2)
         self.addLink(switch2, host2)
-        self.addLink(host1, switch2)  # Adding a link between h1 and s2
-        self.addLink(switch1, host2)  # Adding a link between s1 and h2
+        #self.addLink(host1, switch2)  # Adding a link between h1 and s2
+        #self.addLink(switch1, host2)  # Adding a link between s1 and h2
 
 def create_linear_topology():
     # Creating an instance of the linear topology
@@ -36,7 +36,7 @@ def create_linear_topology():
 
     # Introduce artificial delays using tc command
     delays = [10, 50, 100, 200]  # Delays in milliseconds
-    num_loops = 12  # Number of loops to repeat the process
+    num_loops = 2  # Number of loops to repeat the process
 
     for loop in range(1, num_loops + 1):
         for delay in delays:
@@ -46,7 +46,7 @@ def create_linear_topology():
 
             # Running iperf multiple times between the hosts
             # Opening a file in append mode to write the results
-            with open('iperf_results_multiple_delays', 'a') as results_file:
+            with open('iperf_results_multiple_delays_1', 'a') as results_file:
                 duration = 60
                 interval = 0.5
                 num_runs = 1  # Number of times to run iperf

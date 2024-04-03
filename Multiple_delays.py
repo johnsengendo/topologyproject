@@ -87,7 +87,7 @@ def create_linear_topology():
 
 def run_iperf(h1, h2_ip, duration, interval, results_file, delay, loop):
     # Running iperf test from host 1 to host 2 using the IP address and print the results
-    result = h1.cmd(f'iperf -c {h2_ip} -i {interval} -t {duration} -b 10m -d')
+    result = h1.cmd(f'iperf -c {h2_ip} -i {interval} -t {duration} -b 10m')
 
     # Splitting the result by newline to get each interval's data
     lines = result.split('\n')

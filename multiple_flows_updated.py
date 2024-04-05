@@ -64,7 +64,7 @@ def create_linear_topology():
     num_flows = 5
 
     # Opening a file in append mode to write the results
-    with open('iperf_results_multi_flows_updated', 'a') as results_file:
+    with open('multi_flows_updated_data', 'a') as results_file:
         durations = [10, 20, 30, 40, 50, 60]
         intervals = [0.5, 1, 1.5, 2, 2.5, 3]
 

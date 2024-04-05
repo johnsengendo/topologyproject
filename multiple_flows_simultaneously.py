@@ -6,6 +6,7 @@ from mininet.log import setLogLevel
 import time
 import threading
 import re
+import os
 
 class LinearTopology(Topo):
     def __init__(self):

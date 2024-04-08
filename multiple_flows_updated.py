@@ -64,7 +64,7 @@ def create_linear_topology():
     num_flows = 3
 
     # Opening a file in append mode to write the results
-    with open('multi_flows(2)_updated_data', 'a') as results_file:
+    with open('multi_flows(3)_updated_data', 'a') as results_file:
         durations = [60]#, 20, 30, 40, 50, 60]
         intervals = [3]#, 1, 1.5, 2, 2.5, 3]
 

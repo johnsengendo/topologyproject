@@ -68,7 +68,7 @@ def create_linear_topology():
         durations = [60]#, 20, 30, 40, 50, 60]
         intervals = [3]#, 1, 1.5, 2, 2.5, 3]
 
-        num_runs = 4
+        num_runs = 7
         for duration, interval in zip(durations, intervals):
             for j in range(num_runs):
                 # Start the iperf servers on host 2 for each flow

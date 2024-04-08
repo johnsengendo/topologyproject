@@ -61,12 +61,12 @@ def create_linear_topology():
     net.start()
 
     # Define the number of parallel flows
-    num_flows = 5
+    num_flows = 2
 
     # Opening a file in append mode to write the results
-    with open('multi_flows_updated_data', 'a') as results_file:
-        durations = [10, 20, 30, 40, 50, 60]
-        intervals = [0.5, 1, 1.5, 2, 2.5, 3]
+    with open('multi_flows(2)_updated_data', 'a') as results_file:
+        durations = [60]#, 20, 30, 40, 50, 60]
+        intervals = [3]#, 1, 1.5, 2, 2.5, 3]
 
         num_runs = 4
         for duration, interval in zip(durations, intervals):

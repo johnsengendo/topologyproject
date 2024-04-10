@@ -1,0 +1,1179 @@
+Flow Result:
+------------------------------------------------------------
+Server listening on TCP port 5000
+TCP window size: 85.3 KByte (default)
+------------------------------------------------------------
+------------------------------------------------------------
+Client connecting to 10.0.0.2, TCP port 5000
+TCP window size: 85.3 KByte (default)
+------------------------------------------------------------
+[  6] local 10.0.0.1 port 34256 connected with 10.0.0.2 port 5000 (peer 2.0.10-alpha)
+[  7] local 10.0.0.1 port 5000 connected with 10.0.0.2 port 42732
+[ ID] Interval       Transfer     Bandwidth
+[  6]  0.0- 3.0 sec  18.1 MBytes  50.7 Mbits/sec
+[  7]  0.0- 3.0 sec  18.0 MBytes  50.3 Mbits/sec
+[  6]  3.0- 6.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  7]  3.0- 6.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  6]  6.0- 9.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  7]  6.0- 9.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  6]  9.0-12.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  7]  9.0-12.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  6] 12.0-15.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  7] 12.0-15.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  6] 15.0-18.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  7] 15.0-18.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  6] 18.0-21.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  7] 18.0-21.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  6] 21.0-24.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  7] 21.0-24.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  6] 24.0-27.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  7] 24.0-27.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  6] 27.0-30.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  7] 27.0-30.0 sec  18.0 MBytes  50.3 Mbits/sec
+[  6] 30.0-33.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  7] 30.0-33.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  6] 33.0-36.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  7] 33.0-36.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  6] 36.0-39.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  7] 36.0-39.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  6] 39.0-42.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  7] 39.0-42.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  6] 42.0-45.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  7] 42.0-45.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  6] 45.0-48.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  7] 45.0-48.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  6] 48.0-51.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  7] 48.0-51.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  6] 51.0-54.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  7] 51.0-54.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  6] 54.0-57.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  7] 54.0-57.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  6] 57.0-60.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  6]  0.0-60.0 sec   358 MBytes  50.0 Mbits/sec
+[  7] 57.0-60.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  7]  0.0-60.0 sec   358 MBytes  50.0 Mbits/sec
+[SUM]  0.0-60.0 sec   376 MBytes  52.5 Mbits/sec
+
+-----
+Flow Result:
+------------------------------------------------------------
+Server listening on TCP port 5000
+TCP window size: 85.3 KByte (default)
+------------------------------------------------------------
+------------------------------------------------------------
+Client connecting to 10.0.0.2, TCP port 5000
+TCP window size: 85.3 KByte (default)
+------------------------------------------------------------
+[  6] local 10.0.0.1 port 34260 connected with 10.0.0.2 port 5000 (peer 2.0.10-alpha)
+[  7] local 10.0.0.1 port 5000 connected with 10.0.0.2 port 42736
+[ ID] Interval       Transfer     Bandwidth
+[  6]  0.0- 3.0 sec  18.1 MBytes  50.7 Mbits/sec
+[  7]  0.0- 3.0 sec  18.0 MBytes  50.3 Mbits/sec
+[  6]  3.0- 6.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  7]  3.0- 6.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  6]  6.0- 9.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  7]  6.0- 9.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  6]  9.0-12.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  7]  9.0-12.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  6] 12.0-15.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  7] 12.0-15.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  6] 15.0-18.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  7] 15.0-18.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  6] 18.0-21.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  7] 18.0-21.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  6] 21.0-24.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  7] 21.0-24.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  6] 24.0-27.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  7] 24.0-27.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  6] 27.0-30.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  7] 27.0-30.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  6] 30.0-33.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  7] 30.0-33.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  6] 33.0-36.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  7] 33.0-36.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  6] 36.0-39.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  7] 36.0-39.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  6] 39.0-42.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  7] 39.0-42.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  6] 42.0-45.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  7] 42.0-45.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  6] 45.0-48.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  7] 45.0-48.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  6] 48.0-51.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  7] 48.0-51.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  6] 51.0-54.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  7] 51.0-54.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  6] 54.0-57.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  7] 54.0-57.0 sec  18.0 MBytes  50.3 Mbits/sec
+[  6]  0.0-60.0 sec   358 MBytes  50.0 Mbits/sec
+[  7] 57.0-60.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  7]  0.0-60.0 sec   358 MBytes  50.0 Mbits/sec
+[SUM]  0.0-60.0 sec   376 MBytes  52.5 Mbits/sec
+
+-----
+Flow Result:
+------------------------------------------------------------
+Server listening on TCP port 5000
+TCP window size: 85.3 KByte (default)
+------------------------------------------------------------
+------------------------------------------------------------
+Client connecting to 10.0.0.2, TCP port 5000
+TCP window size: 85.3 KByte (default)
+------------------------------------------------------------
+[  6] local 10.0.0.1 port 34264 connected with 10.0.0.2 port 5000 (peer 2.0.10-alpha)
+[  7] local 10.0.0.1 port 5000 connected with 10.0.0.2 port 42740
+[ ID] Interval       Transfer     Bandwidth
+[  6]  0.0- 3.0 sec  18.1 MBytes  50.7 Mbits/sec
+[  7]  0.0- 3.0 sec  18.0 MBytes  50.3 Mbits/sec
+[  6]  3.0- 6.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  7]  3.0- 6.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  6]  6.0- 9.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  7]  6.0- 9.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  6]  9.0-12.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  7]  9.0-12.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  6] 12.0-15.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  7] 12.0-15.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  6] 15.0-18.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  7] 15.0-18.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  6] 18.0-21.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  7] 18.0-21.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  6] 21.0-24.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  7] 21.0-24.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  6] 24.0-27.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  7] 24.0-27.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  6] 27.0-30.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  7] 27.0-30.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  6] 30.0-33.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  7] 30.0-33.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  6] 33.0-36.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  7] 33.0-36.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  6] 36.0-39.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  7] 36.0-39.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  6] 39.0-42.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  7] 39.0-42.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  6] 42.0-45.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  7] 42.0-45.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  6] 45.0-48.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  7] 45.0-48.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  6] 48.0-51.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  7] 48.0-51.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  6] 51.0-54.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  7] 51.0-54.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  6] 54.0-57.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  7] 54.0-57.0 sec  18.0 MBytes  50.3 Mbits/sec
+[  6]  0.0-60.0 sec   358 MBytes  50.0 Mbits/sec
+[  7] 57.0-60.0 sec  17.7 MBytes  49.6 Mbits/sec
+[  7]  0.0-60.0 sec   358 MBytes  50.0 Mbits/sec
+[SUM]  0.0-60.0 sec   376 MBytes  52.5 Mbits/sec
+
+-----
+Flow Result:
+------------------------------------------------------------
+Server listening on TCP port 5000
+TCP window size: 85.3 KByte (default)
+------------------------------------------------------------
+------------------------------------------------------------
+Client connecting to 10.0.0.2, TCP port 5000
+TCP window size: 85.3 KByte (default)
+------------------------------------------------------------
+[  5] local 10.0.0.1 port 34268 connected with 10.0.0.2 port 5000 (peer 2.0.10-alpha)
+[  7] local 10.0.0.1 port 5000 connected with 10.0.0.2 port 42744
+[ ID] Interval       Transfer     Bandwidth
+[  5]  0.0- 3.0 sec  18.1 MBytes  50.7 Mbits/sec
+[  7]  0.0- 3.0 sec  18.0 MBytes  50.3 Mbits/sec
+[  5]  3.0- 6.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  7]  3.0- 6.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  5]  6.0- 9.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  7]  6.0- 9.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  5]  9.0-12.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  7]  9.0-12.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  5] 12.0-15.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  7] 12.0-15.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  5] 15.0-18.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  7] 15.0-18.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  5] 18.0-21.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  7] 18.0-21.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  5] 21.0-24.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  7] 21.0-24.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  5] 24.0-27.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  7] 24.0-27.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  5] 27.0-30.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  7] 27.0-30.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  5] 30.0-33.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  7] 30.0-33.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  5] 33.0-36.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  7] 33.0-36.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  5] 36.0-39.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  7] 36.0-39.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  5] 39.0-42.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  7] 39.0-42.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  5] 42.0-45.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  7] 42.0-45.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  5] 45.0-48.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  7] 45.0-48.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  5] 48.0-51.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  7] 48.0-51.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  5] 51.0-54.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  7] 51.0-54.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  5] 54.0-57.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  7] 54.0-57.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  5]  0.0-60.0 sec   358 MBytes  50.0 Mbits/sec
+[  7] 57.0-60.0 sec  18.0 MBytes  50.3 Mbits/sec
+[  7]  0.0-60.0 sec   358 MBytes  50.0 Mbits/sec
+[SUM]  0.0-60.0 sec   376 MBytes  52.5 Mbits/sec
+
+-----
+Flow Result:
+------------------------------------------------------------
+Server listening on TCP port 5000
+TCP window size: 85.3 KByte (default)
+------------------------------------------------------------
+------------------------------------------------------------
+Client connecting to 10.0.0.2, TCP port 5000
+TCP window size: 85.3 KByte (default)
+------------------------------------------------------------
+[  6] local 10.0.0.1 port 34272 connected with 10.0.0.2 port 5000 (peer 2.0.10-alpha)
+[  7] local 10.0.0.1 port 5000 connected with 10.0.0.2 port 42748
+[ ID] Interval       Transfer     Bandwidth
+[  6]  0.0- 3.0 sec  18.1 MBytes  50.7 Mbits/sec
+[  7]  0.0- 3.0 sec  18.0 MBytes  50.3 Mbits/sec
+[  6]  3.0- 6.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  7]  3.0- 6.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  6]  6.0- 9.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  7]  6.0- 9.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  6]  9.0-12.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  7]  9.0-12.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  6] 12.0-15.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  7] 12.0-15.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  6] 15.0-18.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  7] 15.0-18.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  6] 18.0-21.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  7] 18.0-21.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  6] 21.0-24.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  7] 21.0-24.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  6] 24.0-27.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  7] 24.0-27.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  6] 27.0-30.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  7] 27.0-30.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  6] 30.0-33.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  7] 30.0-33.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  6] 33.0-36.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  7] 33.0-36.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  6] 36.0-39.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  7] 36.0-39.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  6] 39.0-42.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  7] 39.0-42.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  6] 42.0-45.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  7] 42.0-45.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  6] 45.0-48.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  7] 45.0-48.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  6] 48.0-51.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  7] 48.0-51.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  6] 51.0-54.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  7] 51.0-54.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  6] 54.0-57.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  7] 54.0-57.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  6]  0.0-60.0 sec   358 MBytes  50.0 Mbits/sec
+[  7] 57.0-60.0 sec  18.0 MBytes  50.3 Mbits/sec
+[  7]  0.0-60.0 sec   358 MBytes  50.0 Mbits/sec
+[SUM]  0.0-60.0 sec   376 MBytes  52.5 Mbits/sec
+
+-----
+Flow Result:
+------------------------------------------------------------
+Server listening on TCP port 5000
+TCP window size: 85.3 KByte (default)
+------------------------------------------------------------
+------------------------------------------------------------
+Client connecting to 10.0.0.2, TCP port 5000
+TCP window size: 85.3 KByte (default)
+------------------------------------------------------------
+[  6] local 10.0.0.1 port 34276 connected with 10.0.0.2 port 5000 (peer 2.0.10-alpha)
+[  7] local 10.0.0.1 port 5000 connected with 10.0.0.2 port 42752
+[ ID] Interval       Transfer     Bandwidth
+[  6]  0.0- 3.0 sec  18.1 MBytes  50.7 Mbits/sec
+[  7]  0.0- 3.0 sec  18.0 MBytes  50.3 Mbits/sec
+[  6]  3.0- 6.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  7]  3.0- 6.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  6]  6.0- 9.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  7]  6.0- 9.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  6]  9.0-12.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  7]  9.0-12.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  6] 12.0-15.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  7] 12.0-15.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  6] 15.0-18.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  7] 15.0-18.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  6] 18.0-21.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  7] 18.0-21.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  6] 21.0-24.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  7] 21.0-24.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  6] 24.0-27.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  7] 24.0-27.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  6] 27.0-30.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  7] 27.0-30.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  6] 30.0-33.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  7] 30.0-33.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  6] 33.0-36.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  7] 33.0-36.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  6] 36.0-39.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  7] 36.0-39.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  6] 39.0-42.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  7] 39.0-42.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  6] 42.0-45.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  7] 42.0-45.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  6] 45.0-48.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  7] 45.0-48.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  6] 48.0-51.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  7] 48.0-51.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  6] 51.0-54.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  7] 51.0-54.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  6] 54.0-57.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  7] 54.0-57.0 sec  18.0 MBytes  50.3 Mbits/sec
+[  6]  0.0-60.0 sec   358 MBytes  50.0 Mbits/sec
+[  7] 57.0-60.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  7]  0.0-60.0 sec   358 MBytes  50.0 Mbits/sec
+[SUM]  0.0-60.0 sec   376 MBytes  52.5 Mbits/sec
+
+-----
+Flow Result:
+------------------------------------------------------------
+Server listening on TCP port 5000
+TCP window size: 85.3 KByte (default)
+------------------------------------------------------------
+------------------------------------------------------------
+Client connecting to 10.0.0.2, TCP port 5000
+TCP window size: 85.3 KByte (default)
+------------------------------------------------------------
+[  6] local 10.0.0.1 port 34280 connected with 10.0.0.2 port 5000 (peer 2.0.10-alpha)
+[  7] local 10.0.0.1 port 5000 connected with 10.0.0.2 port 42756
+[ ID] Interval       Transfer     Bandwidth
+[  6]  0.0- 3.0 sec  18.1 MBytes  50.7 Mbits/sec
+[  7]  0.0- 3.0 sec  18.0 MBytes  50.3 Mbits/sec
+[  6]  3.0- 6.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  7]  3.0- 6.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  6]  6.0- 9.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  7]  6.0- 9.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  6]  9.0-12.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  7]  9.0-12.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  6] 12.0-15.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  7] 12.0-15.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  6] 15.0-18.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  7] 15.0-18.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  6] 18.0-21.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  7] 18.0-21.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  6] 21.0-24.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  7] 21.0-24.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  6] 24.0-27.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  7] 24.0-27.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  6] 27.0-30.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  7] 27.0-30.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  6] 30.0-33.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  7] 30.0-33.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  6] 33.0-36.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  7] 33.0-36.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  6] 36.0-39.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  7] 36.0-39.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  6] 39.0-42.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  7] 39.0-42.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  6] 42.0-45.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  7] 42.0-45.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  6] 45.0-48.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  7] 45.0-48.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  6] 48.0-51.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  7] 48.0-51.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  6] 51.0-54.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  7] 51.0-54.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  6] 54.0-57.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  7] 54.0-57.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  6]  0.0-60.0 sec   358 MBytes  50.0 Mbits/sec
+[  7] 57.0-60.0 sec  18.0 MBytes  50.3 Mbits/sec
+[  7]  0.0-60.0 sec   358 MBytes  50.0 Mbits/sec
+[SUM]  0.0-60.0 sec   376 MBytes  52.5 Mbits/sec
+
+-----
+End of 60 seconds run
+-----
+Flow Result:
+------------------------------------------------------------
+Server listening on TCP port 5000
+TCP window size: 85.3 KByte (default)
+------------------------------------------------------------
+------------------------------------------------------------
+Client connecting to 10.0.0.2, TCP port 5000
+TCP window size: 85.3 KByte (default)
+------------------------------------------------------------
+[  5] local 10.0.0.1 port 34296 connected with 10.0.0.2 port 5000 (peer 2.0.10-alpha)
+[  7] local 10.0.0.1 port 5000 connected with 10.0.0.2 port 42774
+[ ID] Interval       Transfer     Bandwidth
+[  5]  0.0- 3.0 sec  18.0 MBytes  50.3 Mbits/sec
+[  7]  0.0- 3.0 sec  18.0 MBytes  50.3 Mbits/sec
+[  5]  3.0- 6.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  7]  3.0- 6.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  5]  6.0- 9.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  7]  6.0- 9.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  5]  9.0-12.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  7]  9.0-12.0 sec  17.8 MBytes  49.6 Mbits/sec
+[  5] 12.0-15.0 sec  18.0 MBytes  50.3 Mbits/sec
+[  7] 12.0-15.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  5] 15.0-18.0 sec  17.8 MBytes  49.6 Mbits/sec
+[  7] 15.0-18.0 sec  18.0 MBytes  50.3 Mbits/sec
+[  5] 18.0-21.0 sec  18.0 MBytes  50.3 Mbits/sec
+[  7] 18.0-21.0 sec  17.8 MBytes  49.6 Mbits/sec
+[  5] 21.0-24.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  7] 21.0-24.0 sec  17.9 MBytes  50.2 Mbits/sec
+[  5] 24.0-27.0 sec  17.8 MBytes  49.6 Mbits/sec
+[  7] 24.0-27.0 sec  17.9 MBytes  50.2 Mbits/sec
+[  5] 27.0-30.0 sec  18.0 MBytes  50.3 Mbits/sec
+[  7] 27.0-30.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  5] 30.0-33.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  7] 30.0-33.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  5] 33.0-36.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  7] 33.0-36.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  5] 36.0-39.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  7] 36.0-39.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  5] 39.0-42.0 sec  17.8 MBytes  49.6 Mbits/sec
+[  7] 39.0-42.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  5] 42.0-45.0 sec  18.0 MBytes  50.3 Mbits/sec
+[  7] 42.0-45.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  5] 45.0-48.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  7] 45.0-48.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  5] 48.0-51.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  7] 48.0-51.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  5] 51.0-54.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  7] 51.0-54.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  5] 54.0-57.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  7] 54.0-57.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  5]  0.0-60.0 sec   358 MBytes  50.0 Mbits/sec
+[  7] 57.0-60.0 sec  17.8 MBytes  49.8 Mbits/sec
+[  7]  0.0-60.0 sec   358 MBytes  50.0 Mbits/sec
+[SUM]  0.0-60.0 sec   376 MBytes  52.5 Mbits/sec
+
+-----
+Flow Result:
+------------------------------------------------------------
+Server listening on TCP port 5001
+TCP window size: 85.3 KByte (default)
+------------------------------------------------------------
+------------------------------------------------------------
+Client connecting to 10.0.0.2, TCP port 5001
+TCP window size: 85.3 KByte (default)
+------------------------------------------------------------
+[  6] local 10.0.0.1 port 33490 connected with 10.0.0.2 port 5001 (peer 2.0.10-alpha)
+[  7] local 10.0.0.1 port 5001 connected with 10.0.0.2 port 60160
+[ ID] Interval       Transfer     Bandwidth
+[  6]  0.0- 3.0 sec  18.0 MBytes  50.3 Mbits/sec
+[  7]  0.0- 3.0 sec  18.0 MBytes  50.3 Mbits/sec
+[  6]  3.0- 6.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  7]  3.0- 6.0 sec  17.8 MBytes  49.6 Mbits/sec
+[  6]  6.0- 9.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  7]  6.0- 9.0 sec  18.0 MBytes  50.3 Mbits/sec
+[  6]  9.0-12.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  7]  9.0-12.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  6] 12.0-15.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  7] 12.0-15.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  6] 15.0-18.0 sec  18.0 MBytes  50.3 Mbits/sec
+[  7] 15.0-18.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  6] 18.0-21.0 sec  17.8 MBytes  49.6 Mbits/sec
+[  7] 18.0-21.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  6] 21.0-24.0 sec  18.0 MBytes  50.3 Mbits/sec
+[  7] 21.0-24.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  6] 24.0-27.0 sec  17.8 MBytes  49.6 Mbits/sec
+[  7] 24.0-27.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  6] 27.0-30.0 sec  18.0 MBytes  50.3 Mbits/sec
+[  7] 27.0-30.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  6] 30.0-33.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  7] 30.0-33.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  6] 33.0-36.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  7] 33.0-36.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  6] 36.0-39.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  7] 36.0-39.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  6] 39.0-42.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  7] 39.0-42.0 sec  18.0 MBytes  50.3 Mbits/sec
+[  6] 42.0-45.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  7] 42.0-45.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  6] 45.0-48.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  7] 45.0-48.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  6] 48.0-51.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  7] 48.0-51.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  6] 51.0-54.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  7] 51.0-54.0 sec  17.8 MBytes  49.8 Mbits/sec
+[  6] 54.0-57.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  7] 54.0-57.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  6]  0.0-60.0 sec   358 MBytes  50.0 Mbits/sec
+[  7] 57.0-60.0 sec  17.9 MBytes  50.2 Mbits/sec
+[  7]  0.0-60.0 sec   358 MBytes  50.0 Mbits/sec
+[SUM]  0.0-60.0 sec   376 MBytes  52.5 Mbits/sec
+
+-----
+Flow Result:
+------------------------------------------------------------
+Server listening on TCP port 5000
+TCP window size: 85.3 KByte (default)
+------------------------------------------------------------
+------------------------------------------------------------
+Client connecting to 10.0.0.2, TCP port 5000
+TCP window size: 85.3 KByte (default)
+------------------------------------------------------------
+[  5] local 10.0.0.1 port 34306 connected with 10.0.0.2 port 5000 (peer 2.0.10-alpha)
+[  7] local 10.0.0.1 port 5000 connected with 10.0.0.2 port 42784
+[ ID] Interval       Transfer     Bandwidth
+[  5]  0.0- 3.0 sec  18.1 MBytes  50.7 Mbits/sec
+[  7]  0.0- 3.0 sec  18.1 MBytes  50.7 Mbits/sec
+[  5]  3.0- 6.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  7]  3.0- 6.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  5]  6.0- 9.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  7]  6.0- 9.0 sec  17.8 MBytes  49.8 Mbits/sec
+[  5]  9.0-12.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  7]  9.0-12.0 sec  17.9 MBytes  50.2 Mbits/sec
+[  5] 12.0-15.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  7] 12.0-15.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  5] 15.0-18.0 sec  17.8 MBytes  49.6 Mbits/sec
+[  7] 15.0-18.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  5] 18.0-21.0 sec  18.0 MBytes  50.3 Mbits/sec
+[  7] 18.0-21.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  5] 21.0-24.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  7] 21.0-24.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  5] 24.0-27.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  7] 24.0-27.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  5] 27.0-30.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  7] 27.0-30.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  5] 30.0-33.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  7] 30.0-33.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  5] 33.0-36.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  7] 33.0-36.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  5] 36.0-39.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  7] 36.0-39.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  5] 39.0-42.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  7] 39.0-42.0 sec  18.0 MBytes  50.3 Mbits/sec
+[  5] 42.0-45.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  7] 42.0-45.0 sec  17.8 MBytes  49.6 Mbits/sec
+[  5] 45.0-48.0 sec  17.8 MBytes  49.6 Mbits/sec
+[  7] 45.0-48.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  5] 48.0-51.0 sec  18.0 MBytes  50.3 Mbits/sec
+[  7] 48.0-51.0 sec  18.0 MBytes  50.3 Mbits/sec
+[  5] 51.0-54.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  7] 51.0-54.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  5] 54.0-57.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  7] 54.0-57.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  5]  0.0-60.0 sec   358 MBytes  50.0 Mbits/sec
+[  7]  0.0-60.0 sec   358 MBytes  50.0 Mbits/sec
+[SUM]  0.0-60.0 sec   376 MBytes  52.6 Mbits/sec
+
+-----
+Flow Result:
+------------------------------------------------------------
+Server listening on TCP port 5001
+TCP window size: 85.3 KByte (default)
+------------------------------------------------------------
+------------------------------------------------------------
+Client connecting to 10.0.0.2, TCP port 5001
+TCP window size: 85.3 KByte (default)
+------------------------------------------------------------
+[  5] local 10.0.0.1 port 33496 connected with 10.0.0.2 port 5001 (peer 2.0.10-alpha)
+[  7] local 10.0.0.1 port 5001 connected with 10.0.0.2 port 60166
+[ ID] Interval       Transfer     Bandwidth
+[  5]  0.0- 3.0 sec  18.0 MBytes  50.3 Mbits/sec
+[  7]  0.0- 3.0 sec  18.0 MBytes  50.3 Mbits/sec
+[  5]  3.0- 6.0 sec  18.0 MBytes  50.3 Mbits/sec
+[  7]  3.0- 6.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  5]  6.0- 9.0 sec  17.8 MBytes  49.6 Mbits/sec
+[  7]  6.0- 9.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  5]  9.0-12.0 sec  18.0 MBytes  50.3 Mbits/sec
+[  7]  9.0-12.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  5] 12.0-15.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  7] 12.0-15.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  5] 15.0-18.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  7] 15.0-18.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  5] 18.0-21.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  7] 18.0-21.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  5] 21.0-24.0 sec  17.8 MBytes  49.6 Mbits/sec
+[  7] 21.0-24.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  5] 24.0-27.0 sec  18.0 MBytes  50.3 Mbits/sec
+[  7] 24.0-27.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  5] 27.0-30.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  7] 27.0-30.0 sec  18.0 MBytes  50.3 Mbits/sec
+[  5] 30.0-33.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  7] 30.0-33.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  5] 33.0-36.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  7] 33.0-36.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  5] 36.0-39.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  7] 36.0-39.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  5] 39.0-42.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  7] 39.0-42.0 sec  17.8 MBytes  49.8 Mbits/sec
+[  5] 42.0-45.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  7] 42.0-45.0 sec  17.9 MBytes  50.2 Mbits/sec
+[  5] 45.0-48.0 sec  17.8 MBytes  49.6 Mbits/sec
+[  7] 45.0-48.0 sec  17.8 MBytes  49.6 Mbits/sec
+[  5] 48.0-51.0 sec  18.0 MBytes  50.3 Mbits/sec
+[  7] 48.0-51.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  5] 51.0-54.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  7] 51.0-54.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  5] 54.0-57.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  7] 54.0-57.0 sec  18.0 MBytes  50.3 Mbits/sec
+[  5]  0.0-60.0 sec   358 MBytes  50.0 Mbits/sec
+[  7] 57.0-60.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  7]  0.0-60.0 sec   358 MBytes  50.0 Mbits/sec
+[SUM]  0.0-60.0 sec   376 MBytes  52.5 Mbits/sec
+
+-----
+Flow Result:
+------------------------------------------------------------
+Server listening on TCP port 5001
+TCP window size: 85.3 KByte (default)
+------------------------------------------------------------
+------------------------------------------------------------
+Client connecting to 10.0.0.2, TCP port 5001
+TCP window size: 85.3 KByte (default)
+------------------------------------------------------------
+[  5] local 10.0.0.1 port 33506 connected with 10.0.0.2 port 5001 (peer 2.0.10-alpha)
+[  7] local 10.0.0.1 port 5001 connected with 10.0.0.2 port 60176
+[ ID] Interval       Transfer     Bandwidth
+[  5]  0.0- 3.0 sec  18.0 MBytes  50.3 Mbits/sec
+[  7]  0.0- 3.0 sec  18.0 MBytes  50.3 Mbits/sec
+[  5]  3.0- 6.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  7]  3.0- 6.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  5]  6.0- 9.0 sec  18.0 MBytes  50.3 Mbits/sec
+[  7]  6.0- 9.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  5]  9.0-12.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  7]  9.0-12.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  5] 12.0-15.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  7] 12.0-15.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  5] 15.0-18.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  7] 15.0-18.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  5] 18.0-21.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  7] 18.0-21.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  5] 21.0-24.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  7] 21.0-24.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  5] 24.0-27.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  7] 24.0-27.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  5] 27.0-30.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  7] 27.0-30.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  5] 30.0-33.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  7] 30.0-33.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  5] 33.0-36.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  7] 33.0-36.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  5] 36.0-39.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  7] 36.0-39.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  5] 39.0-42.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  7] 39.0-42.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  5] 42.0-45.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  7] 42.0-45.0 sec  18.0 MBytes  50.3 Mbits/sec
+[  5] 45.0-48.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  7] 45.0-48.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  5] 48.0-51.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  7] 48.0-51.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  5] 51.0-54.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  7] 51.0-54.0 sec  17.8 MBytes  49.6 Mbits/sec
+[  5] 54.0-57.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  7] 54.0-57.0 sec  17.9 MBytes  50.2 Mbits/sec
+[  5]  0.0-60.0 sec   358 MBytes  50.0 Mbits/sec
+[  7] 57.0-60.0 sec  17.9 MBytes  50.2 Mbits/sec
+[  7]  0.0-60.0 sec   358 MBytes  50.0 Mbits/sec
+[SUM]  0.0-60.0 sec   376 MBytes  52.5 Mbits/sec
+
+-----
+Flow Result:
+------------------------------------------------------------
+Server listening on TCP port 5000
+TCP window size: 85.3 KByte (default)
+------------------------------------------------------------
+------------------------------------------------------------
+Client connecting to 10.0.0.2, TCP port 5000
+TCP window size: 85.3 KByte (default)
+------------------------------------------------------------
+[  5] local 10.0.0.1 port 34312 connected with 10.0.0.2 port 5000 (peer 2.0.10-alpha)
+[  7] local 10.0.0.1 port 5000 connected with 10.0.0.2 port 42790
+[ ID] Interval       Transfer     Bandwidth
+[  5]  0.0- 3.0 sec  18.1 MBytes  50.7 Mbits/sec
+[  7]  0.0- 3.0 sec  18.0 MBytes  50.3 Mbits/sec
+[  5]  3.0- 6.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  7]  3.0- 6.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  5]  6.0- 9.0 sec  17.8 MBytes  49.6 Mbits/sec
+[  7]  6.0- 9.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  5]  9.0-12.0 sec  18.0 MBytes  50.3 Mbits/sec
+[  7]  9.0-12.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  5] 12.0-15.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  7] 12.0-15.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  5] 15.0-18.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  7] 15.0-18.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  5] 18.0-21.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  7] 18.0-21.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  5] 21.0-24.0 sec  17.8 MBytes  49.6 Mbits/sec
+[  7] 21.0-24.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  5] 24.0-27.0 sec  18.0 MBytes  50.3 Mbits/sec
+[  7] 24.0-27.0 sec  18.0 MBytes  50.3 Mbits/sec
+[  5] 27.0-30.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  7] 27.0-30.0 sec  17.8 MBytes  49.8 Mbits/sec
+[  5] 30.0-33.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  7] 30.0-33.0 sec  17.8 MBytes  49.8 Mbits/sec
+[  5] 33.0-36.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  7] 33.0-36.0 sec  18.0 MBytes  50.3 Mbits/sec
+[  5] 36.0-39.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  7] 36.0-39.0 sec  17.8 MBytes  49.8 Mbits/sec
+[  5] 39.0-42.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  7] 39.0-42.0 sec  17.9 MBytes  50.2 Mbits/sec
+[  5] 42.0-45.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  7] 42.0-45.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  5] 45.0-48.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  7] 45.0-48.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  5] 48.0-51.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  7] 48.0-51.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  5] 51.0-54.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  7] 51.0-54.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  5] 54.0-57.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  7] 54.0-57.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  5] 57.0-60.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  5]  0.0-60.0 sec   358 MBytes  50.0 Mbits/sec
+[  7] 57.0-60.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  7]  0.0-60.0 sec   358 MBytes  50.0 Mbits/sec
+[SUM]  0.0-60.0 sec   376 MBytes  52.5 Mbits/sec
+
+-----
+Flow Result:
+------------------------------------------------------------
+Server listening on TCP port 5000
+TCP window size: 85.3 KByte (default)
+------------------------------------------------------------
+------------------------------------------------------------
+Client connecting to 10.0.0.2, TCP port 5000
+TCP window size: 85.3 KByte (default)
+------------------------------------------------------------
+[  6] local 10.0.0.1 port 34320 connected with 10.0.0.2 port 5000 (peer 2.0.10-alpha)
+[  7] local 10.0.0.1 port 5000 connected with 10.0.0.2 port 42798
+[ ID] Interval       Transfer     Bandwidth
+[  6]  0.0- 3.0 sec  18.0 MBytes  50.3 Mbits/sec
+[  7]  0.0- 3.0 sec  18.0 MBytes  50.3 Mbits/sec
+[  6]  3.0- 6.0 sec  18.0 MBytes  50.3 Mbits/sec
+[  7]  3.0- 6.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  6]  6.0- 9.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  7]  6.0- 9.0 sec  18.0 MBytes  50.3 Mbits/sec
+[  6]  9.0-12.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  7]  9.0-12.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  6] 12.0-15.0 sec  17.8 MBytes  49.6 Mbits/sec
+[  7] 12.0-15.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  6] 15.0-18.0 sec  18.0 MBytes  50.3 Mbits/sec
+[  7] 15.0-18.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  6] 18.0-21.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  7] 18.0-21.0 sec  17.8 MBytes  49.6 Mbits/sec
+[  6] 21.0-24.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  7] 21.0-24.0 sec  18.0 MBytes  50.3 Mbits/sec
+[  6] 24.0-27.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  7] 24.0-27.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  6] 27.0-30.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  7] 27.0-30.0 sec  17.8 MBytes  49.6 Mbits/sec
+[  6] 30.0-33.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  7] 30.0-33.0 sec  18.0 MBytes  50.3 Mbits/sec
+[  6] 33.0-36.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  7] 33.0-36.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  6] 36.0-39.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  7] 36.0-39.0 sec  17.8 MBytes  49.8 Mbits/sec
+[  6] 39.0-42.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  7] 39.0-42.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  6] 42.0-45.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  7] 42.0-45.0 sec  17.9 MBytes  50.2 Mbits/sec
+[  6] 45.0-48.0 sec  17.8 MBytes  49.6 Mbits/sec
+[  7] 45.0-48.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  6] 48.0-51.0 sec  18.0 MBytes  50.3 Mbits/sec
+[  7] 48.0-51.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  6] 51.0-54.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  7] 51.0-54.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  6] 54.0-57.0 sec  17.8 MBytes  49.6 Mbits/sec
+[  7] 54.0-57.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  6] 57.0-60.0 sec  18.0 MBytes  50.3 Mbits/sec
+[  6]  0.0-60.0 sec   358 MBytes  50.0 Mbits/sec
+[  7] 57.0-60.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  7]  0.0-60.0 sec   358 MBytes  50.0 Mbits/sec
+[SUM]  0.0-60.0 sec   376 MBytes  52.5 Mbits/sec
+
+-----
+Flow Result:
+------------------------------------------------------------
+Server listening on TCP port 5001
+TCP window size: 85.3 KByte (default)
+------------------------------------------------------------
+------------------------------------------------------------
+Client connecting to 10.0.0.2, TCP port 5001
+TCP window size: 85.3 KByte (default)
+------------------------------------------------------------
+[  5] local 10.0.0.1 port 33514 connected with 10.0.0.2 port 5001 (peer 2.0.10-alpha)
+[  7] local 10.0.0.1 port 5001 connected with 10.0.0.2 port 60184
+[ ID] Interval       Transfer     Bandwidth
+[  5]  0.0- 3.0 sec  18.0 MBytes  50.3 Mbits/sec
+[  7]  0.0- 3.0 sec  18.1 MBytes  50.7 Mbits/sec
+[  5]  3.0- 6.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  7]  3.0- 6.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  5]  6.0- 9.0 sec  18.0 MBytes  50.3 Mbits/sec
+[  7]  6.0- 9.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  5]  9.0-12.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  7]  9.0-12.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  5] 12.0-15.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  7] 12.0-15.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  5] 15.0-18.0 sec  17.8 MBytes  49.6 Mbits/sec
+[  7] 15.0-18.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  5] 18.0-21.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  7] 18.0-21.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  5] 21.0-24.0 sec  18.0 MBytes  50.3 Mbits/sec
+[  7] 21.0-24.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  5] 24.0-27.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  7] 24.0-27.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  5] 27.0-30.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  7] 27.0-30.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  5] 30.0-33.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  7] 30.0-33.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  5] 33.0-36.0 sec  17.8 MBytes  49.6 Mbits/sec
+[  7] 33.0-36.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  5] 36.0-39.0 sec  18.0 MBytes  50.3 Mbits/sec
+[  7] 36.0-39.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  5] 39.0-42.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  7] 39.0-42.0 sec  18.0 MBytes  50.3 Mbits/sec
+[  5] 42.0-45.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  7] 42.0-45.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  5] 45.0-48.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  7] 45.0-48.0 sec  17.8 MBytes  49.6 Mbits/sec
+[  5] 48.0-51.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  7] 48.0-51.0 sec  18.0 MBytes  50.3 Mbits/sec
+[  5] 51.0-54.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  7] 51.0-54.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  5] 54.0-57.0 sec  17.8 MBytes  49.6 Mbits/sec
+[  7] 54.0-57.0 sec  17.8 MBytes  49.8 Mbits/sec
+[  5]  0.0-60.0 sec   358 MBytes  50.0 Mbits/sec
+[  7]  0.0-60.0 sec   358 MBytes  50.0 Mbits/sec
+[SUM]  0.0-60.0 sec   376 MBytes  52.6 Mbits/sec
+
+-----
+Flow Result:
+------------------------------------------------------------
+Server listening on TCP port 5000
+TCP window size: 85.3 KByte (default)
+------------------------------------------------------------
+------------------------------------------------------------
+Client connecting to 10.0.0.2, TCP port 5000
+TCP window size: 85.3 KByte (default)
+------------------------------------------------------------
+[  5] local 10.0.0.1 port 34328 connected with 10.0.0.2 port 5000 (peer 2.0.10-alpha)
+[  7] local 10.0.0.1 port 5000 connected with 10.0.0.2 port 42806
+[ ID] Interval       Transfer     Bandwidth
+[  5]  0.0- 3.0 sec  18.0 MBytes  50.3 Mbits/sec
+[  7]  0.0- 3.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  5]  3.0- 6.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  7]  3.0- 6.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  5]  6.0- 9.0 sec  18.0 MBytes  50.3 Mbits/sec
+[  7]  6.0- 9.0 sec  18.0 MBytes  50.3 Mbits/sec
+[  5]  9.0-12.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  7]  9.0-12.0 sec  17.8 MBytes  49.6 Mbits/sec
+[  5] 12.0-15.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  7] 12.0-15.0 sec  18.0 MBytes  50.3 Mbits/sec
+[  5] 15.0-18.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  7] 15.0-18.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  5] 18.0-21.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  7] 18.0-21.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  5] 21.0-24.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  7] 21.0-24.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  5] 24.0-27.0 sec  17.8 MBytes  49.6 Mbits/sec
+[  7] 24.0-27.0 sec  17.8 MBytes  49.6 Mbits/sec
+[  5] 27.0-30.0 sec  18.0 MBytes  50.3 Mbits/sec
+[  7] 27.0-30.0 sec  18.0 MBytes  50.3 Mbits/sec
+[  5] 30.0-33.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  7] 30.0-33.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  5] 33.0-36.0 sec  17.8 MBytes  49.6 Mbits/sec
+[  7] 33.0-36.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  5] 36.0-39.0 sec  18.0 MBytes  50.3 Mbits/sec
+[  7] 36.0-39.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  5] 39.0-42.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  7] 39.0-42.0 sec  18.0 MBytes  50.3 Mbits/sec
+[  5] 42.0-45.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  7] 42.0-45.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  5] 45.0-48.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  7] 45.0-48.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  5] 48.0-51.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  7] 48.0-51.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  5] 51.0-54.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  7] 51.0-54.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  5] 54.0-57.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  7] 54.0-57.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  7] 57.0-60.0 sec  17.7 MBytes  49.6 Mbits/sec
+[  7]  0.0-60.0 sec   358 MBytes  50.0 Mbits/sec
+[SUM]  0.0-60.0 sec   376 MBytes  52.5 Mbits/sec
+[  5] 57.0-60.0 sec  18.0 MBytes  50.3 Mbits/sec
+[  5]  0.0-60.0 sec   358 MBytes  50.0 Mbits/sec
+
+-----
+Flow Result:
+------------------------------------------------------------
+Server listening on TCP port 5001
+TCP window size: 85.3 KByte (default)
+------------------------------------------------------------
+------------------------------------------------------------
+Client connecting to 10.0.0.2, TCP port 5001
+TCP window size: 85.3 KByte (default)
+------------------------------------------------------------
+[  5] local 10.0.0.1 port 33522 connected with 10.0.0.2 port 5001 (peer 2.0.10-alpha)
+[  7] local 10.0.0.1 port 5001 connected with 10.0.0.2 port 60192
+[ ID] Interval       Transfer     Bandwidth
+[  5]  0.0- 3.0 sec  18.1 MBytes  50.7 Mbits/sec
+[  7]  0.0- 3.0 sec  18.0 MBytes  50.3 Mbits/sec
+[  5]  3.0- 6.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  7]  3.0- 6.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  5]  6.0- 9.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  7]  6.0- 9.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  5]  9.0-12.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  7]  9.0-12.0 sec  18.0 MBytes  50.3 Mbits/sec
+[  5] 12.0-15.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  7] 12.0-15.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  5] 15.0-18.0 sec  17.8 MBytes  49.6 Mbits/sec
+[  7] 15.0-18.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  5] 18.0-21.0 sec  18.0 MBytes  50.3 Mbits/sec
+[  7] 18.0-21.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  5] 21.0-24.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  7] 21.0-24.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  5] 24.0-27.0 sec  17.8 MBytes  49.6 Mbits/sec
+[  7] 24.0-27.0 sec  17.8 MBytes  49.6 Mbits/sec
+[  5] 27.0-30.0 sec  18.0 MBytes  50.3 Mbits/sec
+[  7] 27.0-30.0 sec  18.0 MBytes  50.3 Mbits/sec
+[  5] 30.0-33.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  7] 30.0-33.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  5] 33.0-36.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  7] 33.0-36.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  5] 36.0-39.0 sec  17.8 MBytes  49.6 Mbits/sec
+[  7] 36.0-39.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  5] 39.0-42.0 sec  18.0 MBytes  50.3 Mbits/sec
+[  7] 39.0-42.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  5] 42.0-45.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  7] 42.0-45.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  5] 45.0-48.0 sec  17.8 MBytes  49.6 Mbits/sec
+[  7] 45.0-48.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  5] 48.0-51.0 sec  18.0 MBytes  50.3 Mbits/sec
+[  7] 48.0-51.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  5] 51.0-54.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  7] 51.0-54.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  5] 54.0-57.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  7] 54.0-57.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  5]  0.0-60.0 sec   358 MBytes  50.0 Mbits/sec
+[  7] 57.0-60.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  7]  0.0-60.0 sec   358 MBytes  50.0 Mbits/sec
+[SUM]  0.0-60.0 sec   376 MBytes  52.5 Mbits/sec
+
+-----
+Flow Result:
+------------------------------------------------------------
+Server listening on TCP port 5000
+TCP window size: 85.3 KByte (default)
+------------------------------------------------------------
+------------------------------------------------------------
+Client connecting to 10.0.0.2, TCP port 5000
+TCP window size: 85.3 KByte (default)
+------------------------------------------------------------
+[  6] local 10.0.0.1 port 34336 connected with 10.0.0.2 port 5000 (peer 2.0.10-alpha)
+[  7] local 10.0.0.1 port 5000 connected with 10.0.0.2 port 42816
+[ ID] Interval       Transfer     Bandwidth
+[  6]  0.0- 3.0 sec  18.0 MBytes  50.3 Mbits/sec
+[  7]  0.0- 3.0 sec  18.0 MBytes  50.3 Mbits/sec
+[  6]  3.0- 6.0 sec  18.0 MBytes  50.3 Mbits/sec
+[  7]  3.0- 6.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  6]  6.0- 9.0 sec  17.8 MBytes  49.6 Mbits/sec
+[  7]  6.0- 9.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  6]  9.0-12.0 sec  18.0 MBytes  50.3 Mbits/sec
+[  7]  9.0-12.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  6] 12.0-15.0 sec  17.8 MBytes  49.6 Mbits/sec
+[  7] 12.0-15.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  6] 15.0-18.0 sec  18.0 MBytes  50.3 Mbits/sec
+[  7] 15.0-18.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  6] 18.0-21.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  7] 18.0-21.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  6] 21.0-24.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  7] 21.0-24.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  6] 24.0-27.0 sec  17.8 MBytes  49.6 Mbits/sec
+[  7] 24.0-27.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  6] 27.0-30.0 sec  18.0 MBytes  50.3 Mbits/sec
+[  7] 27.0-30.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  6] 30.0-33.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  7] 30.0-33.0 sec  18.0 MBytes  50.3 Mbits/sec
+[  6] 33.0-36.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  7] 33.0-36.0 sec  17.8 MBytes  49.6 Mbits/sec
+[  6] 36.0-39.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  7] 36.0-39.0 sec  18.0 MBytes  50.3 Mbits/sec
+[  6] 39.0-42.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  7] 39.0-42.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  6] 42.0-45.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  7] 42.0-45.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  6] 45.0-48.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  7] 45.0-48.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  6] 48.0-51.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  7] 48.0-51.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  6] 51.0-54.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  7] 51.0-54.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  6] 54.0-57.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  7] 54.0-57.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  6]  0.0-60.0 sec   358 MBytes  50.0 Mbits/sec
+[  7]  0.0-60.0 sec   358 MBytes  50.0 Mbits/sec
+[SUM]  0.0-60.0 sec   376 MBytes  52.5 Mbits/sec
+
+-----
+Flow Result:
+------------------------------------------------------------
+Server listening on TCP port 5001
+TCP window size: 85.3 KByte (default)
+------------------------------------------------------------
+------------------------------------------------------------
+Client connecting to 10.0.0.2, TCP port 5001
+TCP window size: 85.3 KByte (default)
+------------------------------------------------------------
+[  5] local 10.0.0.1 port 33530 connected with 10.0.0.2 port 5001 (peer 2.0.10-alpha)
+[  7] local 10.0.0.1 port 5001 connected with 10.0.0.2 port 60198
+[ ID] Interval       Transfer     Bandwidth
+[  7]  0.0- 3.0 sec  17.9 MBytes  50.2 Mbits/sec
+[  5]  0.0- 3.0 sec  18.1 MBytes  50.7 Mbits/sec
+[  5]  3.0- 6.0 sec  17.8 MBytes  49.6 Mbits/sec
+[  7]  3.0- 6.0 sec  17.9 MBytes  50.2 Mbits/sec
+[  5]  6.0- 9.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  7]  6.0- 9.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  5]  9.0-12.0 sec  18.0 MBytes  50.3 Mbits/sec
+[  7]  9.0-12.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  5] 12.0-15.0 sec  17.8 MBytes  49.6 Mbits/sec
+[  7] 12.0-15.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  7] 15.0-18.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  5] 15.0-18.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  5] 18.0-21.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  7] 18.0-21.0 sec  18.0 MBytes  50.3 Mbits/sec
+[  5] 21.0-24.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  7] 21.0-24.0 sec  17.8 MBytes  49.8 Mbits/sec
+[  5] 24.0-27.0 sec  18.0 MBytes  50.3 Mbits/sec
+[  7] 24.0-27.0 sec  17.8 MBytes  49.8 Mbits/sec
+[  5] 27.0-30.0 sec  17.8 MBytes  49.6 Mbits/sec
+[  7] 27.0-30.0 sec  18.0 MBytes  50.3 Mbits/sec
+[  5] 30.0-33.0 sec  18.0 MBytes  50.3 Mbits/sec
+[  7] 30.0-33.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  5] 33.0-36.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  7] 33.0-36.0 sec  17.8 MBytes  49.8 Mbits/sec
+[  5] 36.0-39.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  7] 36.0-39.0 sec  17.9 MBytes  50.2 Mbits/sec
+[  5] 39.0-42.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  7] 39.0-42.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  5] 42.0-45.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  7] 42.0-45.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  5] 45.0-48.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  7] 45.0-48.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  5] 48.0-51.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  7] 48.0-51.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  5] 51.0-54.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  7] 51.0-54.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  5] 54.0-57.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  7] 54.0-57.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  5]  0.0-60.0 sec   358 MBytes  50.0 Mbits/sec
+[  7]  0.0-60.0 sec   358 MBytes  50.0 Mbits/sec
+[SUM]  0.0-60.0 sec   376 MBytes  52.5 Mbits/sec
+
+-----
+Flow Result:
+------------------------------------------------------------
+Server listening on TCP port 5000
+TCP window size: 85.3 KByte (default)
+------------------------------------------------------------
+------------------------------------------------------------
+Client connecting to 10.0.0.2, TCP port 5000
+TCP window size: 85.3 KByte (default)
+------------------------------------------------------------
+[  5] local 10.0.0.1 port 34344 connected with 10.0.0.2 port 5000 (peer 2.0.10-alpha)
+[  7] local 10.0.0.1 port 5000 connected with 10.0.0.2 port 42822
+[ ID] Interval       Transfer     Bandwidth
+[  5]  0.0- 3.0 sec  18.0 MBytes  50.3 Mbits/sec
+[  7]  0.0- 3.0 sec  18.1 MBytes  50.7 Mbits/sec
+[  5]  3.0- 6.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  7]  3.0- 6.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  5]  6.0- 9.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  7]  6.0- 9.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  5]  9.0-12.0 sec  18.0 MBytes  50.3 Mbits/sec
+[  7]  9.0-12.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  5] 12.0-15.0 sec  17.8 MBytes  49.6 Mbits/sec
+[  7] 12.0-15.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  5] 15.0-18.0 sec  18.0 MBytes  50.3 Mbits/sec
+[  7] 15.0-18.0 sec  17.8 MBytes  49.8 Mbits/sec
+[  5] 18.0-21.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  7] 18.0-21.0 sec  17.9 MBytes  50.2 Mbits/sec
+[  5] 21.0-24.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  7] 21.0-24.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  5] 24.0-27.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  7] 24.0-27.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  5] 27.0-30.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  7] 27.0-30.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  5] 30.0-33.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  7] 30.0-33.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  5] 33.0-36.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  7] 33.0-36.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  5] 36.0-39.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  7] 36.0-39.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  5] 39.0-42.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  7] 39.0-42.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  5] 42.0-45.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  7] 42.0-45.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  5] 45.0-48.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  7] 45.0-48.0 sec  17.9 MBytes  50.2 Mbits/sec
+[  5] 48.0-51.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  7] 48.0-51.0 sec  17.9 MBytes  50.2 Mbits/sec
+[  5] 51.0-54.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  7] 51.0-54.0 sec  17.8 MBytes  49.6 Mbits/sec
+[  5] 54.0-57.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  7] 54.0-57.0 sec  17.9 MBytes  50.2 Mbits/sec
+[  5]  0.0-60.0 sec   358 MBytes  50.0 Mbits/sec
+[  7]  0.0-60.0 sec   358 MBytes  50.0 Mbits/sec
+[SUM]  0.0-60.0 sec   376 MBytes  52.6 Mbits/sec
+
+-----
+Flow Result:
+------------------------------------------------------------
+Server listening on TCP port 5001
+TCP window size: 85.3 KByte (default)
+------------------------------------------------------------
+------------------------------------------------------------
+Client connecting to 10.0.0.2, TCP port 5001
+TCP window size: 85.3 KByte (default)
+------------------------------------------------------------
+[  5] local 10.0.0.1 port 33538 connected with 10.0.0.2 port 5001 (peer 2.0.10-alpha)
+[  7] local 10.0.0.1 port 5001 connected with 10.0.0.2 port 60208
+[ ID] Interval       Transfer     Bandwidth
+[  5]  0.0- 3.0 sec  18.1 MBytes  50.7 Mbits/sec
+[  7]  0.0- 3.0 sec  18.0 MBytes  50.3 Mbits/sec
+[  5]  3.0- 6.0 sec  17.8 MBytes  49.6 Mbits/sec
+[  7]  3.0- 6.0 sec  17.8 MBytes  49.6 Mbits/sec
+[  5]  6.0- 9.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  7]  6.0- 9.0 sec  18.0 MBytes  50.3 Mbits/sec
+[  5]  9.0-12.0 sec  18.0 MBytes  50.3 Mbits/sec
+[  7]  9.0-12.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  5] 12.0-15.0 sec  17.8 MBytes  49.6 Mbits/sec
+[  7] 12.0-15.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  5] 15.0-18.0 sec  18.0 MBytes  50.3 Mbits/sec
+[  7] 15.0-18.0 sec  18.0 MBytes  50.3 Mbits/sec
+[  5] 18.0-21.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  7] 18.0-21.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  5] 21.0-24.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  7] 21.0-24.0 sec  17.8 MBytes  49.8 Mbits/sec
+[  5] 24.0-27.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  7] 24.0-27.0 sec  17.9 MBytes  50.2 Mbits/sec
+[  5] 27.0-30.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  7] 27.0-30.0 sec  17.8 MBytes  49.8 Mbits/sec
+[  5] 30.0-33.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  7] 30.0-33.0 sec  17.9 MBytes  50.2 Mbits/sec
+[  5] 33.0-36.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  7] 33.0-36.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  5] 36.0-39.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  7] 36.0-39.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  5] 39.0-42.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  7] 39.0-42.0 sec  17.8 MBytes  49.6 Mbits/sec
+[  5] 42.0-45.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  7] 42.0-45.0 sec  18.0 MBytes  50.3 Mbits/sec
+[  5] 45.0-48.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  7] 45.0-48.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  5] 48.0-51.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  7] 48.0-51.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  5] 51.0-54.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  7] 51.0-54.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  5] 54.0-57.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  7] 54.0-57.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  5] 57.0-60.0 sec  17.9 MBytes  50.0 Mbits/sec
+[  5]  0.0-60.0 sec   358 MBytes  50.0 Mbits/sec
+[  7]  0.0-60.0 sec   358 MBytes  50.0 Mbits/sec
+[SUM]  0.0-60.0 sec   376 MBytes  52.5 Mbits/sec
+
+-----
+End of 60 seconds run
+-----

@@ -24,7 +24,7 @@ class LinearTopology(Topo):
 
 def run_iperf_flow(h1, h2_ip, server_port, duration, interval, results_file):
     result_file = f"/tmp/iperf_flow_{server_port}.txt"
-    h1.popen(f'iperf -c {h2_ip} -p {server_port} -i {interval} -t {duration} -b 10m -d > {result_file}', shell=True)
+    h1.popen(f'iperf -c {h2_ip} -p {server_port} -i {interval} -t {duration} -b 50m -d > {result_file}', shell=True)
     time.sleep(duration + 1)  # Wait for the iperf process to finish
 
     with open(result_file, 'r') as f:
@@ -61,10 +61,10 @@ def create_linear_topology():
     net.start()
 
     # Define the number of parallel flows
-    num_flows = 4
+    num_flows = 1
 
     # Opening a file in append mode to write the results
-    with open('multi_flows(3)_updated_data', 'a') as results_file:
+    with open('single_flow_50m_data', 'a') as results_file:
         durations = [60]#, 20, 30, 40, 50, 60]
         intervals = [3]#, 1, 1.5, 2, 2.5, 3]
 

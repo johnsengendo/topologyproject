@@ -61,7 +61,7 @@ def create_linear_topology():
     net.start()
 
     # Define the number of parallel flows
-    num_flows = 1
+    num_flows = 2
 
     # Opening a file in append mode to write the results
     with open('single_flow_50m_data', 'a') as results_file:

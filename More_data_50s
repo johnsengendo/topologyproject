@@ -1,0 +1,1202 @@
+Flow Result:
+------------------------------------------------------------
+Server listening on TCP port 5000
+TCP window size: 85.3 KByte (default)
+------------------------------------------------------------
+------------------------------------------------------------
+Client connecting to 10.0.0.2, TCP port 5000
+TCP window size: 85.3 KByte (default)
+------------------------------------------------------------
+[  6] local 10.0.0.1 port 60788 connected with 10.0.0.2 port 5000 (peer 2.0.10-alpha)
+[  7] local 10.0.0.1 port 5000 connected with 10.0.0.2 port 35690
+[ ID] Interval       Transfer     Bandwidth
+[  6]  0.0- 2.5 sec  3.12 MBytes  10.5 Mbits/sec
+[  7]  0.0- 2.5 sec  3.00 MBytes  10.1 Mbits/sec
+[  6]  2.5- 5.0 sec  3.00 MBytes  10.1 Mbits/sec
+[  7]  2.5- 5.0 sec  3.00 MBytes  10.1 Mbits/sec
+[  6]  5.0- 7.5 sec  3.00 MBytes  10.1 Mbits/sec
+[  7]  5.0- 7.5 sec  3.00 MBytes  10.1 Mbits/sec
+[  6]  7.5-10.0 sec  3.00 MBytes  10.1 Mbits/sec
+[  7]  7.5-10.0 sec  3.00 MBytes  10.1 Mbits/sec
+[  6] 10.0-12.5 sec  3.00 MBytes  10.1 Mbits/sec
+[  7] 10.0-12.5 sec  3.00 MBytes  10.1 Mbits/sec
+[  6] 12.5-15.0 sec  3.00 MBytes  10.1 Mbits/sec
+[  7] 12.5-15.0 sec  3.00 MBytes  10.1 Mbits/sec
+[  6] 15.0-17.5 sec  2.88 MBytes  9.65 Mbits/sec
+[  7] 15.0-17.5 sec  3.00 MBytes  10.1 Mbits/sec
+[  6] 17.5-20.0 sec  3.00 MBytes  10.1 Mbits/sec
+[  7] 17.5-20.0 sec  2.88 MBytes  9.65 Mbits/sec
+[  6] 20.0-22.5 sec  3.00 MBytes  10.1 Mbits/sec
+[  7] 20.0-22.5 sec  3.00 MBytes  10.1 Mbits/sec
+[  6] 22.5-25.0 sec  3.00 MBytes  10.1 Mbits/sec
+[  7] 22.5-25.0 sec  3.00 MBytes  10.1 Mbits/sec
+[  6] 25.0-27.5 sec  3.00 MBytes  10.1 Mbits/sec
+[  7] 25.0-27.5 sec  3.00 MBytes  10.1 Mbits/sec
+[  6] 27.5-30.0 sec  3.00 MBytes  10.1 Mbits/sec
+[  7] 27.5-30.0 sec  3.00 MBytes  10.1 Mbits/sec
+[  6] 30.0-32.5 sec  2.88 MBytes  9.65 Mbits/sec
+[  7] 30.0-32.5 sec  3.00 MBytes  10.1 Mbits/sec
+[  6] 32.5-35.0 sec  3.00 MBytes  10.1 Mbits/sec
+[  7] 32.5-35.0 sec  2.88 MBytes  9.65 Mbits/sec
+[  6] 35.0-37.5 sec  3.00 MBytes  10.1 Mbits/sec
+[  7] 35.0-37.5 sec  3.00 MBytes  10.1 Mbits/sec
+[  6] 37.5-40.0 sec  3.00 MBytes  10.1 Mbits/sec
+[  7] 37.5-40.0 sec  3.00 MBytes  10.1 Mbits/sec
+[  6] 40.0-42.5 sec  3.00 MBytes  10.1 Mbits/sec
+[  7] 40.0-42.5 sec  3.00 MBytes  10.1 Mbits/sec
+[  6] 42.5-45.0 sec  3.00 MBytes  10.1 Mbits/sec
+[  7] 42.5-45.0 sec  3.00 MBytes  10.1 Mbits/sec
+[  6] 45.0-47.5 sec  2.88 MBytes  9.65 Mbits/sec
+[  7] 45.0-47.5 sec  3.00 MBytes  10.1 Mbits/sec
+[  6]  0.0-50.0 sec  59.6 MBytes  10.0 Mbits/sec
+[  7] 47.5-50.0 sec  2.87 MBytes  9.64 Mbits/sec
+[  7]  0.0-50.0 sec  59.6 MBytes  10.0 Mbits/sec
+[SUM]  0.0-50.0 sec  62.6 MBytes  10.5 Mbits/sec
+
+-----
+Duration: 2.5 seconds
+Transferred Data: 3.0 MBytes
+Average Bandwidth: 10.1 Mbits/sec
+Direction: uplink
+Flow Result:
+------------------------------------------------------------
+Server listening on TCP port 5000
+TCP window size: 85.3 KByte (default)
+------------------------------------------------------------
+------------------------------------------------------------
+Client connecting to 10.0.0.2, TCP port 5000
+TCP window size: 85.3 KByte (default)
+------------------------------------------------------------
+[  6] local 10.0.0.1 port 60792 connected with 10.0.0.2 port 5000 (peer 2.0.10-alpha)
+[  7] local 10.0.0.1 port 5000 connected with 10.0.0.2 port 35694
+[ ID] Interval       Transfer     Bandwidth
+[  6]  0.0- 2.5 sec  3.12 MBytes  10.5 Mbits/sec
+[  7]  0.0- 2.5 sec  3.00 MBytes  10.1 Mbits/sec
+[  6]  2.5- 5.0 sec  3.00 MBytes  10.1 Mbits/sec
+[  7]  2.5- 5.0 sec  3.00 MBytes  10.1 Mbits/sec
+[  6]  5.0- 7.5 sec  3.00 MBytes  10.1 Mbits/sec
+[  7]  5.0- 7.5 sec  3.00 MBytes  10.1 Mbits/sec
+[  6]  7.5-10.0 sec  3.00 MBytes  10.1 Mbits/sec
+[  7]  7.5-10.0 sec  3.00 MBytes  10.1 Mbits/sec
+[  6] 10.0-12.5 sec  3.00 MBytes  10.1 Mbits/sec
+[  7] 10.0-12.5 sec  3.00 MBytes  10.1 Mbits/sec
+[  6] 12.5-15.0 sec  3.00 MBytes  10.1 Mbits/sec
+[  7] 12.5-15.0 sec  3.00 MBytes  10.1 Mbits/sec
+[  6] 15.0-17.5 sec  2.88 MBytes  9.65 Mbits/sec
+[  7] 15.0-17.5 sec  2.88 MBytes  9.65 Mbits/sec
+[  6] 17.5-20.0 sec  3.00 MBytes  10.1 Mbits/sec
+[  7] 17.5-20.0 sec  3.00 MBytes  10.1 Mbits/sec
+[  6] 20.0-22.5 sec  3.00 MBytes  10.1 Mbits/sec
+[  7] 20.0-22.5 sec  3.00 MBytes  10.1 Mbits/sec
+[  6] 22.5-25.0 sec  3.00 MBytes  10.1 Mbits/sec
+[  7] 22.5-25.0 sec  3.00 MBytes  10.1 Mbits/sec
+[  6] 25.0-27.5 sec  3.00 MBytes  10.1 Mbits/sec
+[  7] 25.0-27.5 sec  3.00 MBytes  10.1 Mbits/sec
+[  6] 27.5-30.0 sec  3.00 MBytes  10.1 Mbits/sec
+[  7] 27.5-30.0 sec  3.00 MBytes  10.1 Mbits/sec
+[  6] 30.0-32.5 sec  2.88 MBytes  9.65 Mbits/sec
+[  7] 30.0-32.5 sec  2.88 MBytes  9.65 Mbits/sec
+[  6] 32.5-35.0 sec  3.00 MBytes  10.1 Mbits/sec
+[  7] 32.5-35.0 sec  3.00 MBytes  10.1 Mbits/sec
+[  6] 35.0-37.5 sec  3.00 MBytes  10.1 Mbits/sec
+[  7] 35.0-37.5 sec  3.00 MBytes  10.1 Mbits/sec
+[  6] 37.5-40.0 sec  3.00 MBytes  10.1 Mbits/sec
+[  7] 37.5-40.0 sec  3.00 MBytes  10.1 Mbits/sec
+[  6] 40.0-42.5 sec  3.00 MBytes  10.1 Mbits/sec
+[  7] 40.0-42.5 sec  3.00 MBytes  10.1 Mbits/sec
+[  6] 42.5-45.0 sec  3.00 MBytes  10.1 Mbits/sec
+[  7] 42.5-45.0 sec  3.00 MBytes  10.1 Mbits/sec
+[  6] 45.0-47.5 sec  2.88 MBytes  9.65 Mbits/sec
+[  7] 45.0-47.5 sec  3.00 MBytes  10.1 Mbits/sec
+[  6]  0.0-50.0 sec  59.6 MBytes  10.0 Mbits/sec
+[  7] 47.5-50.0 sec  2.87 MBytes  9.64 Mbits/sec
+[  7]  0.0-50.0 sec  59.6 MBytes  10.0 Mbits/sec
+[SUM]  0.0-50.0 sec  62.6 MBytes  10.5 Mbits/sec
+
+-----
+Duration: 2.5 seconds
+Transferred Data: 3.0 MBytes
+Average Bandwidth: 10.1 Mbits/sec
+Direction: uplink
+Flow Result:
+------------------------------------------------------------
+Server listening on TCP port 5000
+TCP window size: 85.3 KByte (default)
+------------------------------------------------------------
+------------------------------------------------------------
+Client connecting to 10.0.0.2, TCP port 5000
+TCP window size: 85.3 KByte (default)
+------------------------------------------------------------
+[  6] local 10.0.0.1 port 60796 connected with 10.0.0.2 port 5000 (peer 2.0.10-alpha)
+[  7] local 10.0.0.1 port 5000 connected with 10.0.0.2 port 35698
+[ ID] Interval       Transfer     Bandwidth
+[  6]  0.0- 2.5 sec  3.12 MBytes  10.5 Mbits/sec
+[  7]  0.0- 2.5 sec  3.00 MBytes  10.1 Mbits/sec
+[  6]  2.5- 5.0 sec  3.00 MBytes  10.1 Mbits/sec
+[  7]  2.5- 5.0 sec  3.00 MBytes  10.1 Mbits/sec
+[  6]  5.0- 7.5 sec  3.00 MBytes  10.1 Mbits/sec
+[  7]  5.0- 7.5 sec  3.00 MBytes  10.1 Mbits/sec
+[  6]  7.5-10.0 sec  3.00 MBytes  10.1 Mbits/sec
+[  7]  7.5-10.0 sec  3.00 MBytes  10.1 Mbits/sec
+[  6] 10.0-12.5 sec  3.00 MBytes  10.1 Mbits/sec
+[  7] 10.0-12.5 sec  3.00 MBytes  10.1 Mbits/sec
+[  6] 12.5-15.0 sec  3.00 MBytes  10.1 Mbits/sec
+[  7] 12.5-15.0 sec  3.00 MBytes  10.1 Mbits/sec
+[  6] 15.0-17.5 sec  2.88 MBytes  9.65 Mbits/sec
+[  7] 15.0-17.5 sec  2.88 MBytes  9.65 Mbits/sec
+[  6] 17.5-20.0 sec  3.00 MBytes  10.1 Mbits/sec
+[  7] 17.5-20.0 sec  3.00 MBytes  10.1 Mbits/sec
+[  6] 20.0-22.5 sec  3.00 MBytes  10.1 Mbits/sec
+[  7] 20.0-22.5 sec  3.00 MBytes  10.1 Mbits/sec
+[  6] 22.5-25.0 sec  3.00 MBytes  10.1 Mbits/sec
+[  7] 22.5-25.0 sec  3.00 MBytes  10.1 Mbits/sec
+[  6] 25.0-27.5 sec  3.00 MBytes  10.1 Mbits/sec
+[  7] 25.0-27.5 sec  3.00 MBytes  10.1 Mbits/sec
+[  6] 27.5-30.0 sec  3.00 MBytes  10.1 Mbits/sec
+[  7] 27.5-30.0 sec  3.00 MBytes  10.1 Mbits/sec
+[  6] 30.0-32.5 sec  2.88 MBytes  9.65 Mbits/sec
+[  7] 30.0-32.5 sec  3.00 MBytes  10.1 Mbits/sec
+[  6] 32.5-35.0 sec  3.00 MBytes  10.1 Mbits/sec
+[  7] 32.5-35.0 sec  2.88 MBytes  9.65 Mbits/sec
+[  6] 35.0-37.5 sec  3.00 MBytes  10.1 Mbits/sec
+[  7] 35.0-37.5 sec  3.00 MBytes  10.1 Mbits/sec
+[  6] 37.5-40.0 sec  3.00 MBytes  10.1 Mbits/sec
+[  7] 37.5-40.0 sec  3.00 MBytes  10.1 Mbits/sec
+[  6] 40.0-42.5 sec  3.00 MBytes  10.1 Mbits/sec
+[  7] 40.0-42.5 sec  3.00 MBytes  10.1 Mbits/sec
+[  6] 42.5-45.0 sec  3.00 MBytes  10.1 Mbits/sec
+[  7] 42.5-45.0 sec  3.00 MBytes  10.1 Mbits/sec
+[  6] 45.0-47.5 sec  2.88 MBytes  9.65 Mbits/sec
+[  7] 45.0-47.5 sec  3.00 MBytes  10.1 Mbits/sec
+[  6]  0.0-50.0 sec  59.6 MBytes  10.0 Mbits/sec
+[  7] 47.5-50.0 sec  2.87 MBytes  9.64 Mbits/sec
+[  7]  0.0-50.0 sec  59.6 MBytes  10.0 Mbits/sec
+[SUM]  0.0-50.0 sec  62.6 MBytes  10.5 Mbits/sec
+
+-----
+Duration: 2.5 seconds
+Transferred Data: 3.0 MBytes
+Average Bandwidth: 10.1 Mbits/sec
+Direction: uplink
+Flow Result:
+------------------------------------------------------------
+Server listening on TCP port 5000
+TCP window size: 85.3 KByte (default)
+------------------------------------------------------------
+------------------------------------------------------------
+Client connecting to 10.0.0.2, TCP port 5000
+TCP window size: 85.3 KByte (default)
+------------------------------------------------------------
+[  6] local 10.0.0.1 port 60800 connected with 10.0.0.2 port 5000 (peer 2.0.10-alpha)
+[  7] local 10.0.0.1 port 5000 connected with 10.0.0.2 port 35702
+[ ID] Interval       Transfer     Bandwidth
+[  6]  0.0- 2.5 sec  3.12 MBytes  10.5 Mbits/sec
+[  7]  0.0- 2.5 sec  3.00 MBytes  10.1 Mbits/sec
+[  6]  2.5- 5.0 sec  3.00 MBytes  10.1 Mbits/sec
+[  7]  2.5- 5.0 sec  3.00 MBytes  10.1 Mbits/sec
+[  6]  5.0- 7.5 sec  3.00 MBytes  10.1 Mbits/sec
+[  7]  5.0- 7.5 sec  3.00 MBytes  10.1 Mbits/sec
+[  6]  7.5-10.0 sec  3.00 MBytes  10.1 Mbits/sec
+[  7]  7.5-10.0 sec  3.00 MBytes  10.1 Mbits/sec
+[  6] 10.0-12.5 sec  3.00 MBytes  10.1 Mbits/sec
+[  7] 10.0-12.5 sec  3.00 MBytes  10.1 Mbits/sec
+[  6] 12.5-15.0 sec  3.00 MBytes  10.1 Mbits/sec
+[  7] 12.5-15.0 sec  3.00 MBytes  10.1 Mbits/sec
+[  6] 15.0-17.5 sec  2.88 MBytes  9.65 Mbits/sec
+[  7] 15.0-17.5 sec  2.88 MBytes  9.65 Mbits/sec
+[  6] 17.5-20.0 sec  3.00 MBytes  10.1 Mbits/sec
+[  7] 17.5-20.0 sec  3.00 MBytes  10.1 Mbits/sec
+[  6] 20.0-22.5 sec  3.00 MBytes  10.1 Mbits/sec
+[  7] 20.0-22.5 sec  3.00 MBytes  10.1 Mbits/sec
+[  6] 22.5-25.0 sec  3.00 MBytes  10.1 Mbits/sec
+[  7] 22.5-25.0 sec  3.00 MBytes  10.1 Mbits/sec
+[  6] 25.0-27.5 sec  3.00 MBytes  10.1 Mbits/sec
+[  7] 25.0-27.5 sec  3.00 MBytes  10.1 Mbits/sec
+[  6] 27.5-30.0 sec  3.00 MBytes  10.1 Mbits/sec
+[  7] 27.5-30.0 sec  3.00 MBytes  10.1 Mbits/sec
+[  6] 30.0-32.5 sec  2.88 MBytes  9.65 Mbits/sec
+[  7] 30.0-32.5 sec  2.88 MBytes  9.65 Mbits/sec
+[  6] 32.5-35.0 sec  3.00 MBytes  10.1 Mbits/sec
+[  7] 32.5-35.0 sec  3.00 MBytes  10.1 Mbits/sec
+[  6] 35.0-37.5 sec  3.00 MBytes  10.1 Mbits/sec
+[  7] 35.0-37.5 sec  3.00 MBytes  10.1 Mbits/sec
+[  6] 37.5-40.0 sec  3.00 MBytes  10.1 Mbits/sec
+[  7] 37.5-40.0 sec  3.00 MBytes  10.1 Mbits/sec
+[  6] 40.0-42.5 sec  3.00 MBytes  10.1 Mbits/sec
+[  7] 40.0-42.5 sec  3.00 MBytes  10.1 Mbits/sec
+[  6] 42.5-45.0 sec  3.00 MBytes  10.1 Mbits/sec
+[  7] 42.5-45.0 sec  3.00 MBytes  10.1 Mbits/sec
+[  6] 45.0-47.5 sec  2.88 MBytes  9.65 Mbits/sec
+[  7] 45.0-47.5 sec  3.00 MBytes  10.1 Mbits/sec
+[  6]  0.0-50.0 sec  59.6 MBytes  10.0 Mbits/sec
+[  7] 47.5-50.0 sec  2.87 MBytes  9.64 Mbits/sec
+[  7]  0.0-50.0 sec  59.6 MBytes  10.0 Mbits/sec
+[SUM]  0.0-50.0 sec  62.6 MBytes  10.5 Mbits/sec
+
+-----
+Duration: 2.5 seconds
+Transferred Data: 3.0 MBytes
+Average Bandwidth: 10.1 Mbits/sec
+Direction: uplink
+Flow Result:
+------------------------------------------------------------
+Server listening on TCP port 5000
+TCP window size: 85.3 KByte (default)
+------------------------------------------------------------
+------------------------------------------------------------
+Client connecting to 10.0.0.2, TCP port 5000
+TCP window size: 85.3 KByte (default)
+------------------------------------------------------------
+[  6] local 10.0.0.1 port 60804 connected with 10.0.0.2 port 5000 (peer 2.0.10-alpha)
+[  7] local 10.0.0.1 port 5000 connected with 10.0.0.2 port 35706
+[ ID] Interval       Transfer     Bandwidth
+[  6]  0.0- 2.5 sec  3.12 MBytes  10.5 Mbits/sec
+[  7]  0.0- 2.5 sec  3.00 MBytes  10.1 Mbits/sec
+[  6]  2.5- 5.0 sec  3.00 MBytes  10.1 Mbits/sec
+[  7]  2.5- 5.0 sec  3.00 MBytes  10.1 Mbits/sec
+[  6]  5.0- 7.5 sec  3.00 MBytes  10.1 Mbits/sec
+[  7]  5.0- 7.5 sec  3.00 MBytes  10.1 Mbits/sec
+[  6]  7.5-10.0 sec  3.00 MBytes  10.1 Mbits/sec
+[  7]  7.5-10.0 sec  3.00 MBytes  10.1 Mbits/sec
+[  6] 10.0-12.5 sec  3.00 MBytes  10.1 Mbits/sec
+[  7] 10.0-12.5 sec  3.00 MBytes  10.1 Mbits/sec
+[  6] 12.5-15.0 sec  3.00 MBytes  10.1 Mbits/sec
+[  7] 12.5-15.0 sec  3.00 MBytes  10.1 Mbits/sec
+[  6] 15.0-17.5 sec  2.88 MBytes  9.65 Mbits/sec
+[  7] 15.0-17.5 sec  2.88 MBytes  9.65 Mbits/sec
+[  6] 17.5-20.0 sec  3.00 MBytes  10.1 Mbits/sec
+[  7] 17.5-20.0 sec  3.00 MBytes  10.1 Mbits/sec
+[  6] 20.0-22.5 sec  3.00 MBytes  10.1 Mbits/sec
+[  7] 20.0-22.5 sec  3.00 MBytes  10.1 Mbits/sec
+[  6] 22.5-25.0 sec  3.00 MBytes  10.1 Mbits/sec
+[  7] 22.5-25.0 sec  3.00 MBytes  10.1 Mbits/sec
+[  6] 25.0-27.5 sec  3.00 MBytes  10.1 Mbits/sec
+[  7] 25.0-27.5 sec  3.00 MBytes  10.1 Mbits/sec
+[  6] 27.5-30.0 sec  3.00 MBytes  10.1 Mbits/sec
+[  7] 27.5-30.0 sec  3.00 MBytes  10.1 Mbits/sec
+[  6] 30.0-32.5 sec  2.88 MBytes  9.65 Mbits/sec
+[  7] 30.0-32.5 sec  2.88 MBytes  9.65 Mbits/sec
+[  6] 32.5-35.0 sec  3.00 MBytes  10.1 Mbits/sec
+[  7] 32.5-35.0 sec  3.00 MBytes  10.1 Mbits/sec
+[  6] 35.0-37.5 sec  3.00 MBytes  10.1 Mbits/sec
+[  7] 35.0-37.5 sec  3.00 MBytes  10.1 Mbits/sec
+[  6] 37.5-40.0 sec  3.00 MBytes  10.1 Mbits/sec
+[  7] 37.5-40.0 sec  3.00 MBytes  10.1 Mbits/sec
+[  6] 40.0-42.5 sec  3.00 MBytes  10.1 Mbits/sec
+[  7] 40.0-42.5 sec  3.00 MBytes  10.1 Mbits/sec
+[  6] 42.5-45.0 sec  3.00 MBytes  10.1 Mbits/sec
+[  7] 42.5-45.0 sec  3.00 MBytes  10.1 Mbits/sec
+[  6] 45.0-47.5 sec  2.88 MBytes  9.65 Mbits/sec
+[  7] 45.0-47.5 sec  2.88 MBytes  9.65 Mbits/sec
+[  6]  0.0-50.0 sec  59.6 MBytes  10.0 Mbits/sec
+[  7] 47.5-50.0 sec  3.00 MBytes  10.1 Mbits/sec
+[  7]  0.0-50.0 sec  59.6 MBytes  10.0 Mbits/sec
+[SUM]  0.0-50.0 sec  62.6 MBytes  10.5 Mbits/sec
+
+-----
+Duration: 2.5 seconds
+Transferred Data: 3.0 MBytes
+Average Bandwidth: 10.1 Mbits/sec
+Direction: uplink
+Flow Result:
+------------------------------------------------------------
+Server listening on TCP port 5000
+TCP window size: 85.3 KByte (default)
+------------------------------------------------------------
+------------------------------------------------------------
+Client connecting to 10.0.0.2, TCP port 5000
+TCP window size: 85.3 KByte (default)
+------------------------------------------------------------
+[  6] local 10.0.0.1 port 60808 connected with 10.0.0.2 port 5000 (peer 2.0.10-alpha)
+[  7] local 10.0.0.1 port 5000 connected with 10.0.0.2 port 35710
+[ ID] Interval       Transfer     Bandwidth
+[  6]  0.0- 2.5 sec  3.12 MBytes  10.5 Mbits/sec
+[  7]  0.0- 2.5 sec  3.00 MBytes  10.1 Mbits/sec
+[  6]  2.5- 5.0 sec  3.00 MBytes  10.1 Mbits/sec
+[  7]  2.5- 5.0 sec  3.00 MBytes  10.1 Mbits/sec
+[  6]  5.0- 7.5 sec  3.00 MBytes  10.1 Mbits/sec
+[  7]  5.0- 7.5 sec  3.00 MBytes  10.1 Mbits/sec
+[  6]  7.5-10.0 sec  3.00 MBytes  10.1 Mbits/sec
+[  7]  7.5-10.0 sec  3.00 MBytes  10.1 Mbits/sec
+[  6] 10.0-12.5 sec  3.00 MBytes  10.1 Mbits/sec
+[  7] 10.0-12.5 sec  3.00 MBytes  10.1 Mbits/sec
+[  6] 12.5-15.0 sec  3.00 MBytes  10.1 Mbits/sec
+[  7] 12.5-15.0 sec  3.00 MBytes  10.1 Mbits/sec
+[  6] 15.0-17.5 sec  2.88 MBytes  9.65 Mbits/sec
+[  7] 15.0-17.5 sec  2.88 MBytes  9.65 Mbits/sec
+[  6] 17.5-20.0 sec  3.00 MBytes  10.1 Mbits/sec
+[  7] 17.5-20.0 sec  3.00 MBytes  10.1 Mbits/sec
+[  6] 20.0-22.5 sec  3.00 MBytes  10.1 Mbits/sec
+[  7] 20.0-22.5 sec  3.00 MBytes  10.1 Mbits/sec
+[  6] 22.5-25.0 sec  3.00 MBytes  10.1 Mbits/sec
+[  7] 22.5-25.0 sec  3.00 MBytes  10.1 Mbits/sec
+[  6] 25.0-27.5 sec  3.00 MBytes  10.1 Mbits/sec
+[  7] 25.0-27.5 sec  3.00 MBytes  10.1 Mbits/sec
+[  6] 27.5-30.0 sec  3.00 MBytes  10.1 Mbits/sec
+[  7] 27.5-30.0 sec  3.00 MBytes  10.1 Mbits/sec
+[  6] 30.0-32.5 sec  2.88 MBytes  9.65 Mbits/sec
+[  7] 30.0-32.5 sec  2.88 MBytes  9.65 Mbits/sec
+[  6] 32.5-35.0 sec  3.00 MBytes  10.1 Mbits/sec
+[  7] 32.5-35.0 sec  3.00 MBytes  10.1 Mbits/sec
+[  6] 35.0-37.5 sec  3.00 MBytes  10.1 Mbits/sec
+[  7] 35.0-37.5 sec  3.00 MBytes  10.1 Mbits/sec
+[  6] 37.5-40.0 sec  3.00 MBytes  10.1 Mbits/sec
+[  7] 37.5-40.0 sec  3.00 MBytes  10.1 Mbits/sec
+[  6] 40.0-42.5 sec  3.00 MBytes  10.1 Mbits/sec
+[  7] 40.0-42.5 sec  3.00 MBytes  10.1 Mbits/sec
+[  6] 42.5-45.0 sec  3.00 MBytes  10.1 Mbits/sec
+[  7] 42.5-45.0 sec  3.00 MBytes  10.1 Mbits/sec
+[  6] 45.0-47.5 sec  2.88 MBytes  9.65 Mbits/sec
+[  7] 45.0-47.5 sec  2.88 MBytes  9.65 Mbits/sec
+[  6]  0.0-50.0 sec  59.6 MBytes  10.0 Mbits/sec
+[  7] 47.5-50.0 sec  3.00 MBytes  10.1 Mbits/sec
+[  7]  0.0-50.0 sec  59.6 MBytes  10.0 Mbits/sec
+[SUM]  0.0-50.0 sec  62.6 MBytes  10.5 Mbits/sec
+
+-----
+Duration: 2.5 seconds
+Transferred Data: 3.0 MBytes
+Average Bandwidth: 10.1 Mbits/sec
+Direction: uplink
+Flow Result:
+------------------------------------------------------------
+Server listening on TCP port 5000
+TCP window size: 85.3 KByte (default)
+------------------------------------------------------------
+------------------------------------------------------------
+Client connecting to 10.0.0.2, TCP port 5000
+TCP window size: 85.3 KByte (default)
+------------------------------------------------------------
+[  5] local 10.0.0.1 port 60812 connected with 10.0.0.2 port 5000 (peer 2.0.10-alpha)
+[  7] local 10.0.0.1 port 5000 connected with 10.0.0.2 port 35714
+[ ID] Interval       Transfer     Bandwidth
+[  5]  0.0- 2.5 sec  3.12 MBytes  10.5 Mbits/sec
+[  7]  0.0- 2.5 sec  3.00 MBytes  10.1 Mbits/sec
+[  5]  2.5- 5.0 sec  3.00 MBytes  10.1 Mbits/sec
+[  7]  2.5- 5.0 sec  3.00 MBytes  10.1 Mbits/sec
+[  5]  5.0- 7.5 sec  3.00 MBytes  10.1 Mbits/sec
+[  7]  5.0- 7.5 sec  3.00 MBytes  10.1 Mbits/sec
+[  5]  7.5-10.0 sec  3.00 MBytes  10.1 Mbits/sec
+[  7]  7.5-10.0 sec  3.00 MBytes  10.1 Mbits/sec
+[  5] 10.0-12.5 sec  3.00 MBytes  10.1 Mbits/sec
+[  7] 10.0-12.5 sec  3.00 MBytes  10.1 Mbits/sec
+[  5] 12.5-15.0 sec  3.00 MBytes  10.1 Mbits/sec
+[  7] 12.5-15.0 sec  3.00 MBytes  10.1 Mbits/sec
+[  5] 15.0-17.5 sec  2.88 MBytes  9.65 Mbits/sec
+[  7] 15.0-17.5 sec  2.88 MBytes  9.65 Mbits/sec
+[  5] 17.5-20.0 sec  3.00 MBytes  10.1 Mbits/sec
+[  7] 17.5-20.0 sec  3.00 MBytes  10.1 Mbits/sec
+[  5] 20.0-22.5 sec  3.00 MBytes  10.1 Mbits/sec
+[  7] 20.0-22.5 sec  3.00 MBytes  10.1 Mbits/sec
+[  5] 22.5-25.0 sec  3.00 MBytes  10.1 Mbits/sec
+[  7] 22.5-25.0 sec  3.00 MBytes  10.1 Mbits/sec
+[  5] 25.0-27.5 sec  3.00 MBytes  10.1 Mbits/sec
+[  7] 25.0-27.5 sec  3.00 MBytes  10.1 Mbits/sec
+[  5] 27.5-30.0 sec  3.00 MBytes  10.1 Mbits/sec
+[  7] 27.5-30.0 sec  3.00 MBytes  10.1 Mbits/sec
+[  5] 30.0-32.5 sec  2.88 MBytes  9.65 Mbits/sec
+[  7] 30.0-32.5 sec  2.88 MBytes  9.65 Mbits/sec
+[  5] 32.5-35.0 sec  3.00 MBytes  10.1 Mbits/sec
+[  7] 32.5-35.0 sec  3.00 MBytes  10.1 Mbits/sec
+[  5] 35.0-37.5 sec  3.00 MBytes  10.1 Mbits/sec
+[  7] 35.0-37.5 sec  3.00 MBytes  10.1 Mbits/sec
+[  5] 37.5-40.0 sec  3.00 MBytes  10.1 Mbits/sec
+[  7] 37.5-40.0 sec  3.00 MBytes  10.1 Mbits/sec
+[  5] 40.0-42.5 sec  3.00 MBytes  10.1 Mbits/sec
+[  7] 40.0-42.5 sec  3.00 MBytes  10.1 Mbits/sec
+[  5] 42.5-45.0 sec  3.00 MBytes  10.1 Mbits/sec
+[  7] 42.5-45.0 sec  3.00 MBytes  10.1 Mbits/sec
+[  5] 45.0-47.5 sec  2.88 MBytes  9.65 Mbits/sec
+[  7] 45.0-47.5 sec  2.88 MBytes  9.65 Mbits/sec
+[  5]  0.0-50.0 sec  59.6 MBytes  10.0 Mbits/sec
+[  7] 47.5-50.0 sec  3.00 MBytes  10.1 Mbits/sec
+[  7]  0.0-50.0 sec  59.6 MBytes  10.0 Mbits/sec
+[SUM]  0.0-50.0 sec  62.6 MBytes  10.5 Mbits/sec
+
+-----
+Duration: 2.5 seconds
+Transferred Data: 3.0 MBytes
+Average Bandwidth: 10.1 Mbits/sec
+Direction: uplink
+Flow Result:
+------------------------------------------------------------
+Server listening on TCP port 5000
+TCP window size: 85.3 KByte (default)
+------------------------------------------------------------
+------------------------------------------------------------
+Client connecting to 10.0.0.2, TCP port 5000
+TCP window size: 85.3 KByte (default)
+------------------------------------------------------------
+[  6] local 10.0.0.1 port 60816 connected with 10.0.0.2 port 5000 (peer 2.0.10-alpha)
+[  7] local 10.0.0.1 port 5000 connected with 10.0.0.2 port 35718
+[ ID] Interval       Transfer     Bandwidth
+[  6]  0.0- 2.5 sec  3.12 MBytes  10.5 Mbits/sec
+[  7]  0.0- 2.5 sec  3.00 MBytes  10.1 Mbits/sec
+[  6]  2.5- 5.0 sec  3.00 MBytes  10.1 Mbits/sec
+[  7]  2.5- 5.0 sec  3.00 MBytes  10.1 Mbits/sec
+[  6]  5.0- 7.5 sec  3.00 MBytes  10.1 Mbits/sec
+[  7]  5.0- 7.5 sec  3.00 MBytes  10.1 Mbits/sec
+[  6]  7.5-10.0 sec  3.00 MBytes  10.1 Mbits/sec
+[  7]  7.5-10.0 sec  3.00 MBytes  10.1 Mbits/sec
+[  6] 10.0-12.5 sec  3.00 MBytes  10.1 Mbits/sec
+[  7] 10.0-12.5 sec  3.00 MBytes  10.1 Mbits/sec
+[  6] 12.5-15.0 sec  3.00 MBytes  10.1 Mbits/sec
+[  7] 12.5-15.0 sec  3.00 MBytes  10.1 Mbits/sec
+[  6] 15.0-17.5 sec  2.88 MBytes  9.65 Mbits/sec
+[  7] 15.0-17.5 sec  2.88 MBytes  9.65 Mbits/sec
+[  6] 17.5-20.0 sec  3.00 MBytes  10.1 Mbits/sec
+[  7] 17.5-20.0 sec  3.00 MBytes  10.1 Mbits/sec
+[  6] 20.0-22.5 sec  3.00 MBytes  10.1 Mbits/sec
+[  7] 20.0-22.5 sec  3.00 MBytes  10.1 Mbits/sec
+[  6] 22.5-25.0 sec  3.00 MBytes  10.1 Mbits/sec
+[  7] 22.5-25.0 sec  3.00 MBytes  10.1 Mbits/sec
+[  6] 25.0-27.5 sec  3.00 MBytes  10.1 Mbits/sec
+[  7] 25.0-27.5 sec  3.00 MBytes  10.1 Mbits/sec
+[  6] 27.5-30.0 sec  3.00 MBytes  10.1 Mbits/sec
+[  7] 27.5-30.0 sec  3.00 MBytes  10.1 Mbits/sec
+[  6] 30.0-32.5 sec  2.88 MBytes  9.65 Mbits/sec
+[  7] 30.0-32.5 sec  2.88 MBytes  9.65 Mbits/sec
+[  6] 32.5-35.0 sec  3.00 MBytes  10.1 Mbits/sec
+[  7] 32.5-35.0 sec  3.00 MBytes  10.1 Mbits/sec
+[  6] 35.0-37.5 sec  3.00 MBytes  10.1 Mbits/sec
+[  7] 35.0-37.5 sec  3.00 MBytes  10.1 Mbits/sec
+[  6] 37.5-40.0 sec  3.00 MBytes  10.1 Mbits/sec
+[  7] 37.5-40.0 sec  3.00 MBytes  10.1 Mbits/sec
+[  6] 40.0-42.5 sec  3.00 MBytes  10.1 Mbits/sec
+[  7] 40.0-42.5 sec  3.00 MBytes  10.1 Mbits/sec
+[  6] 42.5-45.0 sec  3.00 MBytes  10.1 Mbits/sec
+[  7] 42.5-45.0 sec  3.00 MBytes  10.1 Mbits/sec
+[  6] 45.0-47.5 sec  2.88 MBytes  9.65 Mbits/sec
+[  7] 45.0-47.5 sec  3.00 MBytes  10.1 Mbits/sec
+[  6]  0.0-50.0 sec  59.6 MBytes  10.0 Mbits/sec
+[  7] 47.5-50.0 sec  2.87 MBytes  9.64 Mbits/sec
+[  7]  0.0-50.0 sec  59.6 MBytes  10.0 Mbits/sec
+[SUM]  0.0-50.0 sec  62.6 MBytes  10.5 Mbits/sec
+
+-----
+Duration: 2.5 seconds
+Transferred Data: 3.0 MBytes
+Average Bandwidth: 10.1 Mbits/sec
+Direction: uplink
+Flow Result:
+------------------------------------------------------------
+Server listening on TCP port 5000
+TCP window size: 85.3 KByte (default)
+------------------------------------------------------------
+------------------------------------------------------------
+Client connecting to 10.0.0.2, TCP port 5000
+TCP window size: 85.3 KByte (default)
+------------------------------------------------------------
+[  6] local 10.0.0.1 port 60820 connected with 10.0.0.2 port 5000 (peer 2.0.10-alpha)
+[  7] local 10.0.0.1 port 5000 connected with 10.0.0.2 port 35722
+[ ID] Interval       Transfer     Bandwidth
+[  6]  0.0- 2.5 sec  3.12 MBytes  10.5 Mbits/sec
+[  7]  0.0- 2.5 sec  3.00 MBytes  10.1 Mbits/sec
+[  6]  2.5- 5.0 sec  3.00 MBytes  10.1 Mbits/sec
+[  7]  2.5- 5.0 sec  3.00 MBytes  10.1 Mbits/sec
+[  6]  5.0- 7.5 sec  3.00 MBytes  10.1 Mbits/sec
+[  7]  5.0- 7.5 sec  3.00 MBytes  10.1 Mbits/sec
+[  6]  7.5-10.0 sec  3.00 MBytes  10.1 Mbits/sec
+[  7]  7.5-10.0 sec  3.00 MBytes  10.1 Mbits/sec
+[  6] 10.0-12.5 sec  3.00 MBytes  10.1 Mbits/sec
+[  7] 10.0-12.5 sec  3.00 MBytes  10.1 Mbits/sec
+[  6] 12.5-15.0 sec  3.00 MBytes  10.1 Mbits/sec
+[  7] 12.5-15.0 sec  3.00 MBytes  10.1 Mbits/sec
+[  6] 15.0-17.5 sec  2.88 MBytes  9.65 Mbits/sec
+[  7] 15.0-17.5 sec  2.88 MBytes  9.65 Mbits/sec
+[  6] 17.5-20.0 sec  3.00 MBytes  10.1 Mbits/sec
+[  7] 17.5-20.0 sec  3.00 MBytes  10.1 Mbits/sec
+[  6] 20.0-22.5 sec  3.00 MBytes  10.1 Mbits/sec
+[  7] 20.0-22.5 sec  3.00 MBytes  10.1 Mbits/sec
+[  6] 22.5-25.0 sec  3.00 MBytes  10.1 Mbits/sec
+[  7] 22.5-25.0 sec  3.00 MBytes  10.1 Mbits/sec
+[  6] 25.0-27.5 sec  3.00 MBytes  10.1 Mbits/sec
+[  7] 25.0-27.5 sec  3.00 MBytes  10.1 Mbits/sec
+[  6] 27.5-30.0 sec  3.00 MBytes  10.1 Mbits/sec
+[  7] 27.5-30.0 sec  3.00 MBytes  10.1 Mbits/sec
+[  6] 30.0-32.5 sec  2.88 MBytes  9.65 Mbits/sec
+[  7] 30.0-32.5 sec  2.88 MBytes  9.65 Mbits/sec
+[  6] 32.5-35.0 sec  3.00 MBytes  10.1 Mbits/sec
+[  7] 32.5-35.0 sec  3.00 MBytes  10.1 Mbits/sec
+[  6] 35.0-37.5 sec  3.00 MBytes  10.1 Mbits/sec
+[  7] 35.0-37.5 sec  3.00 MBytes  10.1 Mbits/sec
+[  6] 37.5-40.0 sec  3.00 MBytes  10.1 Mbits/sec
+[  7] 37.5-40.0 sec  3.00 MBytes  10.1 Mbits/sec
+[  6] 40.0-42.5 sec  3.00 MBytes  10.1 Mbits/sec
+[  7] 40.0-42.5 sec  3.00 MBytes  10.1 Mbits/sec
+[  6] 42.5-45.0 sec  3.00 MBytes  10.1 Mbits/sec
+[  7] 42.5-45.0 sec  3.00 MBytes  10.1 Mbits/sec
+[  6] 45.0-47.5 sec  2.88 MBytes  9.65 Mbits/sec
+[  7] 45.0-47.5 sec  2.88 MBytes  9.65 Mbits/sec
+[  6] 47.5-50.0 sec  3.00 MBytes  10.1 Mbits/sec
+[  6]  0.0-50.6 sec  60.4 MBytes  10.0 Mbits/sec
+[  7] 47.5-50.0 sec  3.00 MBytes  10.1 Mbits/sec
+[  7]  0.0-50.0 sec  59.6 MBytes  10.0 Mbits/sec
+[SUM]  0.0-50.0 sec  62.6 MBytes  10.5 Mbits/sec
+
+-----
+Duration: 2.5 seconds
+Transferred Data: 3.0 MBytes
+Average Bandwidth: 10.1 Mbits/sec
+Direction: uplink
+Flow Result:
+------------------------------------------------------------
+Server listening on TCP port 5000
+TCP window size: 85.3 KByte (default)
+------------------------------------------------------------
+------------------------------------------------------------
+Client connecting to 10.0.0.2, TCP port 5000
+TCP window size: 85.3 KByte (default)
+------------------------------------------------------------
+[  6] local 10.0.0.1 port 60824 connected with 10.0.0.2 port 5000 (peer 2.0.10-alpha)
+[  7] local 10.0.0.1 port 5000 connected with 10.0.0.2 port 35726
+[ ID] Interval       Transfer     Bandwidth
+[  6]  0.0- 2.5 sec  3.12 MBytes  10.5 Mbits/sec
+[  7]  0.0- 2.5 sec  3.00 MBytes  10.1 Mbits/sec
+[  6]  2.5- 5.0 sec  3.00 MBytes  10.1 Mbits/sec
+[  7]  2.5- 5.0 sec  3.00 MBytes  10.1 Mbits/sec
+[  6]  5.0- 7.5 sec  3.00 MBytes  10.1 Mbits/sec
+[  7]  5.0- 7.5 sec  3.00 MBytes  10.1 Mbits/sec
+[  6]  7.5-10.0 sec  3.00 MBytes  10.1 Mbits/sec
+[  7]  7.5-10.0 sec  3.00 MBytes  10.1 Mbits/sec
+[  6] 10.0-12.5 sec  3.00 MBytes  10.1 Mbits/sec
+[  7] 10.0-12.5 sec  3.00 MBytes  10.1 Mbits/sec
+[  6] 12.5-15.0 sec  3.00 MBytes  10.1 Mbits/sec
+[  7] 12.5-15.0 sec  3.00 MBytes  10.1 Mbits/sec
+[  6] 15.0-17.5 sec  2.88 MBytes  9.65 Mbits/sec
+[  7] 15.0-17.5 sec  3.00 MBytes  10.1 Mbits/sec
+[  6] 17.5-20.0 sec  3.00 MBytes  10.1 Mbits/sec
+[  7] 17.5-20.0 sec  2.88 MBytes  9.65 Mbits/sec
+[  6] 20.0-22.5 sec  3.00 MBytes  10.1 Mbits/sec
+[  7] 20.0-22.5 sec  3.00 MBytes  10.1 Mbits/sec
+[  6] 22.5-25.0 sec  3.00 MBytes  10.1 Mbits/sec
+[  7] 22.5-25.0 sec  3.00 MBytes  10.1 Mbits/sec
+[  6] 25.0-27.5 sec  3.00 MBytes  10.1 Mbits/sec
+[  7] 25.0-27.5 sec  3.00 MBytes  10.1 Mbits/sec
+[  6] 27.5-30.0 sec  3.00 MBytes  10.1 Mbits/sec
+[  7] 27.5-30.0 sec  3.00 MBytes  10.1 Mbits/sec
+[  6] 30.0-32.5 sec  2.88 MBytes  9.65 Mbits/sec
+[  7] 30.0-32.5 sec  3.00 MBytes  10.1 Mbits/sec
+[  6] 32.5-35.0 sec  3.00 MBytes  10.1 Mbits/sec
+[  7] 32.5-35.0 sec  2.88 MBytes  9.65 Mbits/sec
+[  6] 35.0-37.5 sec  3.00 MBytes  10.1 Mbits/sec
+[  7] 35.0-37.5 sec  3.00 MBytes  10.1 Mbits/sec
+[  6] 37.5-40.0 sec  3.00 MBytes  10.1 Mbits/sec
+[  7] 37.5-40.0 sec  3.00 MBytes  10.1 Mbits/sec
+[  6] 40.0-42.5 sec  3.00 MBytes  10.1 Mbits/sec
+[  7] 40.0-42.5 sec  3.00 MBytes  10.1 Mbits/sec
+[  6] 42.5-45.0 sec  3.00 MBytes  10.1 Mbits/sec
+[  7] 42.5-45.0 sec  3.00 MBytes  10.1 Mbits/sec
+[  6] 45.0-47.5 sec  2.88 MBytes  9.65 Mbits/sec
+[  7] 45.0-47.5 sec  3.00 MBytes  10.1 Mbits/sec
+[  6]  0.0-50.0 sec  59.6 MBytes  10.0 Mbits/sec
+[  7]  0.0-50.0 sec  59.6 MBytes  10.0 Mbits/sec
+[SUM]  0.0-50.0 sec  62.6 MBytes  10.5 Mbits/sec
+
+-----
+Duration: 2.5 seconds
+Transferred Data: 3.0 MBytes
+Average Bandwidth: 10.1 Mbits/sec
+Direction: uplink
+Flow Result:
+------------------------------------------------------------
+Server listening on TCP port 5000
+TCP window size: 85.3 KByte (default)
+------------------------------------------------------------
+------------------------------------------------------------
+Client connecting to 10.0.0.2, TCP port 5000
+TCP window size: 85.3 KByte (default)
+------------------------------------------------------------
+[  6] local 10.0.0.1 port 60828 connected with 10.0.0.2 port 5000 (peer 2.0.10-alpha)
+[  7] local 10.0.0.1 port 5000 connected with 10.0.0.2 port 35730
+[ ID] Interval       Transfer     Bandwidth
+[  6]  0.0- 2.5 sec  3.12 MBytes  10.5 Mbits/sec
+[  7]  0.0- 2.5 sec  3.00 MBytes  10.1 Mbits/sec
+[  6]  2.5- 5.0 sec  3.00 MBytes  10.1 Mbits/sec
+[  7]  2.5- 5.0 sec  3.00 MBytes  10.1 Mbits/sec
+[  6]  5.0- 7.5 sec  3.00 MBytes  10.1 Mbits/sec
+[  7]  5.0- 7.5 sec  3.00 MBytes  10.1 Mbits/sec
+[  6]  7.5-10.0 sec  3.00 MBytes  10.1 Mbits/sec
+[  7]  7.5-10.0 sec  3.00 MBytes  10.1 Mbits/sec
+[  6] 10.0-12.5 sec  3.00 MBytes  10.1 Mbits/sec
+[  7] 10.0-12.5 sec  3.00 MBytes  10.1 Mbits/sec
+[  6] 12.5-15.0 sec  3.00 MBytes  10.1 Mbits/sec
+[  7] 12.5-15.0 sec  3.00 MBytes  10.1 Mbits/sec
+[  6] 15.0-17.5 sec  2.88 MBytes  9.65 Mbits/sec
+[  7] 15.0-17.5 sec  2.88 MBytes  9.65 Mbits/sec
+[  6] 17.5-20.0 sec  3.00 MBytes  10.1 Mbits/sec
+[  7] 17.5-20.0 sec  3.00 MBytes  10.1 Mbits/sec
+[  6] 20.0-22.5 sec  3.00 MBytes  10.1 Mbits/sec
+[  7] 20.0-22.5 sec  3.00 MBytes  10.1 Mbits/sec
+[  6] 22.5-25.0 sec  3.00 MBytes  10.1 Mbits/sec
+[  7] 22.5-25.0 sec  3.00 MBytes  10.1 Mbits/sec
+[  6] 25.0-27.5 sec  3.00 MBytes  10.1 Mbits/sec
+[  7] 25.0-27.5 sec  3.00 MBytes  10.1 Mbits/sec
+[  6] 27.5-30.0 sec  3.00 MBytes  10.1 Mbits/sec
+[  7] 27.5-30.0 sec  3.00 MBytes  10.1 Mbits/sec
+[  6] 30.0-32.5 sec  2.88 MBytes  9.65 Mbits/sec
+[  7] 30.0-32.5 sec  2.88 MBytes  9.65 Mbits/sec
+[  6] 32.5-35.0 sec  3.00 MBytes  10.1 Mbits/sec
+[  7] 32.5-35.0 sec  3.00 MBytes  10.1 Mbits/sec
+[  6] 35.0-37.5 sec  3.00 MBytes  10.1 Mbits/sec
+[  7] 35.0-37.5 sec  3.00 MBytes  10.1 Mbits/sec
+[  6] 37.5-40.0 sec  3.00 MBytes  10.1 Mbits/sec
+[  7] 37.5-40.0 sec  3.00 MBytes  10.1 Mbits/sec
+[  6] 40.0-42.5 sec  3.00 MBytes  10.1 Mbits/sec
+[  7] 40.0-42.5 sec  3.00 MBytes  10.1 Mbits/sec
+[  6] 42.5-45.0 sec  3.00 MBytes  10.1 Mbits/sec
+[  7] 42.5-45.0 sec  3.00 MBytes  10.1 Mbits/sec
+[  6] 45.0-47.5 sec  2.88 MBytes  9.65 Mbits/sec
+[  7] 45.0-47.5 sec  2.88 MBytes  9.65 Mbits/sec
+[  6]  0.0-50.0 sec  59.6 MBytes  10.0 Mbits/sec
+[  7] 47.5-50.0 sec  3.00 MBytes  10.1 Mbits/sec
+[  7]  0.0-50.0 sec  59.6 MBytes  10.0 Mbits/sec
+[SUM]  0.0-50.0 sec  62.6 MBytes  10.5 Mbits/sec
+
+-----
+Duration: 2.5 seconds
+Transferred Data: 3.0 MBytes
+Average Bandwidth: 10.1 Mbits/sec
+Direction: uplink
+Flow Result:
+------------------------------------------------------------
+Server listening on TCP port 5000
+TCP window size: 85.3 KByte (default)
+------------------------------------------------------------
+------------------------------------------------------------
+Client connecting to 10.0.0.2, TCP port 5000
+TCP window size: 85.3 KByte (default)
+------------------------------------------------------------
+[  6] local 10.0.0.1 port 60832 connected with 10.0.0.2 port 5000 (peer 2.0.10-alpha)
+[  7] local 10.0.0.1 port 5000 connected with 10.0.0.2 port 35734
+[ ID] Interval       Transfer     Bandwidth
+[  6]  0.0- 2.5 sec  3.12 MBytes  10.5 Mbits/sec
+[  7]  0.0- 2.5 sec  3.00 MBytes  10.1 Mbits/sec
+[  6]  2.5- 5.0 sec  3.00 MBytes  10.1 Mbits/sec
+[  7]  2.5- 5.0 sec  3.00 MBytes  10.1 Mbits/sec
+[  6]  5.0- 7.5 sec  3.00 MBytes  10.1 Mbits/sec
+[  7]  5.0- 7.5 sec  3.00 MBytes  10.1 Mbits/sec
+[  6]  7.5-10.0 sec  3.00 MBytes  10.1 Mbits/sec
+[  7]  7.5-10.0 sec  3.00 MBytes  10.1 Mbits/sec
+[  6] 10.0-12.5 sec  3.00 MBytes  10.1 Mbits/sec
+[  7] 10.0-12.5 sec  3.00 MBytes  10.1 Mbits/sec
+[  6] 12.5-15.0 sec  3.00 MBytes  10.1 Mbits/sec
+[  7] 12.5-15.0 sec  3.00 MBytes  10.1 Mbits/sec
+[  6] 15.0-17.5 sec  2.88 MBytes  9.65 Mbits/sec
+[  7] 15.0-17.5 sec  2.88 MBytes  9.65 Mbits/sec
+[  6] 17.5-20.0 sec  3.00 MBytes  10.1 Mbits/sec
+[  7] 17.5-20.0 sec  3.00 MBytes  10.1 Mbits/sec
+[  6] 20.0-22.5 sec  3.00 MBytes  10.1 Mbits/sec
+[  7] 20.0-22.5 sec  3.00 MBytes  10.1 Mbits/sec
+[  6] 22.5-25.0 sec  3.00 MBytes  10.1 Mbits/sec
+[  7] 22.5-25.0 sec  3.00 MBytes  10.1 Mbits/sec
+[  6] 25.0-27.5 sec  3.00 MBytes  10.1 Mbits/sec
+[  7] 25.0-27.5 sec  3.00 MBytes  10.1 Mbits/sec
+[  6] 27.5-30.0 sec  3.00 MBytes  10.1 Mbits/sec
+[  7] 27.5-30.0 sec  3.00 MBytes  10.1 Mbits/sec
+[  6] 30.0-32.5 sec  2.88 MBytes  9.65 Mbits/sec
+[  7] 30.0-32.5 sec  2.88 MBytes  9.65 Mbits/sec
+[  6] 32.5-35.0 sec  3.00 MBytes  10.1 Mbits/sec
+[  7] 32.5-35.0 sec  3.00 MBytes  10.1 Mbits/sec
+[  6] 35.0-37.5 sec  3.00 MBytes  10.1 Mbits/sec
+[  7] 35.0-37.5 sec  3.00 MBytes  10.1 Mbits/sec
+[  6] 37.5-40.0 sec  3.00 MBytes  10.1 Mbits/sec
+[  7] 37.5-40.0 sec  3.00 MBytes  10.1 Mbits/sec
+[  6] 40.0-42.5 sec  3.00 MBytes  10.1 Mbits/sec
+[  7] 40.0-42.5 sec  3.00 MBytes  10.1 Mbits/sec
+[  6] 42.5-45.0 sec  3.00 MBytes  10.1 Mbits/sec
+[  7] 42.5-45.0 sec  3.00 MBytes  10.1 Mbits/sec
+[  6] 45.0-47.5 sec  2.88 MBytes  9.65 Mbits/sec
+[  7] 45.0-47.5 sec  3.00 MBytes  10.1 Mbits/sec
+[  6] 47.5-50.0 sec  3.00 MBytes  10.1 Mbits/sec
+[  6]  0.0-50.0 sec  59.8 MBytes  10.0 Mbits/sec
+[  7] 47.5-50.0 sec  2.87 MBytes  9.64 Mbits/sec
+[  7]  0.0-50.0 sec  59.6 MBytes  10.0 Mbits/sec
+[SUM]  0.0-50.0 sec  62.6 MBytes  10.5 Mbits/sec
+
+-----
+Duration: 2.5 seconds
+Transferred Data: 3.0 MBytes
+Average Bandwidth: 10.1 Mbits/sec
+Direction: uplink
+Flow Result:
+------------------------------------------------------------
+Server listening on TCP port 5000
+TCP window size: 85.3 KByte (default)
+------------------------------------------------------------
+------------------------------------------------------------
+Client connecting to 10.0.0.2, TCP port 5000
+TCP window size: 85.3 KByte (default)
+------------------------------------------------------------
+[  6] local 10.0.0.1 port 60836 connected with 10.0.0.2 port 5000 (peer 2.0.10-alpha)
+[  7] local 10.0.0.1 port 5000 connected with 10.0.0.2 port 35738
+[ ID] Interval       Transfer     Bandwidth
+[  6]  0.0- 2.5 sec  3.12 MBytes  10.5 Mbits/sec
+[  7]  0.0- 2.5 sec  3.13 MBytes  10.5 Mbits/sec
+[  6]  2.5- 5.0 sec  3.00 MBytes  10.1 Mbits/sec
+[  7]  2.5- 5.0 sec  2.88 MBytes  9.65 Mbits/sec
+[  6]  5.0- 7.5 sec  3.00 MBytes  10.1 Mbits/sec
+[  7]  5.0- 7.5 sec  3.00 MBytes  10.1 Mbits/sec
+[  6]  7.5-10.0 sec  3.00 MBytes  10.1 Mbits/sec
+[  7]  7.5-10.0 sec  3.00 MBytes  10.1 Mbits/sec
+[  6] 10.0-12.5 sec  3.00 MBytes  10.1 Mbits/sec
+[  7] 10.0-12.5 sec  3.00 MBytes  10.1 Mbits/sec
+[  6] 12.5-15.0 sec  3.00 MBytes  10.1 Mbits/sec
+[  7] 12.5-15.0 sec  3.00 MBytes  10.1 Mbits/sec
+[  6] 15.0-17.5 sec  2.88 MBytes  9.65 Mbits/sec
+[  7] 15.0-17.5 sec  3.00 MBytes  10.1 Mbits/sec
+[  6] 17.5-20.0 sec  3.00 MBytes  10.1 Mbits/sec
+[  7] 17.5-20.0 sec  2.88 MBytes  9.65 Mbits/sec
+[  6] 20.0-22.5 sec  3.00 MBytes  10.1 Mbits/sec
+[  7] 20.0-22.5 sec  3.00 MBytes  10.1 Mbits/sec
+[  6] 22.5-25.0 sec  3.00 MBytes  10.1 Mbits/sec
+[  7] 22.5-25.0 sec  3.00 MBytes  10.1 Mbits/sec
+[  6] 25.0-27.5 sec  3.00 MBytes  10.1 Mbits/sec
+[  7] 25.0-27.5 sec  3.00 MBytes  10.1 Mbits/sec
+[  6] 27.5-30.0 sec  3.00 MBytes  10.1 Mbits/sec
+[  7] 27.5-30.0 sec  3.00 MBytes  10.1 Mbits/sec
+[  6] 30.0-32.5 sec  2.88 MBytes  9.65 Mbits/sec
+[  7] 30.0-32.5 sec  3.00 MBytes  10.1 Mbits/sec
+[  6] 32.5-35.0 sec  3.00 MBytes  10.1 Mbits/sec
+[  7] 32.5-35.0 sec  2.88 MBytes  9.65 Mbits/sec
+[  6] 35.0-37.5 sec  3.00 MBytes  10.1 Mbits/sec
+[  7] 35.0-37.5 sec  3.00 MBytes  10.1 Mbits/sec
+[  6] 37.5-40.0 sec  3.00 MBytes  10.1 Mbits/sec
+[  7] 37.5-40.0 sec  3.00 MBytes  10.1 Mbits/sec
+[  6] 40.0-42.5 sec  3.00 MBytes  10.1 Mbits/sec
+[  7] 40.0-42.5 sec  3.00 MBytes  10.1 Mbits/sec
+[  6] 42.5-45.0 sec  3.00 MBytes  10.1 Mbits/sec
+[  7] 42.5-45.0 sec  3.00 MBytes  10.1 Mbits/sec
+[  6] 45.0-47.5 sec  2.88 MBytes  9.65 Mbits/sec
+[  7] 45.0-47.5 sec  3.00 MBytes  10.1 Mbits/sec
+[  6]  0.0-50.0 sec  59.6 MBytes  10.0 Mbits/sec
+[  7] 47.5-50.0 sec  2.87 MBytes  9.64 Mbits/sec
+[  7]  0.0-50.0 sec  59.6 MBytes  10.0 Mbits/sec
+[SUM]  0.0-50.0 sec  62.8 MBytes  10.5 Mbits/sec
+
+-----
+Duration: 2.5 seconds
+Transferred Data: 3.0 MBytes
+Average Bandwidth: 10.1 Mbits/sec
+Direction: uplink
+Flow Result:
+------------------------------------------------------------
+Server listening on TCP port 5000
+TCP window size: 85.3 KByte (default)
+------------------------------------------------------------
+------------------------------------------------------------
+Client connecting to 10.0.0.2, TCP port 5000
+TCP window size: 85.3 KByte (default)
+------------------------------------------------------------
+[  6] local 10.0.0.1 port 60840 connected with 10.0.0.2 port 5000 (peer 2.0.10-alpha)
+[  7] local 10.0.0.1 port 5000 connected with 10.0.0.2 port 35742
+[ ID] Interval       Transfer     Bandwidth
+[  6]  0.0- 2.5 sec  3.12 MBytes  10.5 Mbits/sec
+[  7]  0.0- 2.5 sec  3.00 MBytes  10.1 Mbits/sec
+[  6]  2.5- 5.0 sec  3.00 MBytes  10.1 Mbits/sec
+[  7]  2.5- 5.0 sec  3.00 MBytes  10.1 Mbits/sec
+[  6]  5.0- 7.5 sec  3.00 MBytes  10.1 Mbits/sec
+[  7]  5.0- 7.5 sec  3.00 MBytes  10.1 Mbits/sec
+[  6]  7.5-10.0 sec  3.00 MBytes  10.1 Mbits/sec
+[  7]  7.5-10.0 sec  3.00 MBytes  10.1 Mbits/sec
+[  6] 10.0-12.5 sec  3.00 MBytes  10.1 Mbits/sec
+[  7] 10.0-12.5 sec  3.00 MBytes  10.1 Mbits/sec
+[  6] 12.5-15.0 sec  3.00 MBytes  10.1 Mbits/sec
+[  7] 12.5-15.0 sec  3.00 MBytes  10.1 Mbits/sec
+[  6] 15.0-17.5 sec  2.88 MBytes  9.65 Mbits/sec
+[  7] 15.0-17.5 sec  2.88 MBytes  9.65 Mbits/sec
+[  6] 17.5-20.0 sec  3.00 MBytes  10.1 Mbits/sec
+[  7] 17.5-20.0 sec  3.00 MBytes  10.1 Mbits/sec
+[  6] 20.0-22.5 sec  3.00 MBytes  10.1 Mbits/sec
+[  7] 20.0-22.5 sec  3.00 MBytes  10.1 Mbits/sec
+[  6] 22.5-25.0 sec  3.00 MBytes  10.1 Mbits/sec
+[  7] 22.5-25.0 sec  3.00 MBytes  10.1 Mbits/sec
+[  6] 25.0-27.5 sec  3.00 MBytes  10.1 Mbits/sec
+[  7] 25.0-27.5 sec  3.00 MBytes  10.1 Mbits/sec
+[  6] 27.5-30.0 sec  3.00 MBytes  10.1 Mbits/sec
+[  7] 27.5-30.0 sec  3.00 MBytes  10.1 Mbits/sec
+[  6] 30.0-32.5 sec  2.88 MBytes  9.65 Mbits/sec
+[  7] 30.0-32.5 sec  2.88 MBytes  9.65 Mbits/sec
+[  6] 32.5-35.0 sec  3.00 MBytes  10.1 Mbits/sec
+[  7] 32.5-35.0 sec  3.00 MBytes  10.1 Mbits/sec
+[  6] 35.0-37.5 sec  3.00 MBytes  10.1 Mbits/sec
+[  7] 35.0-37.5 sec  3.00 MBytes  10.1 Mbits/sec
+[  6] 37.5-40.0 sec  3.00 MBytes  10.1 Mbits/sec
+[  7] 37.5-40.0 sec  3.00 MBytes  10.1 Mbits/sec
+[  6] 40.0-42.5 sec  3.00 MBytes  10.1 Mbits/sec
+[  7] 40.0-42.5 sec  3.00 MBytes  10.1 Mbits/sec
+[  6] 42.5-45.0 sec  3.00 MBytes  10.1 Mbits/sec
+[  7] 42.5-45.0 sec  3.00 MBytes  10.1 Mbits/sec
+[  6] 45.0-47.5 sec  2.88 MBytes  9.65 Mbits/sec
+[  7] 45.0-47.5 sec  3.00 MBytes  10.1 Mbits/sec
+[  6]  0.0-50.0 sec  59.6 MBytes  10.0 Mbits/sec
+[  7] 47.5-50.0 sec  2.87 MBytes  9.64 Mbits/sec
+[  7]  0.0-50.0 sec  59.6 MBytes  10.0 Mbits/sec
+[SUM]  0.0-50.0 sec  62.6 MBytes  10.5 Mbits/sec
+
+-----
+Duration: 2.5 seconds
+Transferred Data: 3.0 MBytes
+Average Bandwidth: 10.1 Mbits/sec
+Direction: uplink
+Flow Result:
+------------------------------------------------------------
+Server listening on TCP port 5000
+TCP window size: 85.3 KByte (default)
+------------------------------------------------------------
+------------------------------------------------------------
+Client connecting to 10.0.0.2, TCP port 5000
+TCP window size: 85.3 KByte (default)
+------------------------------------------------------------
+[  6] local 10.0.0.1 port 60844 connected with 10.0.0.2 port 5000 (peer 2.0.10-alpha)
+[  7] local 10.0.0.1 port 5000 connected with 10.0.0.2 port 35746
+[ ID] Interval       Transfer     Bandwidth
+[  6]  0.0- 2.5 sec  3.12 MBytes  10.5 Mbits/sec
+[  7]  0.0- 2.5 sec  3.13 MBytes  10.5 Mbits/sec
+[  6]  2.5- 5.0 sec  3.00 MBytes  10.1 Mbits/sec
+[  7]  2.5- 5.0 sec  3.00 MBytes  10.1 Mbits/sec
+[  6]  5.0- 7.5 sec  3.00 MBytes  10.1 Mbits/sec
+[  7]  5.0- 7.5 sec  3.00 MBytes  10.1 Mbits/sec
+[  6]  7.5-10.0 sec  3.00 MBytes  10.1 Mbits/sec
+[  7]  7.5-10.0 sec  3.00 MBytes  10.1 Mbits/sec
+[  6] 10.0-12.5 sec  3.00 MBytes  10.1 Mbits/sec
+[  7] 10.0-12.5 sec  3.00 MBytes  10.1 Mbits/sec
+[  6] 12.5-15.0 sec  3.00 MBytes  10.1 Mbits/sec
+[  7] 12.5-15.0 sec  3.00 MBytes  10.1 Mbits/sec
+[  6] 15.0-17.5 sec  2.88 MBytes  9.65 Mbits/sec
+[  7] 15.0-17.5 sec  2.88 MBytes  9.65 Mbits/sec
+[  6] 17.5-20.0 sec  3.00 MBytes  10.1 Mbits/sec
+[  7] 17.5-20.0 sec  3.00 MBytes  10.1 Mbits/sec
+[  6] 20.0-22.5 sec  3.00 MBytes  10.1 Mbits/sec
+[  7] 20.0-22.5 sec  3.00 MBytes  10.1 Mbits/sec
+[  6] 22.5-25.0 sec  3.00 MBytes  10.1 Mbits/sec
+[  7] 22.5-25.0 sec  3.00 MBytes  10.1 Mbits/sec
+[  6] 25.0-27.5 sec  3.00 MBytes  10.1 Mbits/sec
+[  7] 25.0-27.5 sec  3.00 MBytes  10.1 Mbits/sec
+[  6] 27.5-30.0 sec  3.00 MBytes  10.1 Mbits/sec
+[  7] 27.5-30.0 sec  3.00 MBytes  10.1 Mbits/sec
+[  6] 30.0-32.5 sec  2.88 MBytes  9.65 Mbits/sec
+[  7] 30.0-32.5 sec  2.88 MBytes  9.65 Mbits/sec
+[  6] 32.5-35.0 sec  3.00 MBytes  10.1 Mbits/sec
+[  7] 32.5-35.0 sec  3.00 MBytes  10.1 Mbits/sec
+[  6] 35.0-37.5 sec  3.00 MBytes  10.1 Mbits/sec
+[  7] 35.0-37.5 sec  3.00 MBytes  10.1 Mbits/sec
+[  6] 37.5-40.0 sec  3.00 MBytes  10.1 Mbits/sec
+[  7] 37.5-40.0 sec  3.00 MBytes  10.1 Mbits/sec
+[  6] 40.0-42.5 sec  3.00 MBytes  10.1 Mbits/sec
+[  7] 40.0-42.5 sec  3.00 MBytes  10.1 Mbits/sec
+[  6] 42.5-45.0 sec  3.00 MBytes  10.1 Mbits/sec
+[  7] 42.5-45.0 sec  3.00 MBytes  10.1 Mbits/sec
+[  6] 45.0-47.5 sec  2.88 MBytes  9.65 Mbits/sec
+[  7] 45.0-47.5 sec  3.00 MBytes  10.1 Mbits/sec
+[  6]  0.0-50.0 sec  59.6 MBytes  10.0 Mbits/sec
+[  7]  0.0-49.9 sec  59.6 MBytes  10.0 Mbits/sec
+[SUM]  0.0-49.9 sec  62.8 MBytes  10.5 Mbits/sec
+
+-----
+Duration: 2.5 seconds
+Transferred Data: 3.0 MBytes
+Average Bandwidth: 10.1 Mbits/sec
+Direction: uplink
+Flow Result:
+------------------------------------------------------------
+Server listening on TCP port 5000
+TCP window size: 85.3 KByte (default)
+------------------------------------------------------------
+------------------------------------------------------------
+Client connecting to 10.0.0.2, TCP port 5000
+TCP window size: 85.3 KByte (default)
+------------------------------------------------------------
+[  6] local 10.0.0.1 port 60848 connected with 10.0.0.2 port 5000 (peer 2.0.10-alpha)
+[  7] local 10.0.0.1 port 5000 connected with 10.0.0.2 port 35750
+[ ID] Interval       Transfer     Bandwidth
+[  6]  0.0- 2.5 sec  3.12 MBytes  10.5 Mbits/sec
+[  7]  0.0- 2.5 sec  3.00 MBytes  10.1 Mbits/sec
+[  6]  2.5- 5.0 sec  3.00 MBytes  10.1 Mbits/sec
+[  7]  2.5- 5.0 sec  3.00 MBytes  10.1 Mbits/sec
+[  6]  5.0- 7.5 sec  3.00 MBytes  10.1 Mbits/sec
+[  7]  5.0- 7.5 sec  3.00 MBytes  10.1 Mbits/sec
+[  6]  7.5-10.0 sec  3.00 MBytes  10.1 Mbits/sec
+[  7]  7.5-10.0 sec  3.00 MBytes  10.1 Mbits/sec
+[  6] 10.0-12.5 sec  3.00 MBytes  10.1 Mbits/sec
+[  7] 10.0-12.5 sec  3.00 MBytes  10.1 Mbits/sec
+[  6] 12.5-15.0 sec  3.00 MBytes  10.1 Mbits/sec
+[  7] 12.5-15.0 sec  3.00 MBytes  10.1 Mbits/sec
+[  6] 15.0-17.5 sec  2.88 MBytes  9.65 Mbits/sec
+[  7] 15.0-17.5 sec  2.88 MBytes  9.65 Mbits/sec
+[  6] 17.5-20.0 sec  3.00 MBytes  10.1 Mbits/sec
+[  7] 17.5-20.0 sec  3.00 MBytes  10.1 Mbits/sec
+[  6] 20.0-22.5 sec  3.00 MBytes  10.1 Mbits/sec
+[  7] 20.0-22.5 sec  3.00 MBytes  10.1 Mbits/sec
+[  6] 22.5-25.0 sec  3.00 MBytes  10.1 Mbits/sec
+[  7] 22.5-25.0 sec  3.00 MBytes  10.1 Mbits/sec
+[  6] 25.0-27.5 sec  3.00 MBytes  10.1 Mbits/sec
+[  7] 25.0-27.5 sec  3.00 MBytes  10.1 Mbits/sec
+[  6] 27.5-30.0 sec  3.00 MBytes  10.1 Mbits/sec
+[  7] 27.5-30.0 sec  3.00 MBytes  10.1 Mbits/sec
+[  6] 30.0-32.5 sec  2.88 MBytes  9.65 Mbits/sec
+[  7] 30.0-32.5 sec  2.88 MBytes  9.65 Mbits/sec
+[  6] 32.5-35.0 sec  3.00 MBytes  10.1 Mbits/sec
+[  7] 32.5-35.0 sec  3.00 MBytes  10.1 Mbits/sec
+[  6] 35.0-37.5 sec  3.00 MBytes  10.1 Mbits/sec
+[  7] 35.0-37.5 sec  3.00 MBytes  10.1 Mbits/sec
+[  6] 37.5-40.0 sec  3.00 MBytes  10.1 Mbits/sec
+[  7] 37.5-40.0 sec  3.00 MBytes  10.1 Mbits/sec
+[  6] 40.0-42.5 sec  3.00 MBytes  10.1 Mbits/sec
+[  7] 40.0-42.5 sec  3.00 MBytes  10.1 Mbits/sec
+[  6] 42.5-45.0 sec  3.00 MBytes  10.1 Mbits/sec
+[  7] 42.5-45.0 sec  3.00 MBytes  10.1 Mbits/sec
+[  6] 45.0-47.5 sec  2.88 MBytes  9.65 Mbits/sec
+[  7] 45.0-47.5 sec  3.00 MBytes  10.1 Mbits/sec
+[  6]  0.0-50.0 sec  59.6 MBytes  10.0 Mbits/sec
+[  7] 47.5-50.0 sec  2.87 MBytes  9.64 Mbits/sec
+[  7]  0.0-50.0 sec  59.6 MBytes  10.0 Mbits/sec
+[SUM]  0.0-50.0 sec  62.6 MBytes  10.5 Mbits/sec
+
+-----
+Duration: 2.5 seconds
+Transferred Data: 3.0 MBytes
+Average Bandwidth: 10.1 Mbits/sec
+Direction: uplink
+Flow Result:
+------------------------------------------------------------
+Server listening on TCP port 5000
+TCP window size: 85.3 KByte (default)
+------------------------------------------------------------
+------------------------------------------------------------
+Client connecting to 10.0.0.2, TCP port 5000
+TCP window size: 85.3 KByte (default)
+------------------------------------------------------------
+[  6] local 10.0.0.1 port 60852 connected with 10.0.0.2 port 5000 (peer 2.0.10-alpha)
+[  7] local 10.0.0.1 port 5000 connected with 10.0.0.2 port 35754
+[ ID] Interval       Transfer     Bandwidth
+[  6]  0.0- 2.5 sec  3.12 MBytes  10.5 Mbits/sec
+[  7]  0.0- 2.5 sec  3.00 MBytes  10.1 Mbits/sec
+[  6]  2.5- 5.0 sec  3.00 MBytes  10.1 Mbits/sec
+[  7]  2.5- 5.0 sec  3.00 MBytes  10.1 Mbits/sec
+[  6]  5.0- 7.5 sec  3.00 MBytes  10.1 Mbits/sec
+[  7]  5.0- 7.5 sec  3.00 MBytes  10.1 Mbits/sec
+[  6]  7.5-10.0 sec  3.00 MBytes  10.1 Mbits/sec
+[  7]  7.5-10.0 sec  3.00 MBytes  10.1 Mbits/sec
+[  6] 10.0-12.5 sec  3.00 MBytes  10.1 Mbits/sec
+[  7] 10.0-12.5 sec  3.00 MBytes  10.1 Mbits/sec
+[  6] 12.5-15.0 sec  3.00 MBytes  10.1 Mbits/sec
+[  7] 12.5-15.0 sec  3.00 MBytes  10.1 Mbits/sec
+[  6] 15.0-17.5 sec  2.88 MBytes  9.65 Mbits/sec
+[  7] 15.0-17.5 sec  2.88 MBytes  9.65 Mbits/sec
+[  6] 17.5-20.0 sec  3.00 MBytes  10.1 Mbits/sec
+[  7] 17.5-20.0 sec  3.00 MBytes  10.1 Mbits/sec
+[  6] 20.0-22.5 sec  3.00 MBytes  10.1 Mbits/sec
+[  7] 20.0-22.5 sec  3.00 MBytes  10.1 Mbits/sec
+[  6] 22.5-25.0 sec  3.00 MBytes  10.1 Mbits/sec
+[  7] 22.5-25.0 sec  3.00 MBytes  10.1 Mbits/sec
+[  6] 25.0-27.5 sec  3.00 MBytes  10.1 Mbits/sec
+[  7] 25.0-27.5 sec  3.00 MBytes  10.1 Mbits/sec
+[  6] 27.5-30.0 sec  3.00 MBytes  10.1 Mbits/sec
+[  7] 27.5-30.0 sec  3.00 MBytes  10.1 Mbits/sec
+[  6] 30.0-32.5 sec  2.88 MBytes  9.65 Mbits/sec
+[  7] 30.0-32.5 sec  2.88 MBytes  9.65 Mbits/sec
+[  6] 32.5-35.0 sec  3.00 MBytes  10.1 Mbits/sec
+[  7] 32.5-35.0 sec  3.00 MBytes  10.1 Mbits/sec
+[  6] 35.0-37.5 sec  3.00 MBytes  10.1 Mbits/sec
+[  7] 35.0-37.5 sec  3.00 MBytes  10.1 Mbits/sec
+[  6] 37.5-40.0 sec  3.00 MBytes  10.1 Mbits/sec
+[  7] 37.5-40.0 sec  3.00 MBytes  10.1 Mbits/sec
+[  6] 40.0-42.5 sec  3.00 MBytes  10.1 Mbits/sec
+[  7] 40.0-42.5 sec  3.00 MBytes  10.1 Mbits/sec
+[  6] 42.5-45.0 sec  3.00 MBytes  10.1 Mbits/sec
+[  7] 42.5-45.0 sec  3.00 MBytes  10.1 Mbits/sec
+[  6] 45.0-47.5 sec  2.88 MBytes  9.65 Mbits/sec
+[  7] 45.0-47.5 sec  2.88 MBytes  9.65 Mbits/sec
+[  6]  0.0-50.0 sec  59.6 MBytes  10.0 Mbits/sec
+[  7] 47.5-50.0 sec  3.00 MBytes  10.1 Mbits/sec
+[  7]  0.0-50.0 sec  59.6 MBytes  10.0 Mbits/sec
+[SUM]  0.0-50.0 sec  62.6 MBytes  10.5 Mbits/sec
+
+-----
+Duration: 2.5 seconds
+Transferred Data: 3.0 MBytes
+Average Bandwidth: 10.1 Mbits/sec
+Direction: uplink
+Flow Result:
+------------------------------------------------------------
+Server listening on TCP port 5000
+TCP window size: 85.3 KByte (default)
+------------------------------------------------------------
+------------------------------------------------------------
+Client connecting to 10.0.0.2, TCP port 5000
+TCP window size: 85.3 KByte (default)
+------------------------------------------------------------
+[  6] local 10.0.0.1 port 60856 connected with 10.0.0.2 port 5000 (peer 2.0.10-alpha)
+[  7] local 10.0.0.1 port 5000 connected with 10.0.0.2 port 35758
+[ ID] Interval       Transfer     Bandwidth
+[  6]  0.0- 2.5 sec  3.12 MBytes  10.5 Mbits/sec
+[  7]  0.0- 2.5 sec  3.00 MBytes  10.1 Mbits/sec
+[  6]  2.5- 5.0 sec  3.00 MBytes  10.1 Mbits/sec
+[  7]  2.5- 5.0 sec  3.00 MBytes  10.1 Mbits/sec
+[  6]  5.0- 7.5 sec  3.00 MBytes  10.1 Mbits/sec
+[  7]  5.0- 7.5 sec  3.00 MBytes  10.1 Mbits/sec
+[  6]  7.5-10.0 sec  3.00 MBytes  10.1 Mbits/sec
+[  7]  7.5-10.0 sec  3.00 MBytes  10.1 Mbits/sec
+[  6] 10.0-12.5 sec  3.00 MBytes  10.1 Mbits/sec
+[  7] 10.0-12.5 sec  3.00 MBytes  10.1 Mbits/sec
+[  6] 12.5-15.0 sec  3.00 MBytes  10.1 Mbits/sec
+[  7] 12.5-15.0 sec  3.00 MBytes  10.1 Mbits/sec
+[  6] 15.0-17.5 sec  2.88 MBytes  9.65 Mbits/sec
+[  7] 15.0-17.5 sec  2.88 MBytes  9.65 Mbits/sec
+[  6] 17.5-20.0 sec  3.00 MBytes  10.1 Mbits/sec
+[  7] 17.5-20.0 sec  3.00 MBytes  10.1 Mbits/sec
+[  6] 20.0-22.5 sec  3.00 MBytes  10.1 Mbits/sec
+[  7] 20.0-22.5 sec  3.00 MBytes  10.1 Mbits/sec
+[  6] 22.5-25.0 sec  3.00 MBytes  10.1 Mbits/sec
+[  7] 22.5-25.0 sec  3.00 MBytes  10.1 Mbits/sec
+[  6] 25.0-27.5 sec  3.00 MBytes  10.1 Mbits/sec
+[  7] 25.0-27.5 sec  3.00 MBytes  10.1 Mbits/sec
+[  6] 27.5-30.0 sec  3.00 MBytes  10.1 Mbits/sec
+[  7] 27.5-30.0 sec  3.00 MBytes  10.1 Mbits/sec
+[  6] 30.0-32.5 sec  2.88 MBytes  9.65 Mbits/sec
+[  7] 30.0-32.5 sec  2.88 MBytes  9.65 Mbits/sec
+[  6] 32.5-35.0 sec  3.00 MBytes  10.1 Mbits/sec
+[  7] 32.5-35.0 sec  3.00 MBytes  10.1 Mbits/sec
+[  6] 35.0-37.5 sec  3.00 MBytes  10.1 Mbits/sec
+[  7] 35.0-37.5 sec  3.00 MBytes  10.1 Mbits/sec
+[  6] 37.5-40.0 sec  3.00 MBytes  10.1 Mbits/sec
+[  7] 37.5-40.0 sec  3.00 MBytes  10.1 Mbits/sec
+[  6] 40.0-42.5 sec  3.00 MBytes  10.1 Mbits/sec
+[  7] 40.0-42.5 sec  3.00 MBytes  10.1 Mbits/sec
+[  6] 42.5-45.0 sec  3.00 MBytes  10.1 Mbits/sec
+[  7] 42.5-45.0 sec  3.00 MBytes  10.1 Mbits/sec
+[  6] 45.0-47.5 sec  2.88 MBytes  9.65 Mbits/sec
+[  7] 45.0-47.5 sec  2.88 MBytes  9.65 Mbits/sec
+[  6]  0.0-50.0 sec  59.6 MBytes  10.0 Mbits/sec
+[  7] 47.5-50.0 sec  3.00 MBytes  10.1 Mbits/sec
+[  7]  0.0-50.0 sec  59.6 MBytes  10.0 Mbits/sec
+[SUM]  0.0-50.0 sec  62.6 MBytes  10.5 Mbits/sec
+
+-----
+Duration: 2.5 seconds
+Transferred Data: 3.0 MBytes
+Average Bandwidth: 10.1 Mbits/sec
+Direction: uplink
+Flow Result:
+------------------------------------------------------------
+Server listening on TCP port 5000
+TCP window size: 85.3 KByte (default)
+------------------------------------------------------------
+------------------------------------------------------------
+Client connecting to 10.0.0.2, TCP port 5000
+TCP window size: 85.3 KByte (default)
+------------------------------------------------------------
+[  6] local 10.0.0.1 port 60860 connected with 10.0.0.2 port 5000 (peer 2.0.10-alpha)
+[  7] local 10.0.0.1 port 5000 connected with 10.0.0.2 port 35762
+[ ID] Interval       Transfer     Bandwidth
+[  6]  0.0- 2.5 sec  3.12 MBytes  10.5 Mbits/sec
+[  7]  0.0- 2.5 sec  3.00 MBytes  10.1 Mbits/sec
+[  6]  2.5- 5.0 sec  3.00 MBytes  10.1 Mbits/sec
+[  7]  2.5- 5.0 sec  3.00 MBytes  10.1 Mbits/sec
+[  6]  5.0- 7.5 sec  3.00 MBytes  10.1 Mbits/sec
+[  7]  5.0- 7.5 sec  3.00 MBytes  10.1 Mbits/sec
+[  6]  7.5-10.0 sec  3.00 MBytes  10.1 Mbits/sec
+[  7]  7.5-10.0 sec  3.00 MBytes  10.1 Mbits/sec
+[  6] 10.0-12.5 sec  3.00 MBytes  10.1 Mbits/sec
+[  7] 10.0-12.5 sec  3.00 MBytes  10.1 Mbits/sec
+[  6] 12.5-15.0 sec  3.00 MBytes  10.1 Mbits/sec
+[  7] 12.5-15.0 sec  3.00 MBytes  10.1 Mbits/sec
+[  6] 15.0-17.5 sec  2.88 MBytes  9.65 Mbits/sec
+[  7] 15.0-17.5 sec  2.88 MBytes  9.65 Mbits/sec
+[  6] 17.5-20.0 sec  3.00 MBytes  10.1 Mbits/sec
+[  7] 17.5-20.0 sec  3.00 MBytes  10.1 Mbits/sec
+[  6] 20.0-22.5 sec  3.00 MBytes  10.1 Mbits/sec
+[  7] 20.0-22.5 sec  3.00 MBytes  10.1 Mbits/sec
+[  6] 22.5-25.0 sec  3.00 MBytes  10.1 Mbits/sec
+[  7] 22.5-25.0 sec  3.00 MBytes  10.1 Mbits/sec
+[  6] 25.0-27.5 sec  3.00 MBytes  10.1 Mbits/sec
+[  7] 25.0-27.5 sec  3.00 MBytes  10.1 Mbits/sec
+[  6] 27.5-30.0 sec  3.00 MBytes  10.1 Mbits/sec
+[  7] 27.5-30.0 sec  3.00 MBytes  10.1 Mbits/sec
+[  6] 30.0-32.5 sec  2.88 MBytes  9.65 Mbits/sec
+[  7] 30.0-32.5 sec  2.88 MBytes  9.65 Mbits/sec
+[  6] 32.5-35.0 sec  3.00 MBytes  10.1 Mbits/sec
+[  7] 32.5-35.0 sec  3.00 MBytes  10.1 Mbits/sec
+[  6] 35.0-37.5 sec  3.00 MBytes  10.1 Mbits/sec
+[  7] 35.0-37.5 sec  3.00 MBytes  10.1 Mbits/sec
+[  6] 37.5-40.0 sec  3.00 MBytes  10.1 Mbits/sec
+[  7] 37.5-40.0 sec  3.00 MBytes  10.1 Mbits/sec
+[  6] 40.0-42.5 sec  3.00 MBytes  10.1 Mbits/sec
+[  7] 40.0-42.5 sec  3.00 MBytes  10.1 Mbits/sec
+[  6] 42.5-45.0 sec  3.00 MBytes  10.1 Mbits/sec
+[  7] 42.5-45.0 sec  3.00 MBytes  10.1 Mbits/sec
+[  6] 45.0-47.5 sec  2.88 MBytes  9.65 Mbits/sec
+[  7] 45.0-47.5 sec  2.88 MBytes  9.65 Mbits/sec
+[  6]  0.0-50.0 sec  59.6 MBytes  10.0 Mbits/sec
+[  7] 47.5-50.0 sec  3.00 MBytes  10.1 Mbits/sec
+[  7]  0.0-50.0 sec  59.6 MBytes  10.0 Mbits/sec
+[SUM]  0.0-50.0 sec  62.6 MBytes  10.5 Mbits/sec
+
+-----
+Duration: 2.5 seconds
+Transferred Data: 3.0 MBytes
+Average Bandwidth: 10.1 Mbits/sec
+Direction: uplink
+Flow Result:
+------------------------------------------------------------
+Server listening on TCP port 5000
+TCP window size: 85.3 KByte (default)
+------------------------------------------------------------
+------------------------------------------------------------
+Client connecting to 10.0.0.2, TCP port 5000
+TCP window size: 85.3 KByte (default)
+------------------------------------------------------------
+[  6] local 10.0.0.1 port 60864 connected with 10.0.0.2 port 5000 (peer 2.0.10-alpha)
+[  7] local 10.0.0.1 port 5000 connected with 10.0.0.2 port 35766
+[ ID] Interval       Transfer     Bandwidth
+[  6]  0.0- 2.5 sec  3.12 MBytes  10.5 Mbits/sec
+[  7]  0.0- 2.5 sec  3.00 MBytes  10.1 Mbits/sec
+[  6]  2.5- 5.0 sec  3.00 MBytes  10.1 Mbits/sec
+[  7]  2.5- 5.0 sec  3.00 MBytes  10.1 Mbits/sec
+[  6]  5.0- 7.5 sec  3.00 MBytes  10.1 Mbits/sec
+[  7]  5.0- 7.5 sec  3.00 MBytes  10.1 Mbits/sec
+[  6]  7.5-10.0 sec  3.00 MBytes  10.1 Mbits/sec
+[  7]  7.5-10.0 sec  3.00 MBytes  10.1 Mbits/sec
+[  6] 10.0-12.5 sec  3.00 MBytes  10.1 Mbits/sec
+[  7] 10.0-12.5 sec  3.00 MBytes  10.1 Mbits/sec
+[  6] 12.5-15.0 sec  3.00 MBytes  10.1 Mbits/sec
+[  7] 12.5-15.0 sec  3.00 MBytes  10.1 Mbits/sec
+[  6] 15.0-17.5 sec  2.88 MBytes  9.65 Mbits/sec
+[  7] 15.0-17.5 sec  2.88 MBytes  9.65 Mbits/sec
+[  6] 17.5-20.0 sec  3.00 MBytes  10.1 Mbits/sec
+[  7] 17.5-20.0 sec  3.00 MBytes  10.1 Mbits/sec
+[  6] 20.0-22.5 sec  3.00 MBytes  10.1 Mbits/sec
+[  7] 20.0-22.5 sec  3.00 MBytes  10.1 Mbits/sec
+[  6] 22.5-25.0 sec  3.00 MBytes  10.1 Mbits/sec
+[  7] 22.5-25.0 sec  3.00 MBytes  10.1 Mbits/sec
+[  6] 25.0-27.5 sec  3.00 MBytes  10.1 Mbits/sec
+[  7] 25.0-27.5 sec  3.00 MBytes  10.1 Mbits/sec
+[  6] 27.5-30.0 sec  3.00 MBytes  10.1 Mbits/sec
+[  7] 27.5-30.0 sec  3.00 MBytes  10.1 Mbits/sec
+[  6] 30.0-32.5 sec  2.88 MBytes  9.65 Mbits/sec
+[  7] 30.0-32.5 sec  2.88 MBytes  9.65 Mbits/sec
+[  6] 32.5-35.0 sec  3.00 MBytes  10.1 Mbits/sec
+[  7] 32.5-35.0 sec  3.00 MBytes  10.1 Mbits/sec
+[  6] 35.0-37.5 sec  3.00 MBytes  10.1 Mbits/sec
+[  7] 35.0-37.5 sec  3.00 MBytes  10.1 Mbits/sec
+[  6] 37.5-40.0 sec  3.00 MBytes  10.1 Mbits/sec
+[  7] 37.5-40.0 sec  3.00 MBytes  10.1 Mbits/sec
+[  6] 40.0-42.5 sec  3.00 MBytes  10.1 Mbits/sec
+[  7] 40.0-42.5 sec  3.00 MBytes  10.1 Mbits/sec
+[  6] 42.5-45.0 sec  3.00 MBytes  10.1 Mbits/sec
+[  7] 42.5-45.0 sec  3.00 MBytes  10.1 Mbits/sec
+[  6] 45.0-47.5 sec  2.88 MBytes  9.65 Mbits/sec
+[  7] 45.0-47.5 sec  2.88 MBytes  9.65 Mbits/sec
+[  6]  0.0-50.0 sec  59.6 MBytes  10.0 Mbits/sec
+[  7] 47.5-50.0 sec  3.00 MBytes  10.1 Mbits/sec
+[  7]  0.0-50.0 sec  59.6 MBytes  10.0 Mbits/sec
+[SUM]  0.0-50.0 sec  62.6 MBytes  10.5 Mbits/sec
+
+-----
+Duration: 2.5 seconds
+Transferred Data: 3.0 MBytes
+Average Bandwidth: 10.1 Mbits/sec
+Direction: uplink
+End of 50 seconds run
+-----

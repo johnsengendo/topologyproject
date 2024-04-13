@@ -1,4 +1,4 @@
-i"""
+"""
 This is a Python script simulates five parallel flows in a network between two nodes. 
 It iterates over durations from 10 to 60 seconds, and for each duration, it repeats 
 the process seven times to collect data transferred & network throughput between the two nodes.

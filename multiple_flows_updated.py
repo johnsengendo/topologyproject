@@ -71,10 +71,10 @@ def create_linear_topology():
     num_flows = 1
 
     # Opening a file in append mode to write our results
-    with open('More_data_20s', 'a') as results_file:
+    with open('More_data_30s', 'a') as results_file:
 
-        durations = [20]#, 20, 30, 40, 50, 60] #  durations over which iperf is run
-        intervals = [ 1]#, 1, 1.5, 2, 2.5, 3] # intervals at which data is captured for each duration e.g at 0.5Sec for a duration of 10
+        durations = [30]#, 20, 30, 40, 50, 60] #  durations over which iperf is run
+        intervals = [ 1.5]#, 1, 1.5, 2, 2.5, 3] # intervals at which data is captured for each duration e.g at 0.5Sec for a duration of 10
         num_runs = 20 # number or repetitions for which the iperf is run for each duration
 
         for duration, interval in zip(durations, intervals):

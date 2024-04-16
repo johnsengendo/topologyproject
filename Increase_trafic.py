@@ -1,4 +1,3 @@
-# importing mininet libraries
 from mininet.topo import Topo
 from mininet.net import Mininet
 from mininet.cli import CLI
@@ -7,7 +6,6 @@ import time
 import threading
 import re
 import os
-import subprocess
 
 class LinearTopology(Topo):
     def __init__(self):
@@ -25,19 +23,14 @@ class LinearTopology(Topo):
         self.addLink(switch2, host2)
 
 def run_iperf_flow(h1, h2_ip, server_port, duration, interval, results_file, bandwidth_factor):
-    result_file = f"/tmp/iperf_flow_{server_port}.txt"
-    cmd = f'iperf -c {h2_ip} -p {server_port} -i {interval} -t {duration} -b {bandwidth_factor}m -d > {result_file}'
-    h1.popen(cmd, shell=True)
-    time.sleep(duration + 1)  # Waiting for the iperf process to finish
-
-    with open(result_file, 'r') as f:
-        result = f.read()
-
-    os.remove(result_file)  # Removing the temporary result file
-
+    iperf_file = f"/tmp/iperf_flow_{server_port}.txt"
+    h1.cmd(f"iperf -c {h2_ip} -p {server_port} -i {interval} -t {duration} -b {bandwidth_factor}m -d > {iperf_file}")
+    time.sleep(duration + 1) # wait for iperf process to finish
+    with open(iperf_file,'r') as ff:
+        result = ff.read()
+    os.remove(iperf_file)
     results_file.write(f"Flow Result:\n{result}\n")
     results_file.write("-----\n")
-
     match = re.search(r'(\d+\.\d+)-(\d+\.\d+) sec\s+(\d+\.\d+) MBytes\s+(\d+\.\d+) Mbits/sec', result)
     if match:
         start_time = float(match.group(1))
@@ -45,7 +38,6 @@ def run_iperf_flow(h1, h2_ip, server_port, duration, interval, results_file, ban
         duration = end_time - start_time
         transferred_data = float(match.group(3))
         bandwidth = float(match.group(4))
-
         results_file.write(f"Duration: {duration} seconds\n")
         results_file.write(f"Transferred Data: {transferred_data} MBytes\n")
         results_file.write(f"Average Bandwidth: {bandwidth} Mbits/sec\n")
@@ -63,51 +55,44 @@ def create_linear_topology():
     net.start()
 
     # Opening a file in append mode to write our results
-    with open('increase_traffic', 'a') as results_file:
+    with open('Increasing_traffic', 'a') as results_file:
 
-        # Defining the number of parallel flows(this can be changed)
-        num_flows = 1
+        durations = [60] #  durations over which iperf is run
+        intervals = [0.5] # intervals at which data is captured for each duration e.g at 0.5Sec for a duration of 10
+        num_runs = 7 # number or repetitions for which the iperf is run for each duration
 
-        # The duration for which iperf is run
-        duration = 60
+        for duration, interval in zip(durations, intervals):
+            for j in range(num_runs):
+                # Starting the iperf servers on host 2 for each flow
+                servers = []
+                for flow_id in range(5):
+                    server_port = 5000 + flow_id
+                    server = net.get('h2').popen(f'iperf -s -p {server_port}')
+                    servers.append(server)
+                    time.sleep(1)
 
-        # The interval at which data is captured for each duration
-        interval = 0.5
+                # Getting the IP address of h2
+                h2_ip = net.get('h2').IP()
 
-        # The number of times the iperf is run
-        num_runs = 1
+                # Creating and starting threads for each iperf flow
+                threads = []
+                for flow_id in range(5):
+                    server_port = 5000 + flow_id
+                    bandwidth_factor = flow_id + 1
+                    thread = threading.Thread(target=run_iperf_flow, args=(net.get('h1'), h2_ip, server_port, duration, interval, results_file, bandwidth_factor))
+                    thread.start()
+                    threads.append(thread)
 
-        # The bandwidth factor for each second
-        bandwidth_factors = range(duration+1)
+                # Waiting for all threads to finish
+                for thread in threads:
+                    thread.join()
 
-        for j in range(num_runs):
-            # Starting the iperf servers on host 2 for each flow
-            servers = []
-            for flow_id in range(num_flows):
-                server_port = 5000 + flow_id
-                server = net.get('h2').popen(f'iperf -s -p {server_port}')
-                servers.append(server)
-                time.sleep(1)
+                # Stopping the iperf servers
+                for server in servers:
+                    server.terminate()
 
-            # Getting the IP address of h2
-            h2_ip = net.get('h2').IP()
-
-            # Creating and starting threads for each iperf flow
-            threads = []
-            for bandwidth_factor in bandwidth_factors:
-                server_port = 5000
-                thread = threading.Thread(target=run_iperf_flow, args=(net.get('h1'), h2_ip, server_port, duration, interval, results_file, bandwidth_factor))
-                thread.start()
-                threads.append(thread)
-                time.sleep(1)
-
-            # Waiting for all threads to finish
-            for thread in threads:
-                thread.join()
-
-            # Stopping the iperf servers
-            for server in servers:
-                server.terminate()
+            results_file.write(f"End of {duration} seconds run\n")
+            results_file.write("-----\n")
 
     # Opening the Mininet command line interface
     CLI(net)

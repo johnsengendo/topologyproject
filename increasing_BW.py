@@ -64,11 +64,11 @@ def create_linear_topology():
     num_flows = 1
 
     # Opening a file in append mode to write results
-    with open('Multi_flows5', 'a') as results_file:
+    with open('Increasing_BW', 'a') as results_file:
 
-        durations = [20]  # Durations over which iperf is run
-        intervals = [1]  # Intervals at which data is captured for each duration
-        num_steps = 20  # Number of steps to increase bandwidth
+        durations = [10]  # Durations over which iperf is run
+        intervals = [0.5]  # Intervals at which data is captured for each duration
+        num_steps = 150  # Number of steps to increase bandwidth
 
         for duration, interval in zip(durations, intervals):
             for step in range(1, num_steps + 1):

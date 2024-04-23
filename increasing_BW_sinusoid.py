@@ -66,7 +66,7 @@ def create_linear_topology():
     num_flows = 1
 
     # Opening a file to write captured data
-    with open('BW_sinusoid.txt', 'w') as results_file:
+    with open('BW_sinusoid1.txt', 'w') as results_file:
 
         duration = 20  # Duration over which iperf is run
         interval = 0.5  # Interval at which data is captured
@@ -86,7 +86,7 @@ def create_linear_topology():
         initial_bandwidth = 10  # Initial bandwidth in Mbps
 
         # Loop for gradual increase and decrease in bandwidth within the run
-        for i in range(duration):
+        for i in range(80):
             # Calculate dynamic bandwidth based on time within the run
             bandwidth = initial_bandwidth + 5 * math.sin(math.pi * i / (duration / 2))  # Adjust as needed
 

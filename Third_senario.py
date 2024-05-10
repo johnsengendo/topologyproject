@@ -4,6 +4,7 @@ from mininet.cli import CLI
 from mininet.log import setLogLevel
 import time
 import threading
+import os
 
 class LinearTopology(Topo):
     def build(self):
@@ -16,32 +17,44 @@ class LinearTopology(Topo):
         self.addLink(switch1, switch2)
         self.addLink(switch2, host2)
 
-def run_traffic_flow(h1, h2_ip, duration, interval, bandwidth, output_file):
-    print(f"Starting flow: {output_file} for {duration} seconds at {bandwidth} Mbps...")
-    h1.cmd(f'iperf -c {h2_ip} -t {duration} -i {interval} -b {bandwidth}M > {output_file} &')
+def run_iperf_flow(h1, h2_ip, server_port, duration, interval, results_filename):
+    result_file_path = f"/tmp/iperf_flow_{server_port}.txt"
+    h1.cmd(f'iperf -c {h2_ip} -p {server_port} -i {interval} -t {duration} -b 1M > {result_file_path} &')
+    h1.cmd(f'wait $(pgrep -f "iperf -c {h2_ip} -p {server_port}")')
+    
+    # Read and store the results
+    with open(result_file_path, 'r') as file:
+        results = file.read()
+    
+    with open(results_filename, 'a') as results_file:
+        results_file.write(f"Flow Result:\n{results}\n")
+        results_file.write("-----\n")
+    
+    # Clean up the temporary file
+    os.remove(result_file_path)
 
 def schedule_flows(net):
     h1, h2 = net.get('h1'), net.get('h2')
     h2_ip = h2.IP()
-    
-    # Continuous flow setup
-    threading.Thread(target=run_traffic_flow, args=(h1, h2_ip, 300, 0.5, 1, "continuous_flow.txt")).start()
 
-    # First burst after 30 seconds
+    # Continuous flow setup
+    threading.Thread(target=run_iperf_flow, args=(h1, h2_ip, 5000, 300, 0.5, "continuous_flow_results.txt")).start()
+
+    # First burst
     time.sleep(30)
-    run_traffic_flow(h1, h2_ip, 10, 1, 100, "first_burst_results.txt")
+    run_iperf_flow(h1, h2_ip, 5001, 10, 1, "first_burst_results.txt")
     
-    # First random flows after 5 seconds
-    time.sleep(15)  # 10 sec burst + 5 sec wait
-    run_traffic_flow(h1, h2_ip, 20, 1, 10, "first_random_flows_results.txt")
+    # First random flows
+    time.sleep(15)  # Wait for first burst to finish + 5 seconds
+    run_iperf_flow(h1, h2_ip, 5002, 20, 1, "first_random_flows_results.txt")
     
-    # Second burst after 30 seconds
-    time.sleep(25)  # 20 sec random flows + 5 sec wait
-    run_traffic_flow(h1, h2_ip, 10, 1, 100, "second_burst_results.txt")
+    # Second burst
+    time.sleep(30)  # Wait for first random to finish + 10 seconds
+    run_iperf_flow(h1, h2_ip, 5003, 10, 1, "second_burst_results.txt")
     
-    # Second random flows after 5 seconds
-    time.sleep(15)  # 10 sec burst + 5 sec wait
-    run_traffic_flow(h1, h2_ip, 10, 1, 10, "second_random_flows_results.txt")
+    # Second random flows
+    time.sleep(15)  # Wait for second burst to finish + 5 seconds
+    run_iperf_flow(h1, h2_ip, 5004, 10, 1, "second_random_flows_results.txt")
 
 def setup_network():
     topo = LinearTopology()

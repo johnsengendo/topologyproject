@@ -25,7 +25,7 @@ def schedule_flows(net):
     h2_ip = h2.IP()
     
     # Continuous flow setup
-    threading.Thread(target=run_traffic_flow, args=(h1, h2_ip, 300, 0.5, 1, "continuous_flow_results.txt")).start()
+    threading.Thread(target=run_traffic_flow, args=(h1, h2_ip, 300, 0.5, 1, "continuous_flow.txt")).start()
 
     # First burst after 30 seconds
     time.sleep(30)

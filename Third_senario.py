@@ -4,100 +4,55 @@ from mininet.cli import CLI
 from mininet.log import setLogLevel
 import time
 import threading
-import re
-import os
 import random
 
 class LinearTopology(Topo):
-    def __init__(self):
-        Topo.__init__(self)
-
-        # Adding nodes to the topology
+    def build(self):
+        super(LinearTopology, self).build()
         switch1 = self.addSwitch('s1')
         switch2 = self.addSwitch('s2')
         host1 = self.addHost('h1')
         host2 = self.addHost('h2')
-
-        # Adding links between the nodes
         self.addLink(host1, switch1)
         self.addLink(switch1, switch2)
         self.addLink(switch2, host2)
 
-def run_iperf_flow(h1, h2_ip, server_port, duration, interval, results_file, bandwidth):
-    result_file = f"/tmp/iperf_flow_{server_port}.txt"
-    h1.popen(f'iperf -c {h2_ip} -p {server_port} -i {interval} -t {duration} -b {bandwidth} -d > {result_file}', shell=True)
-    time.sleep(duration + 1)  # Waiting for the iperf process to finish
+def run_continuous_flow(h1, h2_ip):
+    print("Starting continuous flow for 5 minutes, capturing data every 0.5 second...")
+    h1.cmd(f'iperf -c {h2_ip} -t 300 -i 0.5 -b 1M > continuous_flow_results.txt &')
 
-    with open(result_file, 'r') as f:
-        result = f.read()
+def run_burst_traffic(h1, h2_ip, delay):
+    print(f"Starting burst traffic after {delay} seconds...")
+    time.sleep(delay)
+    h1.cmd(f'iperf -c {h2_ip} -t 10 -b 100M > burst_traffic_results.txt &')
 
-    os.remove(result_file)  # Removing the temporary result file
+def run_random_flows(h1, h2_ip):
+    while True:
+        duration = random.randint(1, 10)  # Duration between 1 and 10 seconds
+        bandwidth = random.randint(1, 50) * 10  # Bandwidth between 10 Mbps and 500 Mbps
+        print(f"Starting random flow for {duration} seconds at {bandwidth} Mbps...")
+        h1.cmd(f'iperf -c {h2_ip} -t {duration} -b {bandwidth}M > random_flow_{time.time()}.txt &')
+        time.sleep(random.randint(1, 5))  # Wait between 1 and 5 seconds before starting another flow
 
-    results_file.write(f"Flow Result:\n{result}\n")
-    results_file.write("-----\n")
-
-    match = re.search(r'(\d+\.\d+)-(\d+\.\d+) sec\s+(\d+\.\d+) MBytes\s+(\d+\.\d+) Mbits/sec', result)
-    if match:
-        start_time = float(match.group(1))
-        end_time = float(match.group(2))
-        duration = end_time - start_time
-        transferred_data = float(match.group(3))
-        bandwidth = float(match.group(4))
-
-        results_file.write(f"Duration: {duration} seconds\n")
-        results_file.write(f"Transferred Data: {transferred_data} MBytes\n")
-        results_file.write(f"Average Bandwidth: {bandwidth} Mbits/sec\n")
-        results_file.write(f"Direction: {'uplink'}\n")
-
-    print(result)
-
-def create_linear_topology():
+def setup_network():
     topo = LinearTopology()
-
-    # Starting the Mininet network
     net = Mininet(topo)
-
-    # Starting the network
     net.start()
+    h1, h2 = net.get('h1'), net.get('h2')
+    h2_ip = h2.IP()
 
-    # Opening a file in append mode to write the results
-    with open('Increase_in_BW', 'a') as results_file:
+    # Start continuous flow
+    threading.Thread(target=run_continuous_flow, args=(h1, h2_ip)).start()
 
-        # Start the continuous flow
-        h1, h2 = net.get('h1'), net.get('h2')
-        h2_ip = h2.IP()
-        server_port = 5000
+    # Schedule burst traffic
+    threading.Thread(target=run_burst_traffic, args=(h1, h2_ip, 30)).start()  # Start after 30 seconds
 
-        # Start the iperf server
-        h2.popen(f'iperf -s -p {server_port}')
+    # Start random flows
+    threading.Thread(target=run_random_flows, args=(h1, h2_ip)).start()
 
-        # Start the iperf flow in a thread
-        threading.Thread(target=run_iperf_flow, args=(h1, h2_ip, server_port, 900, 1, results_file, "10M")).start()
-
-        # Schedule the burst traffic to start after a certain period (e.g., after 30 seconds of continuous flow)
-        time.sleep(30)
-        server_port += 1
-        h2.popen(f'iperf -s -p {server_port}')
-        threading.Thread(target=run_iperf_flow, args=(h1, h2_ip, server_port, 10, 1, results_file, "100M")).start()
-
-        # Implement the random smaller flows using a script that randomly starts and stops traffic flows
-        def start_random_flow():
-            server_port += 1
-            h2.popen(f'iperf -s -p {server_port}')
-            duration = random.uniform(1, 5)
-            bandwidth = f"{random.randint(1, 100)}M"
-            threading.Thread(target=run_iperf_flow, args=(h1, h2_ip, server_port, duration, 1, results_file, bandwidth)).start()
-            time.sleep(random.uniform(1, 5))
-
-        # Start the random smaller flows
-        for _ in range(10):
-            threading.Thread(target=start_random_flow).start()
-
-    # Opening the Mininet command line interface
     CLI(net)
-    # Stopping the network once the CLI is closed
     net.stop()
 
 if __name__ == '__main__':
     setLogLevel('info')
-    create_linear_topology()
+    setup_network()

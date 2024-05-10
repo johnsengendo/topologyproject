@@ -4,9 +4,9 @@ from mininet.cli import CLI
 from mininet.log import setLogLevel
 import time
 import threading
-import random
 import re
 import os
+import random
 
 class LinearTopology(Topo):
     def __init__(self):
@@ -60,32 +60,21 @@ def create_linear_topology():
     # Starting the network
     net.start()
 
-    # Defining the number of parallel flows (since here an only testing bandwidth increase, num_flows is set to 1)
-    num_flows = 1
-
     # Opening a file in append mode to write the results
-    with open('Third_senario_BW', 'a') as results_file:
+    with open('Increase_in_BW', 'a') as results_file:
 
-        durations = [10]  # Durations over which iperf is run
-        intervals = [0.5]  # Intervals at which data is captured for each duration
-        num_steps = 150  #  Number of steps (after each step, the bandwidth is increased by a factor of 10)
-
-# Start the continuous flow
+        # Start the continuous flow
         h1, h2 = net.get('h1'), net.get('h2')
         h2_ip = h2.IP()
         server_port = 5000
 
-# Define the server
-        server = h2.popen(f'iperf -s -p {server_port}')
+        # Start the iperf server
+        h2.popen(f'iperf -s -p {server_port}')
 
-# Start the server in a thread
-        threading.Thread(target=server.start, args=(1,)).start()
-
-# Start the iperf flow in a thread
+        # Start the iperf flow in a thread
         threading.Thread(target=run_iperf_flow, args=(h1, h2_ip, server_port, 900, 1, results_file, "10M")).start()
 
-
-        # Schedule the burst traffic to start after a certain period
+        # Schedule the burst traffic to start after a certain period (e.g., after 30 seconds of continuous flow)
         time.sleep(30)
         server_port += 1
         h2.popen(f'iperf -s -p {server_port}')

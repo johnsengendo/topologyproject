@@ -1,0 +1,6 @@
+FROM python:3.6-alpine3.9
+
+COPY ./client.py /home/client.py
+COPY ./video_server.py /home/video_server.py
+
+CMD python /home/video_server.py

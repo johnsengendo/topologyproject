@@ -12,7 +12,7 @@ import time
 from subprocess import check_output
 
 from comnetsemu.cli import CLI
-from comnetsemu.net import VNFManager
+from comnetsemu.net import Containernet, VNFManager  # Ensure Containernet is imported
 from mininet.link import TCLink
 from mininet.log import info, setLogLevel
 from mininet.node import Controller

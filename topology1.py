@@ -21,8 +21,8 @@ from docker import DockerClient
 class CustomContainernet(Containernet):
     def __init__(self, **kwargs):
         self.dclient = kwargs.pop('dclient', DockerClient(base_url='unix://var/run/docker.sock'))
-        DockerHost.dclient = self.dclient  # Set the Docker client for DockerHost
         super().__init__(**kwargs)
+        DockerHost.dclient = self.dclient  # Set the Docker client for DockerHost
 
 def get_ofport(ifce: str):
     """Get the openflow port based on the interface name.

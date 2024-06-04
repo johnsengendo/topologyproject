@@ -12,11 +12,12 @@ import time
 from subprocess import check_output
 
 from comnetsemu.cli import CLI
-from comnetsemu.net import Containernet, VNFManager
+from comnetsemu.net import VNFManager
 from mininet.link import TCLink
 from mininet.log import info, setLogLevel
 from mininet.node import Controller
-from docker import DockerClient  # Import DockerClient
+from docker import DockerClient
+from custom_containernet import CustomContainernet  # Import the custom subclass
 
 def get_ofport(ifce: str):
     """Get the openflow port based on the interface name.
@@ -39,7 +40,7 @@ if __name__ == "__main__":
     # Initialize Docker client
     docker_client = DockerClient(base_url='unix://var/run/docker.sock')
 
-    net = Containernet(controller=Controller, link=TCLink, xterms=False, dclient=docker_client)
+    net = CustomContainernet(controller=Controller, link=TCLink, xterms=False, dclient=docker_client)
     mgr = VNFManager(net)
 
     info("*** Add the default controller\n")

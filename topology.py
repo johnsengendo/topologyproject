@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 
 """
-About: Basic example of service (running inside a APPContainer) migration.
+About: Basic example of service (running inside an APPContainer) migration.
 """
 
 import os
@@ -16,6 +16,7 @@ from comnetsemu.net import Containernet, VNFManager
 from mininet.link import TCLink
 from mininet.log import info, setLogLevel
 from mininet.node import Controller
+from docker import DockerClient  # Import DockerClient
 
 def get_ofport(ifce: str):
     """Get the openflow port based on the interface name.
@@ -35,7 +36,10 @@ if __name__ == "__main__":
 
     setLogLevel("info")
 
-    net = Containernet(controller=Controller, link=TCLink, xterms=False)
+    # Initialize Docker client
+    docker_client = DockerClient(base_url='unix://var/run/docker.sock')
+
+    net = Containernet(controller=Controller, link=TCLink, xterms=False, dclient=docker_client)
     mgr = VNFManager(net)
 
     info("*** Add the default controller\n")
